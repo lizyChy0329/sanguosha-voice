@@ -1,0 +1,545 @@
+{
+  "caocao": {
+    "name": "曹操",
+    "group": "wei",
+    "skills": [
+      [
+        "jianxiong",
+        "奸雄"
+      ],
+      [
+        "hujia",
+        "护驾"
+      ]
+    ],
+    "die": "caocao.mp3"
+  },
+  "simayi": {
+    "name": "司马懿",
+    "group": "wei",
+    "skills": [
+      [
+        "fankui",
+        "反馈"
+      ],
+      [
+        "guicai",
+        "鬼才"
+      ]
+    ],
+    "die": "simayi.mp3"
+  },
+  "xiahoudun": {
+    "name": "夏侯惇",
+    "group": "wei",
+    "skills": [
+      [
+        "ganglie",
+        "刚烈"
+      ]
+    ],
+    "die": "xiahoudun.mp3"
+  },
+  "zhangliao": {
+    "name": "张辽",
+    "group": "wei",
+    "skills": [
+      [
+        "tuxi",
+        "突袭"
+      ]
+    ],
+    "die": "zhangliao.mp3"
+  },
+  "xuchu": {
+    "name": "许褚",
+    "group": "wei",
+    "skills": [
+      [
+        "luoyi",
+        "裸衣"
+      ]
+    ],
+    "die": "xuchu.mp3"
+  },
+  "guojia": {
+    "name": "郭嘉",
+    "group": "wei",
+    "skills": [
+      [
+        "tiandu",
+        "天妒"
+      ],
+      [
+        "yiji",
+        "遗计"
+      ]
+    ],
+    "die": "guojia.mp3"
+  },
+  "xiahouyuan": {
+    "name": "夏侯渊",
+    "group": "wei",
+    "skills": [
+      [
+        "shensu",
+        "神速"
+      ]
+    ],
+    "die": "xiahouyuan.mp3"
+  },
+  "zhenji": {
+    "name": "甄姬",
+    "group": "wei",
+    "skills": [
+      [
+        "qingguo",
+        "倾国"
+      ],
+      [
+        "luoshen",
+        "洛神"
+      ]
+    ],
+    "die": "zhenji.mp3"
+  },
+  "caoren": {
+    "name": "曹仁",
+    "group": "wei",
+    "skills": [
+      [
+        "jushou",
+        "据守"
+      ]
+    ],
+    "die": "caoren.mp3"
+  },
+  "dianwei": {
+    "name": "典韦",
+    "group": "wei",
+    "skills": [
+      [
+        "qiangxi",
+        "强袭"
+      ]
+    ],
+    "die": "dianwei.mp3"
+  },
+  "liubei": {
+    "name": "刘备",
+    "group": "shu",
+    "skills": [
+      [
+        "rende",
+        "仁德"
+      ],
+      [
+        "jijiang",
+        "激将"
+      ]
+    ],
+    "die": "liubei.mp3"
+  },
+  "guanyu": {
+    "name": "关羽",
+    "group": "shu",
+    "skills": [
+      [
+        "wusheng",
+        "武圣"
+      ]
+    ],
+    "die": "guanyu.mp3"
+  },
+  "zhangfei": {
+    "name": "张飞",
+    "group": "shu",
+    "skills": [
+      [
+        "paoxiao",
+        "咆哮"
+      ]
+    ],
+    "die": "zhangfei.mp3"
+  },
+  "zhaoyun": {
+    "name": "赵云",
+    "group": "shu",
+    "skills": [
+      [
+        "longdan",
+        "龙胆"
+      ]
+    ],
+    "die": "zhaoyun.mp3"
+  },
+  "zhugeliang": {
+    "name": "诸葛亮",
+    "group": "shu",
+    "skills": [
+      [
+        "guanxing",
+        "观星"
+      ],
+      [
+        "kongcheng",
+        "空城"
+      ]
+    ],
+    "die": "zhugeliang.mp3"
+  },
+  "machao": {
+    "name": "马超",
+    "group": "shu",
+    "skills": [
+      [
+        "tieqi",
+        "铁骑"
+      ]
+    ],
+    "die": "machao.mp3"
+  },
+  "huangzhong": {
+    "name": "黄忠",
+    "group": "shu",
+    "skills": [
+      [
+        "liegong",
+        "烈弓"
+      ]
+    ],
+    "die": "huangzhong.mp3"
+  },
+  "huangyueying": {
+    "name": "黄月英",
+    "group": "shu",
+    "skills": [
+      [
+        "jizhi",
+        "集智"
+      ],
+      [
+        "qicai",
+        "奇才"
+      ]
+    ],
+    "die": "huangyueying.mp3"
+  },
+  "weiyan": {
+    "name": "魏延",
+    "group": "shu",
+    "skills": [
+      [
+        "kuanggu",
+        "狂骨"
+      ]
+    ],
+    "die": "weiyan.mp3"
+  },
+  "pangtong": {
+    "name": "庞统",
+    "group": "shu",
+    "skills": [
+      [
+        "lianhuan",
+        "连环"
+      ],
+      [
+        "niepan",
+        "涅槃"
+      ]
+    ],
+    "die": "pangtong.mp3"
+  },
+  "sunquan": {
+    "name": "孙权",
+    "group": "wu",
+    "skills": [
+      [
+        "zhiheng",
+        "制衡"
+      ],
+      [
+        "jiuyuan",
+        "救援"
+      ]
+    ],
+    "die": "sunquan.mp3"
+  },
+  "zhouyu": {
+    "name": "周瑜",
+    "group": "wu",
+    "skills": [
+      [
+        "yingzi",
+        "英姿"
+      ],
+      [
+        "fanjian",
+        "反间"
+      ]
+    ],
+    "die": "zhouyu.mp3"
+  },
+  "luxun": {
+    "name": "陆逊",
+    "group": "wu",
+    "skills": [
+      [
+        "qianxun",
+        "谦逊"
+      ],
+      [
+        "lianying",
+        "连营"
+      ]
+    ],
+    "die": "luxun.mp3"
+  },
+  "lvmeng": {
+    "name": "吕蒙",
+    "group": "wu",
+    "skills": [
+      [
+        "keji",
+        "克己"
+      ]
+    ],
+    "die": "lvmeng.mp3"
+  },
+  "ganning": {
+    "name": "甘宁",
+    "group": "wu",
+    "skills": [
+      [
+        "qixi",
+        "奇袭"
+      ]
+    ],
+    "die": "ganning.mp3"
+  },
+  "taishici": {
+    "name": "太史慈",
+    "group": "wu",
+    "skills": [
+      [
+        "tianyi",
+        "天义"
+      ]
+    ],
+    "die": "taishici.mp3"
+  },
+  "huanggai": {
+    "name": "黄盖",
+    "group": "wu",
+    "skills": [
+      [
+        "kurou",
+        "苦肉"
+      ]
+    ],
+    "die": "huanggai.mp3"
+  },
+  "zhoutai": {
+    "name": "周泰",
+    "group": "wu",
+    "skills": [
+      [
+        "buqu",
+        "不屈"
+      ]
+    ],
+    "die": "zhoutai.mp3"
+  },
+  "daqiao": {
+    "name": "大乔",
+    "group": "wu",
+    "skills": [
+      [
+        "guose",
+        "国色"
+      ],
+      [
+        "liuli",
+        "流离"
+      ]
+    ],
+    "die": "daqiao.mp3"
+  },
+  "xiaoqiao": {
+    "name": "小乔",
+    "group": "wu",
+    "skills": [
+      [
+        "tianxiang",
+        "天香"
+      ],
+      [
+        "hongyan",
+        "红颜"
+      ]
+    ],
+    "die": "xiaoqiao.mp3"
+  },
+  "sunshangxiang": {
+    "name": "孙尚香",
+    "group": "wu",
+    "skills": [
+      [
+        "jieyin",
+        "结姻"
+      ],
+      [
+        "xiaoji",
+        "枭姬"
+      ]
+    ],
+    "die": "sunshangxiang.mp3"
+  },
+  "lvbu": {
+    "name": "吕布",
+    "group": "qun",
+    "skills": [
+      [
+        "wushuang",
+        "无双"
+      ]
+    ],
+    "die": "lvbu.mp3"
+  },
+  "diaochan": {
+    "name": "貂蝉",
+    "group": "qun",
+    "skills": [
+      [
+        "lijian",
+        "离间"
+      ],
+      [
+        "biyue",
+        "闭月"
+      ]
+    ],
+    "die": "diaochan.mp3"
+  },
+  "huatuo": {
+    "name": "华佗",
+    "group": "qun",
+    "skills": [
+      [
+        "qingnang",
+        "青囊"
+      ],
+      [
+        "jijiu",
+        "急救"
+      ]
+    ],
+    "die": "huatuo.mp3"
+  },
+  "yuanshao": {
+    "name": "袁绍",
+    "group": "qun",
+    "skills": [
+      [
+        "luanji",
+        "乱击"
+      ],
+      [
+        "xueyi",
+        "血裔"
+      ]
+    ],
+    "die": "yuanshao.mp3"
+  },
+  "zhangjiao": {
+    "name": "张角",
+    "group": "qun",
+    "skills": [
+      [
+        "leiji",
+        "雷击"
+      ],
+      [
+        "guidao",
+        "鬼道"
+      ],
+      [
+        "huangtian",
+        "黄天"
+      ]
+    ],
+    "die": "zhangjiao.mp3"
+  },
+  "yanliangwenchou": {
+    "name": "颜良文丑",
+    "group": "qun",
+    "skills": [
+      [
+        "shuangxiong",
+        "双雄"
+      ]
+    ],
+    "die": "yanliangwenchou.mp3"
+  },
+  "pangde": {
+    "name": "庞德",
+    "group": "qun",
+    "skills": [
+      [
+        "majian",
+        "马术"
+      ],
+      [
+        "jueyi",
+        "决意"
+      ]
+    ],
+    "die": "pangde.mp3"
+  },
+  "mateng": {
+    "name": "马腾",
+    "group": "qun",
+    "skills": [
+      [
+        "majian",
+        "马术"
+      ],
+      [
+        "xiongyi",
+        "雄异"
+      ]
+    ],
+    "die": "mateng.mp3"
+  },
+  "kongrong": {
+    "name": "孔融",
+    "group": "qun",
+    "skills": [
+      [
+        "mingshi",
+        "名士"
+      ],
+      [
+        "lirang",
+        "礼让"
+      ]
+    ],
+    "die": "kongrong.mp3"
+  },
+  "tianfeng": {
+    "name": "田丰",
+    "group": "qun",
+    "skills": [
+      [
+        "sijian",
+        "死谏"
+      ],
+      [
+        "suishi",
+        "随势"
+      ]
+    ],
+    "die": "tianfeng.mp3"
+  }
+}

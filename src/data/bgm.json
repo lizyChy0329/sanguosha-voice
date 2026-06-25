@@ -1,0 +1,12 @@
+[
+  { "id": "default", "name": "默认", "file": "music_default.mp3" },
+  { "id": "shezhan", "name": "涉战", "file": "music_shezhan.mp3" },
+  { "id": "jifeng", "name": "疾风", "file": "music_jifeng.mp3" },
+  { "id": "jilve", "name": "计略", "file": "music_jilve.mp3" },
+  { "id": "diaochan", "name": "貂蝉", "file": "music_diaochan.mp3" },
+  { "id": "danji", "name": "单机", "file": "music_danji.mp3" },
+  { "id": "philosophy", "name": "哲思", "file": "music_phliosophy.mp3" },
+  { "id": "chaoming", "name": "朝鸣", "file": "aozhan_chaoming.mp3" },
+  { "id": "online", "name": "对战", "file": "aozhan_online.mp3" },
+  { "id": "rewrite", "name": "重写", "file": "aozhan_rewrite.mp3" }
+]
