@@ -1,6 +1,5 @@
 import { Howl } from "howler";
-
-const CDN_BASE = "https://cdn.jsdelivr.net/gh/libccy/noname@master";
+import { CDN_BASE } from "@/constants";
 
 let bgmHowl = null;
 let currentBgmId = null;

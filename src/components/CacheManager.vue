@@ -13,6 +13,7 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { useCache } from "../composables/useCache";
+import { CDN_BASE } from "@/constants";
 import characters from "../data/characters.json";
 import {
   HardDriveIcon,
@@ -209,7 +210,7 @@ function isDownloading(id) {
             >
               <div class="size-8 rounded bg-muted overflow-hidden shrink-0">
                 <img
-                  :src="`https://cdn.jsdelivr.net/gh/libccy/noname@master/image/character/${ch.id}.jpg`"
+                  :src="`${CDN_BASE}/image/character/${ch.id}.jpg`"
                   :alt="ch.name"
                   class="size-full object-cover"
                   loading="lazy"

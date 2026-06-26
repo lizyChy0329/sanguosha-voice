@@ -1,4 +1,5 @@
 import { ref } from "vue";
+import { CDN_BASE } from "@/constants";
 import characters from "../data/characters.json";
 
 const CACHE_NAME = "sanguosha-audio";
@@ -47,7 +48,7 @@ export function useCache() {
     const ch = characters[characterId];
     if (!ch) return [];
     const urls = [];
-    const base = "https://cdn.jsdelivr.net/gh/libccy/noname@master";
+    const base = CDN_BASE;
     urls.push(`${base}/image/character/${characterId}.jpg`);
     for (const [skillId] of ch.skills) {
       urls.push(`${base}/audio/skill/${skillId}1.mp3`);

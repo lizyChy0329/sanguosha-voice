@@ -1,0 +1,12 @@
+{
+  "aozhan_chaoming": "audio/background/aozhan_chaoming.mp3",
+  "aozhan_online": "audio/background/aozhan_online.mp3",
+  "aozhan_rewrite": "audio/background/aozhan_rewrite.mp3",
+  "music_danji": "audio/background/music_danji.mp3",
+  "music_default": "audio/background/music_default.mp3",
+  "music_diaochan": "audio/background/music_diaochan.mp3",
+  "music_jifeng": "audio/background/music_jifeng.mp3",
+  "music_jilve": "audio/background/music_jilve.mp3",
+  "music_phliosophy": "audio/background/music_phliosophy.mp3",
+  "music_shezhan": "audio/background/music_shezhan.mp3"
+}

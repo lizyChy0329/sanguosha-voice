@@ -7,7 +7,8 @@
     "dev": "vp dev",
     "build": "vp build",
     "preview": "vp preview",
-    "prepare": "vp config"
+    "prepare": "vp config",
+    "generate-index": "node scripts/generate-index.js"
   },
   "dependencies": {
     "@lucide/vue": "^1.21.0",

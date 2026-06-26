@@ -3,6 +3,7 @@ import { computed } from "vue";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import SkillButton from "./SkillButton.vue";
+import { CDN_BASE } from "@/constants";
 
 const props = defineProps({
   characterId: String,
@@ -10,8 +11,6 @@ const props = defineProps({
 });
 
 const emit = defineEmits(["playSkill", "playDie"]);
-
-const CDN_BASE = "https://cdn.jsdelivr.net/gh/libccy/noname@master";
 
 const avatarUrl = computed(() => `${CDN_BASE}/image/character/${props.characterId}.jpg`);
 
