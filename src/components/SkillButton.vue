@@ -1,42 +1,64 @@
 <script setup>
-import { ref } from 'vue'
+import { Button } from "@/components/ui/button";
 
 const props = defineProps({
   skillId: String,
   skillName: String,
   characterId: String,
-})
+  faction: String,
+});
 
-const emit = defineEmits(['play'])
-const showText = ref(false)
-let timer = null
+const emit = defineEmits(["play"]);
+
+const factionVariant = {
+  wei: "wei",
+  shu: "shu",
+  wu: "wu",
+  qun: "qun",
+};
 
 function handleClick() {
-  emit('play', props.skillId, props.characterId)
-  showText.value = true
-  clearTimeout(timer)
-  timer = setTimeout(() => { showText.value = false }, 1500)
+  emit("play", props.skillId, props.characterId);
 }
 </script>
 
 <template>
-  <div class="relative">
-    <button @click="handleClick"
-      class="flex items-center gap-1 px-2 py-0.5 text-xs rounded bg-slate-700/60 hover:bg-slate-600/80 text-slate-200 transition-colors active:scale-95 whitespace-nowrap w-full justify-center">
-      <span>🔊</span>
-      <span class="truncate">{{ skillName }}</span>
-    </button>
-    <Transition name="pop">
-      <div v-if="showText" class="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 px-2 py-1 text-xs text-amber-300 bg-slate-900/90 rounded whitespace-nowrap z-10 pointer-events-none shadow-lg">
-        {{ skillName }}
-      </div>
-    </Transition>
-  </div>
+  <Button
+    :data-faction="factionVariant[faction] || 'default'"
+    class="btn-press w-full text-sm gap-1 h-auto py-1.5 px-3 font-medium rounded-md transition-all duration-150 ease-out hover:-translate-y-0.5 active:scale-95"
+    @click="handleClick"
+  >
+    <span>{{ skillName }}</span>
+  </Button>
 </template>
 
 <style scoped>
-.pop-enter-active { transition: all 0.2s ease-out; }
-.pop-leave-active { transition: all 0.3s ease-in; }
-.pop-enter-from { opacity: 0; transform: translateX(-50%) translateY(4px); }
-.pop-leave-to { opacity: 0; transform: translateX(-50%) translateY(-4px); }
+[data-slot="button"][data-faction="wei"] {
+  background: color-mix(in srgb, var(--wei) 18%, transparent);
+  color: var(--wei);
+}
+[data-slot="button"][data-faction="wei"]:hover {
+  background: color-mix(in srgb, var(--wei) 28%, transparent);
+}
+[data-slot="button"][data-faction="shu"] {
+  background: color-mix(in srgb, var(--shu) 18%, transparent);
+  color: var(--shu);
+}
+[data-slot="button"][data-faction="shu"]:hover {
+  background: color-mix(in srgb, var(--shu) 28%, transparent);
+}
+[data-slot="button"][data-faction="wu"] {
+  background: color-mix(in srgb, var(--wu) 18%, transparent);
+  color: var(--wu);
+}
+[data-slot="button"][data-faction="wu"]:hover {
+  background: color-mix(in srgb, var(--wu) 28%, transparent);
+}
+[data-slot="button"][data-faction="qun"] {
+  background: color-mix(in srgb, var(--qun) 18%, transparent);
+  color: var(--qun);
+}
+[data-slot="button"][data-faction="qun"]:hover {
+  background: color-mix(in srgb, var(--qun) 28%, transparent);
+}
 </style>

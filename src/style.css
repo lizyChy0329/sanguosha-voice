@@ -2,26 +2,161 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  background: #0f172a;
-  color: #e2e8f0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    --background: 224 30% 8%;
+    --foreground: 220 10% 92%;
+    --card: 224 28% 12%;
+    --card-foreground: 220 10% 92%;
+    --popover: 224 28% 12%;
+    --popover-foreground: 220 10% 92%;
+    --primary: 45 10% 88%;
+    --primary-foreground: 224 20% 12%;
+    --secondary: 224 20% 18%;
+    --secondary-foreground: 220 10% 88%;
+    --muted: 224 18% 16%;
+    --muted-foreground: 224 10% 55%;
+    --accent: 224 20% 18%;
+    --accent-foreground: 220 10% 88%;
+    --destructive: 0 65% 50%;
+    --border: 224 15% 22%;
+    --input: 224 15% 22%;
+    --ring: 224 12% 45%;
+  }
+
+  .dark {
+    --wei: 224 85% 55%;
+    --wei-glow: 224 85% 55% / 0.15;
+    --shu: 0 85% 55%;
+    --shu-glow: 0 85% 55% / 0.15;
+    --wu: 145 70% 42%;
+    --wu-glow: 145 70% 42% / 0.15;
+    --qun: 280 80% 60%;
+    --qun-glow: 280 80% 60% / 0.15;
+  }
+
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family:
+      "Geist Variable",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  #app {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-#app {
-  min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
+@layer utilities {
+  .bg-wei {
+    background-color: hsl(var(--wei));
+  }
+  .bg-shu {
+    background-color: hsl(var(--shu));
+  }
+  .bg-wu {
+    background-color: hsl(var(--wu));
+  }
+  .bg-qun {
+    background-color: hsl(var(--qun));
+  }
+  .border-wei {
+    border-color: hsl(var(--wei));
+  }
+  .border-shu {
+    border-color: hsl(var(--shu));
+  }
+  .border-wu {
+    border-color: hsl(var(--wu));
+  }
+  .border-qun {
+    border-color: hsl(var(--qun));
+  }
+  .text-wei {
+    color: hsl(var(--wei));
+  }
+  .text-shu {
+    color: hsl(var(--shu));
+  }
+  .text-wu {
+    color: hsl(var(--wu));
+  }
+  .text-qun {
+    color: hsl(var(--qun));
+  }
+  .bg-wei\/10 {
+    background-color: hsl(var(--wei) / 0.1);
+  }
+  .bg-shu\/10 {
+    background-color: hsl(var(--shu) / 0.1);
+  }
+  .bg-wu\/10 {
+    background-color: hsl(var(--wu) / 0.1);
+  }
+  .bg-qun\/10 {
+    background-color: hsl(var(--qun) / 0.1);
+  }
+  .glow-wei {
+    box-shadow: 0 0 12px hsl(var(--wei-glow));
+  }
+  .glow-shu {
+    box-shadow: 0 0 12px hsl(var(--shu-glow));
+  }
+  .glow-wu {
+    box-shadow: 0 0 12px hsl(var(--wu-glow));
+  }
+  .glow-qun {
+    box-shadow: 0 0 12px hsl(var(--qun-glow));
+  }
 }
 
 ::-webkit-scrollbar {
   width: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #334155;
+  background: hsl(224 15% 22%);
   border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  button:active:not(:disabled),
+  [data-slot="button"]:active:not(:disabled),
+  .btn-press:active {
+    transform: scale(0.97);
+  }
 }

@@ -1,24 +1,50 @@
 <script setup>
-import CharacterCard from './CharacterCard.vue'
+import CharacterCard from "./CharacterCard.vue";
+import { computed } from "vue";
 
-defineProps({
+const props = defineProps({
   characters: Object,
   filter: String,
-})
+});
 
-const emit = defineEmits(['playSkill', 'playDie'])
+const emit = defineEmits(["playSkill", "playDie"]);
+
+const filteredCharacters = computed(() => {
+  return Object.entries(props.characters).filter(
+    ([, ch]) => props.filter === "all" || ch.group === props.filter,
+  );
+});
 </script>
 
 <template>
-  <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3 px-4 pb-24">
-    <template v-for="(ch, id) in characters" :key="id">
+  <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3 px-4 pb-28">
+    <TransitionGroup name="card">
       <CharacterCard
-        v-if="filter === 'all' || ch.group === filter"
+        v-for="[id, ch] in filteredCharacters"
+        :key="id"
         :characterId="id"
         :character="ch"
         @playSkill="(a, b) => emit('playSkill', a, b)"
         @playDie="(id) => emit('playDie', id)"
       />
-    </template>
+    </TransitionGroup>
   </div>
 </template>
+
+<style scoped>
+.card-enter-active,
+.card-leave-active {
+  transition: all 0.25s ease-out;
+}
+.card-enter-from {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.card-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.card-move {
+  transition: transform 0.3s ease-out;
+}
+</style>
