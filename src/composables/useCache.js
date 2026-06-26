@@ -36,8 +36,9 @@ export function useCache() {
       const res = await cache.match(url);
       if (res) cached++;
     }
+    const allCached = cached === urls.length;
     return {
-      cached: cached > 0,
+      cached: allCached,
       progress: Math.round((cached / urls.length) * 100),
       total: urls.length,
       cachedCount: cached,
@@ -111,6 +112,12 @@ export function useCache() {
     return results;
   }
 
+  async function refreshOneStatus(characterId) {
+    const status = await getCharacterCacheStatus(characterId);
+    cacheStatus.value[characterId] = status;
+    return status;
+  }
+
   return {
     cacheStatus,
     downloading,
@@ -121,6 +128,7 @@ export function useCache() {
     deleteCharacterCache,
     clearAllCache,
     refreshAllStatus,
+    refreshOneStatus,
     getCacheStore,
   };
 }
