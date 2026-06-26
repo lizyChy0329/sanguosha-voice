@@ -29,11 +29,11 @@
     "skills": [["tuxi", "突袭"]],
     "die": "zhangliao.mp3"
   },
-  "xuchu": {
+  "xuzhu": {
     "name": "许褚",
     "group": "wei",
     "skills": [["luoyi", "裸衣"]],
-    "die": "xuchu.mp3"
+    "die": "xuzhu.mp3"
   },
   "guojia": {
     "name": "郭嘉",
@@ -251,7 +251,7 @@
     ],
     "die": "huatuo.mp3"
   },
-  "yuanshao": {
+  "ol_yuanshao": {
     "name": "袁绍",
     "group": "qun",
     "skills": [
