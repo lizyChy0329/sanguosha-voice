@@ -109,8 +109,10 @@ onUnmounted(() => {
       "
     >
       <div
-        class="h-full bg-qun rounded-full transition-all duration-150"
-        :style="{ width: duration ? `${(progress / duration) * 100}%` : '0%' }"
+        class="absolute inset-0 bg-qun rounded-full transition-transform duration-150"
+        :style="{
+          transform: `translateX(-${100 - (duration ? (progress / duration) * 100 : 0)}%)`,
+        }"
       />
     </div>
 
