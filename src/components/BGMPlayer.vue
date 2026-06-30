@@ -23,7 +23,10 @@ function toggleBGM(item) {
 }
 
 function togglePlay() {
-  if (!currentBgm.value) return;
+  if (!currentBgm.value) {
+    toggleBGM(bgmList[0]);
+    return;
+  }
   const result = playBGM(currentBgm.value.id, currentBgm.value.file);
   isPlaying.value = result.playing;
 }
