@@ -109,9 +109,10 @@ onUnmounted(() => {
       "
     >
       <div
-        class="absolute inset-0 bg-qun rounded-full transition-transform duration-150"
+        class="absolute inset-0 rounded-full transition-transform duration-150"
         :style="{
           transform: `translateX(-${100 - (duration ? (progress / duration) * 100 : 0)}%)`,
+          backgroundColor: 'hsl(var(--qun))',
         }"
       />
     </div>
