@@ -95,11 +95,7 @@ export function useCache() {
   }
 
   async function clearAllCache() {
-    const cache = await getCacheStore();
-    const keys = await cache.keys();
-    for (const req of keys) {
-      await cache.delete(req);
-    }
+    await caches.delete(CACHE_NAME);
     cacheStatus.value = {};
   }
 

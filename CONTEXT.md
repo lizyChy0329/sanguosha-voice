@@ -33,3 +33,13 @@ Locally stored audio and image assets managed via the Cache API, grouped by Char
 **Cache Panel**:
 A slide-in drawer (shadcn Sheet) showing per-Faction and per-Character cache status, storage usage, and controls for download/delete operations.
 _Avoid_: CacheManager
+
+**Player** (玩家):
+A real person sitting at the table playing a Sanguosha game. Each Player selects one Character for the current Session.
+_Avoid_: User, seat
+
+**Proom / Session** (面杀池):
+A saved snapshot of up to 8 Characters selected for an ongoing in-person game. Each player gets one Character. A Session is created by selecting Characters from the browse grid, then optionally saved to History.
+
+**History** (历史记录):
+Previously saved Session snapshots, listed reverse-chronologically. A Session can be loaded back into the Proom to restore a previous lineup.

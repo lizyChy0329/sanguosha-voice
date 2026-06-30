@@ -45,6 +45,18 @@ export function useAudio() {
     return bgmHowl ? bgmHowl.playing() : false;
   }
 
+  function getBGMProgress() {
+    return bgmHowl ? bgmHowl.seek() : 0;
+  }
+
+  function getBGMDuration() {
+    return bgmHowl ? bgmHowl.duration() : 0;
+  }
+
+  function seekBGM(t) {
+    if (bgmHowl) bgmHowl.seek(t);
+  }
+
   function setBGMVolume(v) {
     bgmVolume = v;
     if (bgmHowl) bgmHowl.volume(v);
@@ -98,6 +110,9 @@ export function useAudio() {
     isBGMPlaying,
     setBGMVolume,
     getBGMVolume,
+    getBGMProgress,
+    getBGMDuration,
+    seekBGM,
     playSkill,
     playDie,
     audioUrl,

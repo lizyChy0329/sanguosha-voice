@@ -1,25 +1,19 @@
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, watch, onUnmounted } from "vue";
 import { Button } from "@/components/ui/button";
-import { Slider } from "@/components/ui/slider";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import bgmList from "../data/bgm.json";
 import { useAudio } from "../composables/useAudio";
-import {
-  SkipBackIcon,
-  SkipForwardIcon,
-  PlayIcon,
-  PauseIcon,
-  ListMusicIcon,
-  Volume2Icon,
-} from "@lucide/vue";
+import { SkipBackIcon, SkipForwardIcon, PlayIcon, PauseIcon, ListMusicIcon } from "@lucide/vue";
 
-const { playBGM, setBGMVolume, getBGMVolume } = useAudio();
+const { playBGM, getBGMProgress, getBGMDuration, seekBGM } = useAudio();
 
 const currentBgm = ref(null);
 const isPlaying = ref(false);
-const volume = ref(getBGMVolume() * 100);
 const showList = ref(false);
+const progress = ref(0);
+const duration = ref(0);
+let tickTimer = null;
 
 function toggleBGM(item) {
   const result = playBGM(item.id, item.file);
@@ -28,9 +22,10 @@ function toggleBGM(item) {
   showList.value = false;
 }
 
-function onVolumeChange(values) {
-  volume.value = values[0];
-  setBGMVolume(values[0] / 100);
+function togglePlay() {
+  if (!currentBgm.value) return;
+  const result = playBGM(currentBgm.value.id, currentBgm.value.file);
+  isPlaying.value = result.playing;
 }
 
 const currentIndex = computed(() => {
@@ -53,32 +48,91 @@ function prevBgm() {
     toggleBGM(bgmList[bgmList.length - 1]);
   }
 }
+
+function onSeek(values) {
+  seekBGM(values[0]);
+  progress.value = values[0];
+}
+
+function formatTime(t) {
+  const m = Math.floor(t / 60);
+  const s = Math.floor(t % 60);
+  return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+}
+
+function startTick() {
+  stopTick();
+  tickTimer = setInterval(() => {
+    if (isPlaying.value) {
+      duration.value = getBGMDuration();
+      progress.value = getBGMProgress();
+    }
+  }, 250);
+}
+
+function stopTick() {
+  if (tickTimer) {
+    clearInterval(tickTimer);
+    tickTimer = null;
+  }
+}
+
+watch(isPlaying, (v) => {
+  if (v) {
+    startTick();
+  } else {
+    stopTick();
+  }
+});
+
+onUnmounted(() => {
+  stopTick();
+});
 </script>
 
 <template>
   <div
     class="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-t border-border"
   >
-    <div class="flex items-center gap-3 px-4 py-3 max-w-3xl mx-auto">
-      <Button
-        variant="ghost"
-        size="sm"
-        class="text-xs text-muted-foreground shrink-0 max-w-28 truncate gap-1"
-        @click="showList = !showList"
-      >
-        <ListMusicIcon class="size-3.5 shrink-0" />
-        {{ currentBgm ? currentBgm.name : "选曲" }}
-      </Button>
+    <div
+      class="h-1 bg-muted relative cursor-pointer group"
+      @click="
+        (e) => {
+          if (!duration) return;
+          const rect = e.currentTarget.getBoundingClientRect();
+          const pct = (e.clientX - rect.left) / rect.width;
+          onSeek([pct * duration]);
+        }
+      "
+    >
+      <div
+        class="absolute inset-y-0 left-0 bg-gold transition-[width] duration-200 ease-linear"
+        :style="{ width: duration ? `${(progress / duration) * 100}%` : '0%' }"
+      />
+      <div
+        class="absolute top-1/2 -translate-y-1/2 size-2.5 rounded-full bg-gold opacity-0 group-hover:opacity-100 transition-opacity"
+        :style="{ left: duration ? `${(progress / duration) * 100}%` : '0%' }"
+      />
+    </div>
 
-      <div class="flex items-center gap-1 shrink-0">
+    <div class="flex items-center px-4 py-2 max-w-3xl mx-auto">
+      <div class="w-[72px] shrink-0">
+        <Button
+          variant="ghost"
+          size="sm"
+          class="text-xs text-muted-foreground truncate gap-1 -ml-2"
+          @click="showList = !showList"
+        >
+          <ListMusicIcon class="size-3.5 shrink-0" />
+          {{ currentBgm ? currentBgm.name : "选曲" }}
+        </Button>
+      </div>
+
+      <div class="flex-1 flex items-center justify-center gap-1">
         <Button variant="ghost" size="icon-sm" class="btn-press" @click="prevBgm">
           <SkipBackIcon class="size-4" />
         </Button>
-        <Button
-          size="icon"
-          class="size-9 rounded-full btn-press"
-          @click="currentBgm && toggleBGM(currentBgm)"
-        >
+        <Button size="icon" class="size-9 rounded-full btn-press" @click="togglePlay">
           <PlayIcon v-if="!isPlaying" class="size-4" />
           <PauseIcon v-else class="size-4" />
         </Button>
@@ -87,16 +141,10 @@ function prevBgm() {
         </Button>
       </div>
 
-      <div class="flex items-center gap-2 flex-1 ml-2">
-        <Volume2Icon class="size-4 text-muted-foreground shrink-0" />
-        <Slider
-          :model-value="[volume]"
-          :min="0"
-          :max="100"
-          :step="5"
-          class="flex-1 max-w-28"
-          @update:model-value="onVolumeChange"
-        />
+      <div class="w-[72px] shrink-0 flex items-center justify-end">
+        <span class="text-base text-muted-foreground tabular-nums font-medium">
+          {{ formatTime(progress) }}
+        </span>
       </div>
     </div>
 

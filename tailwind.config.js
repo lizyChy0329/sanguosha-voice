@@ -4,10 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        wei: { DEFAULT: "#3b82f6", light: "#93bbfd" },
-        shu: { DEFAULT: "#ef4444", light: "#fca5a5" },
-        wu: { DEFAULT: "#22c55e", light: "#86efac" },
-        qun: { DEFAULT: "#a855f7", light: "#c4b5fd" },
+        gold: { DEFAULT: "#d4a843", light: "#e8c46a" },
+        wei: { DEFAULT: "#4a8bf5", light: "#8bb8fd" },
+        shu: { DEFAULT: "#ef5a5a", light: "#fca5a5" },
+        wu: { DEFAULT: "#30b85a", light: "#86efac" },
+        qun: { DEFAULT: "#a865f0", light: "#c4b5fd" },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -41,6 +42,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      fontFamily: {
+        heading: ['"Noto Serif SC"', "serif"],
+        sans: [
+          '"Noto Sans SC"',
+          "-apple-system",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
+          "sans-serif",
+        ],
       },
       borderRadius: {
         lg: "var(--radius)",

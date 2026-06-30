@@ -9,7 +9,20 @@ const props = defineProps({
 const emit = defineEmits(["select"]);
 
 const labels = { all: "全部", wei: "魏", shu: "蜀", wu: "吴", qun: "群" };
-const factionColors = { wei: "text-wei", shu: "text-shu", wu: "text-wu", qun: "text-qun" };
+const factionColors = {
+  all: "text-gold",
+  wei: "text-wei",
+  shu: "text-shu",
+  wu: "text-wu",
+  qun: "text-qun",
+};
+const factionUnderline = {
+  all: "after:bg-gold",
+  wei: "after:bg-wei",
+  shu: "after:bg-shu",
+  wu: "after:bg-wu",
+  qun: "after:bg-qun",
+};
 </script>
 
 <template>
@@ -21,13 +34,10 @@ const factionColors = { wei: "text-wei", shu: "text-shu", wu: "text-wu", qun: "t
           :key="f"
           :value="f"
           :class="[
-            'relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-150',
-            f === 'all'
-              ? 'data-active:bg-muted data-active:text-foreground text-muted-foreground'
-              : `${factionColors[f] || 'text-muted-foreground'} data-active:bg-muted/50`,
+            'relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-150 text-muted-foreground hover:text-foreground',
             'after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:h-0.5 after:w-0 after:rounded-full after:transition-all after:duration-200',
-            f !== 'all' ? 'data-active:after:w-4/5' : 'data-active:after:w-0',
-            f !== 'all' ? `data-active:after:bg-current` : '',
+            `data-active:${factionColors[f] || 'text-gold'} data-active:${factionUnderline[f] || 'after:bg-gold'}`,
+            'data-active:after:w-4/5',
           ]"
         >
           {{ labels[f] || f }}

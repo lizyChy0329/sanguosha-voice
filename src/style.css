@@ -26,35 +26,37 @@
   }
 
   .dark {
-    --background: 224 30% 8%;
-    --foreground: 220 10% 92%;
-    --card: 224 28% 12%;
-    --card-foreground: 220 10% 92%;
-    --popover: 224 28% 12%;
-    --popover-foreground: 220 10% 92%;
-    --primary: 45 10% 88%;
-    --primary-foreground: 224 20% 12%;
-    --secondary: 224 20% 18%;
-    --secondary-foreground: 220 10% 88%;
-    --muted: 224 18% 16%;
-    --muted-foreground: 224 10% 55%;
-    --accent: 224 20% 18%;
-    --accent-foreground: 220 10% 88%;
+    --background: 40 20% 5%;
+    --foreground: 40 10% 88%;
+    --card: 40 18% 8%;
+    --card-foreground: 40 10% 88%;
+    --popover: 40 18% 8%;
+    --popover-foreground: 40 10% 88%;
+    --primary: 45 50% 55%;
+    --primary-foreground: 40 20% 6%;
+    --secondary: 40 15% 14%;
+    --secondary-foreground: 40 10% 82%;
+    --muted: 40 12% 12%;
+    --muted-foreground: 40 8% 50%;
+    --accent: 40 15% 14%;
+    --accent-foreground: 40 10% 82%;
     --destructive: 0 65% 50%;
-    --border: 224 15% 22%;
-    --input: 224 15% 22%;
-    --ring: 224 12% 45%;
+    --border: 40 12% 20%;
+    --input: 40 12% 20%;
+    --ring: 45 50% 55%;
   }
 
   .dark {
-    --wei: 224 85% 55%;
-    --wei-glow: 224 85% 55% / 0.15;
-    --shu: 0 85% 55%;
-    --shu-glow: 0 85% 55% / 0.15;
-    --wu: 145 70% 42%;
-    --wu-glow: 145 70% 42% / 0.15;
-    --qun: 280 80% 60%;
-    --qun-glow: 280 80% 60% / 0.15;
+    --gold: 45 55% 52%;
+    --gold-glow: 45 55% 52% / 0.2;
+    --wei: 224 65% 52%;
+    --wei-glow: 224 65% 52% / 0.15;
+    --shu: 0 65% 52%;
+    --shu-glow: 0 65% 52% / 0.15;
+    --wu: 145 55% 40%;
+    --wu-glow: 145 55% 40% / 0.15;
+    --qun: 280 60% 55%;
+    --qun-glow: 280 60% 55% / 0.15;
   }
 
   * {
@@ -64,7 +66,7 @@
   body {
     @apply bg-background text-foreground;
     font-family:
-      "Geist Variable",
+      "Noto Sans SC",
       -apple-system,
       BlinkMacSystemFont,
       "Segoe UI",
@@ -73,6 +75,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-heading {
+    font-family: "Noto Serif SC", "Noto Sans SC", serif;
   }
 
   #app {
@@ -95,6 +105,9 @@
   .bg-qun {
     background-color: hsl(var(--qun));
   }
+  .bg-gold {
+    background-color: hsl(var(--gold));
+  }
   .border-wei {
     border-color: hsl(var(--wei));
   }
@@ -107,6 +120,9 @@
   .border-qun {
     border-color: hsl(var(--qun));
   }
+  .border-gold {
+    border-color: hsl(var(--gold));
+  }
   .text-wei {
     color: hsl(var(--wei));
   }
@@ -118,6 +134,9 @@
   }
   .text-qun {
     color: hsl(var(--qun));
+  }
+  .text-gold {
+    color: hsl(var(--gold));
   }
   .bg-wei\/10 {
     background-color: hsl(var(--wei) / 0.1);
@@ -132,16 +151,32 @@
     background-color: hsl(var(--qun) / 0.1);
   }
   .glow-wei {
-    box-shadow: 0 0 12px hsl(var(--wei-glow));
+    box-shadow: 0 0 14px hsl(var(--wei-glow));
   }
   .glow-shu {
-    box-shadow: 0 0 12px hsl(var(--shu-glow));
+    box-shadow: 0 0 14px hsl(var(--shu-glow));
   }
   .glow-wu {
-    box-shadow: 0 0 12px hsl(var(--wu-glow));
+    box-shadow: 0 0 14px hsl(var(--wu-glow));
   }
   .glow-qun {
-    box-shadow: 0 0 12px hsl(var(--qun-glow));
+    box-shadow: 0 0 14px hsl(var(--qun-glow));
+  }
+  .glow-gold {
+    box-shadow: 0 0 14px hsl(var(--gold-glow));
+  }
+  .ring-gold {
+    --tw-ring-color: hsl(var(--gold));
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .ease-out-quart {
+    transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
   }
 }
 
@@ -149,7 +184,7 @@
   width: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background: hsl(224 15% 22%);
+  background: hsl(40 12% 22%);
   border-radius: 2px;
 }
 
@@ -181,5 +216,29 @@
   [data-slot="button"]:active:not(:disabled),
   .btn-press:active {
     transform: scale(0.97);
+  }
+
+  @keyframes card-enter {
+    from {
+      opacity: 0;
+      transform: translateY(8px) scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .animate-card-enter {
+    animation: card-enter 0.35s cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: calc(var(--i, 0) * 30ms);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-card-enter {
+    opacity: 1;
+    transform: none;
+    animation: none;
   }
 }
