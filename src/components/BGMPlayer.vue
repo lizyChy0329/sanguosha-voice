@@ -15,12 +15,8 @@ const progress = ref(0);
 const duration = ref(0);
 let tickTimer = null;
 
-function onBgmLoad() {
-  duration.value = getBGMDuration();
-}
-
 function toggleBGM(item) {
-  const result = playBGM(item.id, item.file, onBgmLoad);
+  const result = playBGM(item.id, item.file);
   currentBgm.value = item;
   isPlaying.value = result.playing;
   showList.value = false;
@@ -70,11 +66,9 @@ function formatTime(t) {
 function startTick() {
   stopTick();
   tickTimer = setInterval(() => {
-    if (isPlaying.value) {
-      const d = getBGMDuration();
-      if (d > 0) duration.value = d;
-      progress.value = getBGMProgress();
-    }
+    const d = getBGMDuration();
+    if (d && d > 0) duration.value = d;
+    if (isPlaying.value) progress.value = getBGMProgress();
   }, 200);
 }
 
@@ -103,7 +97,7 @@ onUnmounted(() => {
     class="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-t border-border select-none"
   >
     <div
-      class="h-1 bg-muted relative group"
+      class="h-1 bg-border relative group"
       :class="duration ? 'cursor-pointer' : ''"
       @click="
         (e) => {

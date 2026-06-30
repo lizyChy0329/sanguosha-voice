@@ -10,7 +10,7 @@ export function useAudio() {
     return `${CDN_BASE}/audio/${type}/${file}`;
   }
 
-  function playBGM(id, file, onload) {
+  function playBGM(id, file) {
     if (currentBgmId === id && bgmHowl) {
       if (bgmHowl.playing()) {
         bgmHowl.pause();
@@ -28,7 +28,6 @@ export function useAudio() {
       loop: true,
       volume: bgmVolume,
       html5: true,
-      onload: onload || undefined,
     });
     bgmHowl.play();
     return { playing: true };
