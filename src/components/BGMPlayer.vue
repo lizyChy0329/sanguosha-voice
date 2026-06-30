@@ -97,7 +97,7 @@ onUnmounted(() => {
     class="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-t border-border select-none"
   >
     <div
-      class="h-1 bg-border relative group"
+      class="h-1 bg-border rounded-full overflow-hidden relative"
       :class="duration ? 'cursor-pointer' : ''"
       @click="
         (e) => {
@@ -109,12 +109,8 @@ onUnmounted(() => {
       "
     >
       <div
-        class="absolute inset-y-0 left-0 bg-qun transition-[width] duration-200 ease-linear"
+        class="h-full bg-qun rounded-full transition-all duration-150"
         :style="{ width: duration ? `${(progress / duration) * 100}%` : '0%' }"
-      />
-      <div
-        class="absolute top-1/2 -translate-y-1/2 size-2.5 rounded-full bg-qun opacity-0 group-hover:opacity-100 transition-opacity"
-        :style="{ left: duration ? `${(progress / duration) * 100}%` : '0%' }"
       />
     </div>
 

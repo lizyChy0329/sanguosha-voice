@@ -13,7 +13,7 @@ import { useCache } from "./composables/useCache";
 import { UsersIcon } from "@lucide/vue";
 
 const { playSkill, playDie } = useAudio();
-const { addCharacter, removeCharacter, saveSession, proom } = useProom();
+const { addCharacter, removeCharacter, saveSession, proom, hasCharacter } = useProom();
 const { cacheCharacter } = useCache();
 
 const activeFaction = ref("all");
@@ -31,8 +31,12 @@ function handlePlayDie(characterId) {
 }
 
 function handleSelectCharacter(characterId) {
-  addCharacter(characterId);
-  cacheCharacter(characterId);
+  if (hasCharacter(characterId)) {
+    removeCharacter(characterId);
+  } else {
+    addCharacter(characterId);
+    cacheCharacter(characterId);
+  }
 }
 
 function handleRemoveCharacter(characterId) {
