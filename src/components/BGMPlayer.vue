@@ -15,8 +15,12 @@ const progress = ref(0);
 const duration = ref(0);
 let tickTimer = null;
 
+function onBgmLoad() {
+  duration.value = getBGMDuration();
+}
+
 function toggleBGM(item) {
-  const result = playBGM(item.id, item.file);
+  const result = playBGM(item.id, item.file, onBgmLoad);
   currentBgm.value = item;
   isPlaying.value = result.playing;
   showList.value = false;
@@ -67,10 +71,11 @@ function startTick() {
   stopTick();
   tickTimer = setInterval(() => {
     if (isPlaying.value) {
-      duration.value = getBGMDuration();
+      const d = getBGMDuration();
+      if (d > 0) duration.value = d;
       progress.value = getBGMProgress();
     }
-  }, 250);
+  }, 200);
 }
 
 function stopTick() {
@@ -95,10 +100,11 @@ onUnmounted(() => {
 
 <template>
   <div
-    class="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-t border-border"
+    class="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-t border-border select-none"
   >
     <div
-      class="h-1 bg-muted relative cursor-pointer group"
+      class="h-1 bg-muted relative group"
+      :class="duration ? 'cursor-pointer' : ''"
       @click="
         (e) => {
           if (!duration) return;
@@ -109,11 +115,11 @@ onUnmounted(() => {
       "
     >
       <div
-        class="absolute inset-y-0 left-0 bg-gold transition-[width] duration-200 ease-linear"
+        class="absolute inset-y-0 left-0 bg-qun transition-[width] duration-200 ease-linear"
         :style="{ width: duration ? `${(progress / duration) * 100}%` : '0%' }"
       />
       <div
-        class="absolute top-1/2 -translate-y-1/2 size-2.5 rounded-full bg-gold opacity-0 group-hover:opacity-100 transition-opacity"
+        class="absolute top-1/2 -translate-y-1/2 size-2.5 rounded-full bg-qun opacity-0 group-hover:opacity-100 transition-opacity"
         :style="{ left: duration ? `${(progress / duration) * 100}%` : '0%' }"
       />
     </div>

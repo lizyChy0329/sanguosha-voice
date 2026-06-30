@@ -50,13 +50,17 @@
     --gold: 45 55% 52%;
     --gold-glow: 45 55% 52% / 0.2;
     --wei: 224 65% 52%;
-    --wei-glow: 224 65% 52% / 0.15;
+    --wei-glow: 224 65% 52% / 0.35;
+    --wei-light: 224 75% 68%;
     --shu: 0 65% 52%;
-    --shu-glow: 0 65% 52% / 0.15;
+    --shu-glow: 0 65% 52% / 0.35;
+    --shu-light: 0 80% 64%;
     --wu: 145 55% 40%;
-    --wu-glow: 145 55% 40% / 0.15;
+    --wu-glow: 145 55% 40% / 0.35;
+    --wu-light: 145 65% 52%;
     --qun: 280 60% 55%;
-    --qun-glow: 280 60% 55% / 0.15;
+    --qun-glow: 280 60% 55% / 0.35;
+    --qun-light: 280 75% 68%;
   }
 
   * {
@@ -119,6 +123,30 @@
   }
   .border-qun {
     border-color: hsl(var(--qun));
+  }
+  .border-wei-light {
+    border-color: hsl(var(--wei-light));
+  }
+  .border-shu-light {
+    border-color: hsl(var(--shu-light));
+  }
+  .border-wu-light {
+    border-color: hsl(var(--wu-light));
+  }
+  .border-qun-light {
+    border-color: hsl(var(--qun-light));
+  }
+  .bg-wei-light {
+    background-color: hsl(var(--wei-light));
+  }
+  .bg-shu-light {
+    background-color: hsl(var(--shu-light));
+  }
+  .bg-wu-light {
+    background-color: hsl(var(--wu-light));
+  }
+  .bg-qun-light {
+    background-color: hsl(var(--qun-light));
   }
   .border-gold {
     border-color: hsl(var(--gold));
@@ -229,9 +257,23 @@
     }
   }
 
+  @keyframes selected-pulse {
+    0%,
+    100% {
+      box-shadow: 0 0 14px hsl(var(--glow-color));
+    }
+    50% {
+      box-shadow: 0 0 22px hsl(var(--glow-color));
+    }
+  }
+
   .animate-card-enter {
     animation: card-enter 0.35s cubic-bezier(0.25, 1, 0.5, 1) both;
     animation-delay: calc(var(--i, 0) * 30ms);
+  }
+
+  .animate-pulse-glow {
+    animation: selected-pulse 2s cubic-bezier(0.25, 1, 0.5, 1) infinite;
   }
 }
 
@@ -239,6 +281,9 @@
   .animate-card-enter {
     opacity: 1;
     transform: none;
+    animation: none;
+  }
+  .animate-pulse-glow {
     animation: none;
   }
 }
