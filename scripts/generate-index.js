@@ -44,8 +44,21 @@ for (const [prefix, outputFile] of Object.entries(TARGETS)) {
     index[key] = f;
   }
   const outPath = join(OUTPUT_DIR, outputFile);
-  writeFileSync(outPath, JSON.stringify(index, null, 2) + "\n");
-  console.log(`  ${outputFile}: ${Object.keys(index).length} entries`);
+
+  // Preserve existing descri annotations if the file already exists
+  let existing = {};
+  try {
+    existing = JSON.parse(fs.readFileSync(outPath, "utf-8"));
+  } catch {}
+
+  const merged = {};
+  for (const [k, v] of Object.entries(index)) {
+    const old = existing[k];
+    const oldDesc = (old && typeof old === "object" && old.description) || "";
+    merged[k] = oldDesc ? { path: v, description: oldDesc } : { path: v, description: "" };
+  }
+  writeFileSync(outPath, JSON.stringify(merged, null, 2) + "\n");
+  console.log(`  ${outputFile}: ${Object.keys(merged).length} entries`);
 }
 
 run(`rm -rf ${TMP_CLONE}`);

@@ -1,1283 +1,5126 @@
 {
-  "ahuinan": "audio/die/ahuinan.mp3",
-  "bailingyun": "audio/die/bailingyun.mp3",
-  "baosanniang": "audio/die/baosanniang.mp3",
-  "beimihu": "audio/die/beimihu.mp3",
-  "bianxi": "audio/die/bianxi.mp3",
-  "bianyue": "audio/die/bianyue.mp3",
-  "boss_lvbu2": "audio/die/boss_lvbu2.mp3",
-  "boss_lvbu3": "audio/die/boss_lvbu3.mp3",
-  "boss_wuguanwang": "audio/die/boss_wuguanwang.mp3",
-  "boss_zhaoyun": "audio/die/boss_zhaoyun.mp3",
-  "boss_zhuanlunwang": "audio/die/boss_zhuanlunwang.mp3",
-  "bulianshi": "audio/die/bulianshi.mp3",
-  "buzhi": "audio/die/buzhi.mp3",
-  "caesar": "audio/die/caesar.mp3",
-  "caifuren": "audio/die/caifuren.mp3",
-  "caimao": "audio/die/caimao.mp3",
-  "caimaozhangyun": "audio/die/caimaozhangyun.mp3",
-  "caiwenji": "audio/die/caiwenji.mp3",
-  "caiyong": "audio/die/caiyong.mp3",
-  "caizhaoji": "audio/die/caizhaoji.mp3",
-  "caizhenji": "audio/die/caizhenji.mp3",
-  "caoang": "audio/die/caoang.mp3",
-  "caoanmin": "audio/die/caoanmin.mp3",
-  "caocao": "audio/die/caocao.mp3",
-  "caochong": "audio/die/caochong.mp3",
-  "caochun": "audio/die/caochun.mp3",
-  "caofang": "audio/die/caofang.mp3",
-  "caohong": "audio/die/caohong.mp3",
-  "caohua": "audio/die/caohua.mp3",
-  "caojie": "audio/die/caojie.mp3",
-  "caojinyu": "audio/die/caojinyu.mp3",
-  "caomao": "audio/die/caomao.mp3",
-  "caopi": "audio/die/caopi.mp3",
-  "caoren": "audio/die/caoren.mp3",
-  "caorui": "audio/die/caorui.mp3",
-  "caoshuang": "audio/die/caoshuang.mp3",
-  "caosong": "audio/die/caosong.mp3",
-  "caoteng": "audio/die/caoteng.mp3",
-  "caoxi": "audio/die/caoxi.mp3",
-  "caoxian": "audio/die/caoxian.mp3",
-  "caoxiancaohua": "audio/die/caoxiancaohua.mp3",
-  "caoxing": "audio/die/caoxing.mp3",
-  "caoxiu": "audio/die/caoxiu.mp3",
-  "caoyi": "audio/die/caoyi.mp3",
-  "caoying": "audio/die/caoying.mp3",
-  "caoyu": "audio/die/caoyu.mp3",
-  "caozhang": "audio/die/caozhang.mp3",
-  "caozhen": "audio/die/caozhen.mp3",
-  "caozhi": "audio/die/caozhi.mp3",
-  "cenhun": "audio/die/cenhun.mp3",
-  "cheliji": "audio/die/cheliji.mp3",
-  "chendao": "audio/die/chendao.mp3",
-  "chendeng": "audio/die/chendeng.mp3",
-  "chendong": "audio/die/chendong.mp3",
-  "chengbing": "audio/die/chengbing.mp3",
-  "chengji": "audio/die/chengji.mp3",
-  "chengjichengcui": "audio/die/chengjichengcui.mp3",
-  "chengong": "audio/die/chengong.mp3",
-  "chengpu": "audio/die/chengpu.mp3",
-  "chengui": "audio/die/chengui.mp3",
-  "chengyu": "audio/die/chengyu.mp3",
-  "chenjiao": "audio/die/chenjiao.mp3",
-  "chenlin": "audio/die/chenlin.mp3",
-  "chenqun": "audio/die/chenqun.mp3",
-  "chenshi": "audio/die/chenshi.mp3",
-  "chentai": "audio/die/chentai.mp3",
-  "chenwudongxi": "audio/die/chenwudongxi.mp3",
-  "chunyuqiong": "audio/die/chunyuqiong.mp3",
-  "clan_hanrong": "audio/die/clan_hanrong.mp3",
-  "clan_hanshao": "audio/die/clan_hanshao.mp3",
-  "clan_wanghun": "audio/die/clan_wanghun.mp3",
-  "clan_wangling": "audio/die/clan_wangling.mp3",
-  "clan_wanglun": "audio/die/clan_wanglun.mp3",
-  "clan_wangyun": "audio/die/clan_wangyun.mp3",
-  "clan_wuban": "audio/die/clan_wuban.mp3",
-  "clan_wukuang": "audio/die/clan_wukuang.mp3",
-  "clan_wuqiao": "audio/die/clan_wuqiao.mp3",
-  "clan_wuxian": "audio/die/clan_wuxian.mp3",
-  "clan_xuncai": "audio/die/clan_xuncai.mp3",
-  "clan_xuncan": "audio/die/clan_xuncan.mp3",
-  "clan_xunchen": "audio/die/clan_xunchen.mp3",
-  "clan_xunshu": "audio/die/clan_xunshu.mp3",
-  "clan_xunyou": "audio/die/clan_xunyou.mp3",
-  "clan_zhonghui": "audio/die/clan_zhonghui.mp3",
-  "clan_zhonghui2": "audio/die/clan_zhonghui2.mp3",
-  "clan_zhonghui3": "audio/die/clan_zhonghui3.mp3",
-  "clan_zhongyan": "audio/die/clan_zhongyan.mp3",
-  "clan_zhongyao": "audio/die/clan_zhongyao.mp3",
-  "clan_zhongyu": "audio/die/clan_zhongyu.mp3",
-  "cuimao": "audio/die/cuimao.mp3",
-  "cuiyan": "audio/die/cuiyan.mp3",
-  "daqiao": "audio/die/daqiao.mp3",
-  "daxiaoqiao": "audio/die/daxiaoqiao.mp3",
-  "db_wenyang": "audio/die/db_wenyang.mp3",
-  "dc_bulianshi": "audio/die/dc_bulianshi.mp3",
-  "dc_caiyang": "audio/die/dc_caiyang.mp3",
-  "dc_caoshuang": "audio/die/dc_caoshuang.mp3",
-  "dc_caozhi": "audio/die/dc_caozhi.mp3",
-  "dc_chenqun": "audio/die/dc_chenqun.mp3",
-  "dc_dengzhi": "audio/die/dc_dengzhi.mp3",
-  "dc_dongzhao": "audio/die/dc_dongzhao.mp3",
-  "dc_duyu": "audio/die/dc_duyu.mp3",
-  "dc_gaolan": "audio/die/dc_gaolan.mp3",
-  "dc_gongsunzan": "audio/die/dc_gongsunzan.mp3",
-  "dc_huangchengyan": "audio/die/dc_huangchengyan.mp3",
-  "dc_huanghao": "audio/die/dc_huanghao.mp3",
-  "dc_huangquan": "audio/die/dc_huangquan.mp3",
-  "dc_huangwudie": "audio/die/dc_huangwudie.mp3",
-  "dc_huangzu": "audio/die/dc_huangzu.mp3",
-  "dc_huban": "audio/die/dc_huban.mp3",
-  "dc_hujinding": "audio/die/dc_hujinding.mp3",
-  "dc_huojun": "audio/die/dc_huojun.mp3",
-  "dc_jiachong": "audio/die/dc_jiachong.mp3",
-  "dc_jiangji": "audio/die/dc_jiangji.mp3",
-  "dc_jiben": "audio/die/dc_jiben.mp3",
-  "dc_lifeng": "audio/die/dc_lifeng.mp3",
-  "dc_lingcao": "audio/die/dc_lingcao.mp3",
-  "dc_liru": "audio/die/dc_liru.mp3",
-  "dc_liuba": "audio/die/dc_liuba.mp3",
-  "dc_liuli": "audio/die/dc_liuli.mp3",
-  "dc_liuye": "audio/die/dc_liuye.mp3",
-  "dc_liuyu": "audio/die/dc_liuyu.mp3",
-  "dc_luotong": "audio/die/dc_luotong.mp3",
-  "dc_lvkuanglvxiang": "audio/die/dc_lvkuanglvxiang.mp3",
-  "dc_mengda": "audio/die/dc_mengda.mp3",
-  "dc_qinghegongzhu": "audio/die/dc_qinghegongzhu.mp3",
-  "dc_ruiji": "audio/die/dc_ruiji.mp3",
-  "dc_sb_chengyu": "audio/die/dc_sb_chengyu.mp3",
-  "dc_sb_chenlin": "audio/die/dc_sb_chenlin.mp3",
-  "dc_sb_dianwei": "audio/die/dc_sb_dianwei.mp3",
-  "dc_sb_guanping": "audio/die/dc_sb_guanping.mp3",
-  "dc_sb_huanggai": "audio/die/dc_sb_huanggai.mp3",
-  "dc_sb_hucheer": "audio/die/dc_sb_hucheer.mp3",
-  "dc_sb_jiaxu": "audio/die/dc_sb_jiaxu.mp3",
-  "dc_sb_jiaxu_shadow": "audio/die/dc_sb_jiaxu_shadow.mp3",
-  "dc_sb_jushou": "audio/die/dc_sb_jushou.mp3",
-  "dc_sb_lusu": "audio/die/dc_sb_lusu.mp3",
-  "dc_sb_lusu_shadow": "audio/die/dc_sb_lusu_shadow.mp3",
-  "dc_sb_simayi": "audio/die/dc_sb_simayi.mp3",
-  "dc_sb_simayi_shadow": "audio/die/dc_sb_simayi_shadow.mp3",
-  "dc_sb_zhangxiu": "audio/die/dc_sb_zhangxiu.mp3",
-  "dc_sb_zhouyu": "audio/die/dc_sb_zhouyu.mp3",
-  "dc_sb_zhouyu_shadow": "audio/die/dc_sb_zhouyu_shadow.mp3",
-  "dc_sb_zhugejin": "audio/die/dc_sb_zhugejin.mp3",
-  "dc_shen_huatuo": "audio/die/dc_shen_huatuo.mp3",
-  "dc_simashi": "audio/die/dc_simashi.mp3",
-  "dc_sp_jiaxu": "audio/die/dc_sp_jiaxu.mp3",
-  "dc_sunchen": "audio/die/dc_sunchen.mp3",
-  "dc_sunhanhua": "audio/die/dc_sunhanhua.mp3",
-  "dc_sunru": "audio/die/dc_sunru.mp3",
-  "dc_sunziliufang": "audio/die/dc_sunziliufang.mp3",
-  "dc_tengfanglan": "audio/die/dc_tengfanglan.mp3",
-  "dc_wangchang": "audio/die/dc_wangchang.mp3",
-  "dc_wangjun": "audio/die/dc_wangjun.mp3",
-  "dc_wangling": "audio/die/dc_wangling.mp3",
-  "dc_wangyun": "audio/die/dc_wangyun.mp3",
-  "dc_wuban": "audio/die/dc_wuban.mp3",
-  "dc_xujing": "audio/die/dc_xujing.mp3",
-  "dc_xushu": "audio/die/dc_xushu.mp3",
-  "dc_yangbiao": "audio/die/dc_yangbiao.mp3",
-  "dc_yanghu": "audio/die/dc_yanghu.mp3",
-  "dc_yuejiu": "audio/die/dc_yuejiu.mp3",
-  "dc_zhangmancheng": "audio/die/dc_zhangmancheng.mp3",
-  "dc_zhaotongzhaoguang": "audio/die/dc_zhaotongzhaoguang.mp3",
-  "dc_zhaoyun": "audio/die/dc_zhaoyun.mp3",
-  "dc_zhuling": "audio/die/dc_zhuling.mp3",
-  "dengai": "audio/die/dengai.mp3",
-  "dengshizai": "audio/die/dengshizai.mp3",
-  "dengzhi": "audio/die/dengzhi.mp3",
-  "dengzhong": "audio/die/dengzhong.mp3",
-  "dianwei": "audio/die/dianwei.mp3",
-  "diaochan": "audio/die/diaochan.mp3",
-  "dingfeng": "audio/die/dingfeng.mp3",
-  "dingshangwan": "audio/die/dingshangwan.mp3",
-  "dingyuan": "audio/die/dingyuan.mp3",
-  "dongbai": "audio/die/dongbai.mp3",
-  "dongcheng": "audio/die/dongcheng.mp3",
-  "dongguiren": "audio/die/dongguiren.mp3",
-  "dongtuna": "audio/die/dongtuna.mp3",
-  "dongwan": "audio/die/dongwan.mp3",
-  "dongxie": "audio/die/dongxie.mp3",
-  "dongyun": "audio/die/dongyun.mp3",
-  "dongzhao": "audio/die/dongzhao.mp3",
-  "dongzhuo": "audio/die/dongzhuo.mp3",
-  "duanjiong": "audio/die/duanjiong.mp3",
-  "duanqiaoxiao": "audio/die/duanqiaoxiao.mp3",
-  "duanwei": "audio/die/duanwei.mp3",
-  "dufuren": "audio/die/dufuren.mp3",
-  "duji": "audio/die/duji.mp3",
-  "dukui": "audio/die/dukui.mp3",
-  "duosidawang": "audio/die/duosidawang.mp3",
-  "duxi": "audio/die/duxi.mp3",
-  "duyu": "audio/die/duyu.mp3",
-  "fanchou": "audio/die/fanchou.mp3",
-  "fanjiangzhangda": "audio/die/fanjiangzhangda.mp3",
-  "fanyufeng": "audio/die/fanyufeng.mp3",
-  "fazheng": "audio/die/fazheng.mp3",
-  "feiyao": "audio/die/feiyao.mp3",
-  "feiyi": "audio/die/feiyi.mp3",
-  "fengfang": "audio/die/fengfang.mp3",
-  "fengfangnv": "audio/die/fengfangnv.mp3",
-  "fengxi": "audio/die/fengxi.mp3",
-  "fuhuanghou": "audio/die/fuhuanghou.mp3",
-  "fuqian": "audio/die/fuqian.mp3",
-  "furong": "audio/die/furong.mp3",
-  "furongfuqian": "audio/die/furongfuqian.mp3",
-  "fuwan": "audio/die/fuwan.mp3",
-  "ganfuren": "audio/die/ganfuren.mp3",
-  "ganfurenmifuren": "audio/die/ganfurenmifuren.mp3",
-  "ganning": "audio/die/ganning.mp3",
-  "gaogan": "audio/die/gaogan.mp3",
-  "gaolan": "audio/die/gaolan.mp3",
-  "gaoshun": "audio/die/gaoshun.mp3",
-  "gaoxiang": "audio/die/gaoxiang.mp3",
-  "gexuan": "audio/die/gexuan.mp3",
-  "gongsundu": "audio/die/gongsundu.mp3",
-  "gongsunkang": "audio/die/gongsunkang.mp3",
-  "gongsunxiu": "audio/die/gongsunxiu.mp3",
-  "gongsunyuan": "audio/die/gongsunyuan.mp3",
-  "gongsunzan": "audio/die/gongsunzan.mp3",
-  "guanhai": "audio/die/guanhai.mp3",
-  "guanlu": "audio/die/guanlu.mp3",
-  "guanning": "audio/die/guanning.mp3",
-  "guanping": "audio/die/guanping.mp3",
-  "guanqiujian": "audio/die/guanqiujian.mp3",
-  "guansuo": "audio/die/guansuo.mp3",
-  "guanyinping": "audio/die/guanyinping.mp3",
-  "guanyu": "audio/die/guanyu.mp3",
-  "guanyue": "audio/die/guanyue.mp3",
-  "guanzhang": "audio/die/guanzhang.mp3",
-  "guohuai": "audio/die/guohuai.mp3",
-  "guohuanghou": "audio/die/guohuanghou.mp3",
-  "guojia": "audio/die/guojia.mp3",
-  "guosi": "audio/die/guosi.mp3",
-  "guotu": "audio/die/guotu.mp3",
-  "guotufengji": "audio/die/guotufengji.mp3",
-  "guozhao": "audio/die/guozhao.mp3",
-  "guyong": "audio/die/guyong.mp3",
-  "guzhielai": "audio/die/guzhielai.mp3",
-  "gz_dc_yanghu": "audio/die/gz_dc_yanghu.mp3",
-  "gz_dengai": "audio/die/gz_dengai.mp3",
-  "gz_dengzhi": "audio/die/gz_dengzhi.mp3",
-  "gz_gongsunyuan": "audio/die/gz_gongsunyuan.mp3",
-  "gz_huangzu": "audio/die/gz_huangzu.mp3",
-  "gz_jiangqing": "audio/die/gz_jiangqing.mp3",
-  "gz_jiangwei": "audio/die/gz_jiangwei.mp3",
-  "gz_jun_caocao": "audio/die/gz_jun_caocao.mp3",
-  "gz_jun_liubei": "audio/die/gz_jun_liubei.mp3",
-  "gz_jun_sunquan": "audio/die/gz_jun_sunquan.mp3",
-  "gz_jun_zhangjiao": "audio/die/gz_jun_zhangjiao.mp3",
-  "gz_liuba": "audio/die/gz_liuba.mp3",
-  "gz_liuqi": "audio/die/gz_liuqi.mp3",
-  "gz_lukang": "audio/die/gz_lukang.mp3",
-  "gz_luxun": "audio/die/gz_luxun.mp3",
-  "gz_panjun": "audio/die/gz_panjun.mp3",
-  "gz_pengyang": "audio/die/gz_pengyang.mp3",
-  "gz_re_xushu": "audio/die/gz_re_xushu.mp3",
-  "gz_shixie": "audio/die/gz_shixie.mp3",
-  "gz_simazhao": "audio/die/gz_simazhao.mp3",
-  "gz_sunchen": "audio/die/gz_sunchen.mp3",
-  "gz_tangzi": "audio/die/gz_tangzi.mp3",
-  "gz_wenqin": "audio/die/gz_wenqin.mp3",
-  "gz_wujing": "audio/die/gz_wujing.mp3",
-  "gz_xf_sufei": "audio/die/gz_xf_sufei.mp3",
-  "gz_xiahouba": "audio/die/gz_xiahouba.mp3",
-  "gz_xusheng": "audio/die/gz_xusheng.mp3",
-  "gz_xuyou": "audio/die/gz_xuyou.mp3",
-  "gz_yanbaihu": "audio/die/gz_yanbaihu.mp3",
-  "gz_yuji": "audio/die/gz_yuji.mp3",
-  "gz_zhanglu": "audio/die/gz_zhanglu.mp3",
-  "gz_zhonghui": "audio/die/gz_zhonghui.mp3",
-  "gz_zhugeke": "audio/die/gz_zhugeke.mp3",
-  "gz_zhuling": "audio/die/gz_zhuling.mp3",
-  "hanba": "audio/die/hanba.mp3",
-  "handang": "audio/die/handang.mp3",
-  "hanfu": "audio/die/hanfu.mp3",
-  "hanhaoshihuan": "audio/die/hanhaoshihuan.mp3",
-  "hanlong": "audio/die/hanlong.mp3",
-  "hanmeng": "audio/die/hanmeng.mp3",
-  "hansui": "audio/die/hansui.mp3",
-  "haomeng": "audio/die/haomeng.mp3",
-  "haopu": "audio/die/haopu.mp3",
-  "haozhao": "audio/die/haozhao.mp3",
-  "hejin": "audio/die/hejin.mp3",
-  "heqi": "audio/die/heqi.mp3",
-  "hetaihou": "audio/die/hetaihou.mp3",
-  "heyan": "audio/die/heyan.mp3",
-  "huaman": "audio/die/huaman.mp3",
-  "huan_jiangwei": "audio/die/huan_jiangwei.mp3",
-  "huan_liushan": "audio/die/huan_liushan.mp3",
-  "huan_luxun": "audio/die/huan_luxun.mp3",
-  "huan_simayi": "audio/die/huan_simayi.mp3",
-  "huan_weiyan": "audio/die/huan_weiyan.mp3",
-  "huan_zhanghe": "audio/die/huan_zhanghe.mp3",
-  "huan_zhaoyun": "audio/die/huan_zhaoyun.mp3",
-  "huan_zhugeguo": "audio/die/huan_zhugeguo.mp3",
-  "huan_zhugeliang": "audio/die/huan_zhugeliang.mp3",
-  "huan_zhugeliang_shadow": "audio/die/huan_zhugeliang_shadow.mp3",
-  "huanfan": "audio/die/huanfan.mp3",
-  "huangchengyan": "audio/die/huangchengyan.mp3",
-  "huangfusong": "audio/die/huangfusong.mp3",
-  "huanggai": "audio/die/huanggai.mp3",
-  "huanghao": "audio/die/huanghao.mp3",
-  "huangyueying": "audio/die/huangyueying.mp3",
-  "huangzhong": "audio/die/huangzhong.mp3",
-  "huangzu": "audio/die/huangzu.mp3",
-  "huatuo": "audio/die/huatuo.mp3",
-  "huaxin": "audio/die/huaxin.mp3",
-  "huaxiong": "audio/die/huaxiong.mp3",
-  "hucheer": "audio/die/hucheer.mp3",
-  "hujinding": "audio/die/hujinding.mp3",
-  "huojun": "audio/die/huojun.mp3",
-  "huzhao": "audio/die/huzhao.mp3",
-  "jiachong": "audio/die/jiachong.mp3",
-  "jiakui": "audio/die/jiakui.mp3",
-  "jiangboyue": "audio/die/jiangboyue.mp3",
-  "jiangfei": "audio/die/jiangfei.mp3",
-  "jianggan": "audio/die/jianggan.mp3",
-  "jiangqin": "audio/die/jiangqin.mp3",
-  "jiangwanfeiyi": "audio/die/jiangwanfeiyi.mp3",
-  "jiangwei": "audio/die/jiangwei.mp3",
-  "jianyong": "audio/die/jianyong.mp3",
-  "jiawenhe": "audio/die/jiawenhe.mp3",
-  "jiaxu": "audio/die/jiaxu.mp3",
-  "jikang": "audio/die/jikang.mp3",
-  "jiling": "audio/die/jiling.mp3",
-  "jin_guohuai": "audio/die/jin_guohuai.mp3",
-  "jin_jiachong": "audio/die/jin_jiachong.mp3",
-  "jin_jsrg_simazhao": "audio/die/jin_jsrg_simazhao.mp3",
-  "jin_simashi": "audio/die/jin_simashi.mp3",
-  "jin_simayi": "audio/die/jin_simayi.mp3",
-  "jin_simazhao": "audio/die/jin_simazhao.mp3",
-  "jin_wangyuanji": "audio/die/jin_wangyuanji.mp3",
-  "jin_xiahouhui": "audio/die/jin_xiahouhui.mp3",
-  "jin_yanghu": "audio/die/jin_yanghu.mp3",
-  "jin_yanghuiyu": "audio/die/jin_yanghuiyu.mp3",
-  "jin_zhangchunhua": "audio/die/jin_zhangchunhua.mp3",
-  "jin_zhouchu": "audio/die/jin_zhouchu.mp3",
-  "jinxuandi": "audio/die/jinxuandi.mp3",
-  "jsp_caoren": "audio/die/jsp_caoren.mp3",
-  "jsp_guanyu": "audio/die/jsp_guanyu.mp3",
-  "jsp_huangyueying": "audio/die/jsp_huangyueying.mp3",
-  "jsrg_caocao": "audio/die/jsrg_caocao.mp3",
-  "jsrg_hejin": "audio/die/jsrg_hejin.mp3",
-  "jsrg_jiananfeng": "audio/die/jsrg_jiananfeng.mp3",
-  "jsrg_limi": "audio/die/jsrg_limi.mp3",
-  "jsrg_liubei": "audio/die/jsrg_liubei.mp3",
-  "jsrg_liuhong": "audio/die/jsrg_liuhong.mp3",
-  "jsrg_malong": "audio/die/jsrg_malong.mp3",
-  "jsrg_simazhao": "audio/die/jsrg_simazhao.mp3",
-  "jsrg_sunjian": "audio/die/jsrg_sunjian.mp3",
-  "jsrg_wangjun": "audio/die/jsrg_wangjun.mp3",
-  "jsrg_wangyun": "audio/die/jsrg_wangyun.mp3",
-  "jsrg_wenyang": "audio/die/jsrg_wenyang.mp3",
-  "jsrg_zhugedan": "audio/die/jsrg_zhugedan.mp3",
-  "junk_guanyu": "audio/die/junk_guanyu.mp3",
-  "kanze": "audio/die/kanze.mp3",
-  "kebineng": "audio/die/kebineng.mp3",
-  "key_abyusa": "audio/die/key_abyusa.mp3",
-  "key_hinata": "audio/die/key_hinata.mp3",
-  "key_hisako": "audio/die/key_hisako.mp3",
-  "key_noda": "audio/die/key_noda.mp3",
-  "key_saya": "audio/die/key_saya.mp3",
-  "key_shiina": "audio/die/key_shiina.mp3",
-  "key_shiki": "audio/die/key_shiki.mp3",
-  "key_shiorimiyuki": "audio/die/key_shiorimiyuki.mp3",
-  "key_yui": "audio/die/key_yui.mp3",
-  "key_yuri": "audio/die/key_yuri.mp3",
-  "kongrong": "audio/die/kongrong.mp3",
-  "kuailiangkuaiyue": "audio/die/kuailiangkuaiyue.mp3",
-  "kuaiqi": "audio/die/kuaiqi.mp3",
-  "laimin": "audio/die/laimin.mp3",
-  "laiyinger": "audio/die/laiyinger.mp3",
-  "leibo": "audio/die/leibo.mp3",
-  "leitong": "audio/die/leitong.mp3",
-  "liangxing": "audio/die/liangxing.mp3",
-  "liaohua": "audio/die/liaohua.mp3",
-  "libai": "audio/die/libai.mp3",
-  "libai2": "audio/die/libai2.mp3",
-  "licaiwei": "audio/die/licaiwei.mp3",
-  "licuilianzhaoquanding": "audio/die/licuilianzhaoquanding.mp3",
-  "lidian": "audio/die/lidian.mp3",
-  "lifeng": "audio/die/lifeng.mp3",
-  "lijue": "audio/die/lijue.mp3",
-  "lingcao": "audio/die/lingcao.mp3",
-  "linghuyu": "audio/die/linghuyu.mp3",
-  "lingju": "audio/die/lingju.mp3",
-  "lingtong": "audio/die/lingtong.mp3",
-  "liqueguosi": "audio/die/liqueguosi.mp3",
-  "liru": "audio/die/liru.mp3",
-  "lisu": "audio/die/lisu.mp3",
-  "litong": "audio/die/litong.mp3",
-  "liuba": "audio/die/liuba.mp3",
-  "liubei": "audio/die/liubei.mp3",
-  "liubian": "audio/die/liubian.mp3",
-  "liubiao": "audio/die/liubiao.mp3",
-  "liuchen": "audio/die/liuchen.mp3",
-  "liucheng": "audio/die/liucheng.mp3",
-  "liuchongluojun": "audio/die/liuchongluojun.mp3",
-  "liufeng": "audio/die/liufeng.mp3",
-  "liuhong": "audio/die/liuhong.mp3",
-  "liuhui": "audio/die/liuhui.mp3",
-  "liupan": "audio/die/liupan.mp3",
-  "liupi": "audio/die/liupi.mp3",
-  "liushan": "audio/die/liushan.mp3",
-  "liutan": "audio/die/liutan.mp3",
-  "liuxie": "audio/die/liuxie.mp3",
-  "liuyan": "audio/die/liuyan.mp3",
-  "liuyao": "audio/die/liuyao.mp3",
-  "liuye": "audio/die/liuye.mp3",
-  "liuyong": "audio/die/liuyong.mp3",
-  "liuyu": "audio/die/liuyu.mp3",
-  "liuzan": "audio/die/liuzan.mp3",
-  "liuzhang": "audio/die/liuzhang.mp3",
-  "liwan": "audio/die/liwan.mp3",
-  "liyan": "audio/die/liyan.mp3",
-  "liyi": "audio/die/liyi.mp3",
-  "liyixiejing": "audio/die/liyixiejing.mp3",
-  "lizhaojiaobo": "audio/die/lizhaojiaobo.mp3",
-  "longwang": "audio/die/longwang.mp3",
-  "luboyan": "audio/die/luboyan.mp3",
-  "luji": "audio/die/luji.mp3",
-  "lukai": "audio/die/lukai.mp3",
-  "lukang": "audio/die/lukang.mp3",
-  "luotong": "audio/die/luotong.mp3",
-  "luoxian": "audio/die/luoxian.mp3",
-  "lushi": "audio/die/lushi.mp3",
-  "lusu": "audio/die/lusu.mp3",
-  "luxun": "audio/die/luxun.mp3",
-  "luyi": "audio/die/luyi.mp3",
-  "luyusheng": "audio/die/luyusheng.mp3",
-  "luzhi": "audio/die/luzhi.mp3",
-  "lvboshe": "audio/die/lvboshe.mp3",
-  "lvbu": "audio/die/lvbu.mp3",
-  "lvdai": "audio/die/lvdai.mp3",
-  "lvfan": "audio/die/lvfan.mp3",
-  "lvkai": "audio/die/lvkai.mp3",
-  "lvkuanglvxiang": "audio/die/lvkuanglvxiang.mp3",
-  "lvlingqi": "audio/die/lvlingqi.mp3",
-  "lvmeng": "audio/die/lvmeng.mp3",
-  "lvqian": "audio/die/lvqian.mp3",
-  "machao": "audio/die/machao.mp3",
-  "macheng": "audio/die/macheng.mp3",
-  "madai": "audio/die/madai.mp3",
-  "majun": "audio/die/majun.mp3",
-  "maliang": "audio/die/maliang.mp3",
-  "malingli": "audio/die/malingli.mp3",
-  "mamidi": "audio/die/mamidi.mp3",
-  "manchong": "audio/die/manchong.mp3",
-  "mangyachang": "audio/die/mangyachang.mp3",
-  "mateng": "audio/die/mateng.mp3",
-  "maxiumatie": "audio/die/maxiumatie.mp3",
-  "mayuanyi": "audio/die/mayuanyi.mp3",
-  "mayunlu": "audio/die/mayunlu.mp3",
-  "mazhong": "audio/die/mazhong.mp3",
-  "mb_caomao": "audio/die/mb_caomao.mp3",
-  "mb_chengui": "audio/die/mb_chengui.mp3",
-  "mb_huban": "audio/die/mb_huban.mp3",
-  "mb_simafu": "audio/die/mb_simafu.mp3",
-  "mb_simazhou": "audio/die/mb_simazhou.mp3",
-  "mb_sp_guanqiujian": "audio/die/mb_sp_guanqiujian.mp3",
-  "mb_sp_zhenji": "audio/die/mb_sp_zhenji.mp3",
-  "mb_wangjing": "audio/die/mb_wangjing.mp3",
-  "mb_wenqin": "audio/die/mb_wenqin.mp3",
-  "mb_xianglang": "audio/die/mb_xianglang.mp3",
-  "mb_zhangfen": "audio/die/mb_zhangfen.mp3",
-  "mengda": "audio/die/mengda.mp3",
-  "menghuo": "audio/die/menghuo.mp3",
-  "mengjie": "audio/die/mengjie.mp3",
-  "mengyou": "audio/die/mengyou.mp3",
-  "mifangfushiren": "audio/die/mifangfushiren.mp3",
-  "mifuren": "audio/die/mifuren.mp3",
-  "miheng": "audio/die/miheng.mp3",
-  "mizhu": "audio/die/mizhu.mp3",
-  "mp_liuling": "audio/die/mp_liuling.mp3",
-  "mp_wangrong": "audio/die/mp_wangrong.mp3",
-  "muludawang": "audio/die/muludawang.mp3",
-  "mushun": "audio/die/mushun.mp3",
-  "nanhualaoxian": "audio/die/nanhualaoxian.mp3",
-  "nashime": "audio/die/nashime.mp3",
-  "neo_xuchu": "audio/die/neo_xuchu.mp3",
-  "neo_zhouyu": "audio/die/neo_zhouyu.mp3",
-  "new_caoren": "audio/die/new_caoren.mp3",
-  "new_simayi": "audio/die/new_simayi.mp3",
-  "nezha": "audio/die/nezha.mp3",
-  "niufu": "audio/die/niufu.mp3",
-  "niujin": "audio/die/niujin.mp3",
-  "ns_zanghong": "audio/die/ns_zanghong.mp3",
-  "ol_bianfuren": "audio/die/ol_bianfuren.mp3",
-  "ol_caifuren": "audio/die/ol_caifuren.mp3",
-  "ol_caiwenji": "audio/die/ol_caiwenji.mp3",
-  "ol_caochong": "audio/die/ol_caochong.mp3",
-  "ol_chendeng": "audio/die/ol_chendeng.mp3",
-  "ol_dengai": "audio/die/ol_dengai.mp3",
-  "ol_dengzhi": "audio/die/ol_dengzhi.mp3",
-  "ol_dianwei": "audio/die/ol_dianwei.mp3",
-  "ol_dingshangwan": "audio/die/ol_dingshangwan.mp3",
-  "ol_dingyuan": "audio/die/ol_dingyuan.mp3",
-  "ol_dongzhao": "audio/die/ol_dongzhao.mp3",
-  "ol_dongzhuo": "audio/die/ol_dongzhuo.mp3",
-  "ol_fazheng": "audio/die/ol_fazheng.mp3",
-  "ol_feiyi": "audio/die/ol_feiyi.mp3",
-  "ol_furong": "audio/die/ol_furong.mp3",
-  "ol_huangzhong": "audio/die/ol_huangzhong.mp3",
-  "ol_huaxin": "audio/die/ol_huaxin.mp3",
-  "ol_huban": "audio/die/ol_huban.mp3",
-  "ol_hujinding": "audio/die/ol_hujinding.mp3",
-  "ol_jiangwan": "audio/die/ol_jiangwan.mp3",
-  "ol_jiangwei": "audio/die/ol_jiangwei.mp3",
-  "ol_jsrg_caocao": "audio/die/ol_jsrg_caocao.mp3",
-  "ol_kebineng": "audio/die/ol_kebineng.mp3",
-  "ol_lisu": "audio/die/ol_lisu.mp3",
-  "ol_liuba": "audio/die/ol_liuba.mp3",
-  "ol_liupi": "audio/die/ol_liupi.mp3",
-  "ol_liushan": "audio/die/ol_liushan.mp3",
-  "ol_liwan": "audio/die/ol_liwan.mp3",
-  "ol_lukai": "audio/die/ol_lukai.mp3",
-  "ol_lusu": "audio/die/ol_lusu.mp3",
-  "ol_luyusheng": "audio/die/ol_luyusheng.mp3",
-  "ol_mengda": "audio/die/ol_mengda.mp3",
-  "ol_pangde": "audio/die/ol_pangde.mp3",
-  "ol_pangtong": "audio/die/ol_pangtong.mp3",
-  "ol_pengyang": "audio/die/ol_pengyang.mp3",
-  "ol_puyuan": "audio/die/ol_puyuan.mp3",
-  "ol_qianzhao": "audio/die/ol_qianzhao.mp3",
-  "ol_sb_guanyu": "audio/die/ol_sb_guanyu.mp3",
-  "ol_sb_jiangwei": "audio/die/ol_sb_jiangwei.mp3",
-  "ol_sb_kongrong": "audio/die/ol_sb_kongrong.mp3",
-  "ol_sb_pangtong": "audio/die/ol_sb_pangtong.mp3",
-  "ol_sb_pangtong2": "audio/die/ol_sb_pangtong2.mp3",
-  "ol_sb_pangtong3": "audio/die/ol_sb_pangtong3.mp3",
-  "ol_sb_sunjian": "audio/die/ol_sb_sunjian.mp3",
-  "ol_sb_taishici": "audio/die/ol_sb_taishici.mp3",
-  "ol_sb_yuanshao": "audio/die/ol_sb_yuanshao.mp3",
-  "ol_sb_yuanshao2": "audio/die/ol_sb_yuanshao2.mp3",
-  "ol_sp_zhugeliang": "audio/die/ol_sp_zhugeliang.mp3",
-  "ol_sunjian": "audio/die/ol_sunjian.mp3",
-  "ol_sunru": "audio/die/ol_sunru.mp3",
-  "ol_wangrong": "audio/die/ol_wangrong.mp3",
-  "ol_weiyan": "audio/die/ol_weiyan.mp3",
-  "ol_wenqin": "audio/die/ol_wenqin.mp3",
-  "ol_wuguotai": "audio/die/ol_wuguotai.mp3",
-  "ol_xiahouyuan": "audio/die/ol_xiahouyuan.mp3",
-  "ol_xiaoqiao": "audio/die/ol_xiaoqiao.mp3",
-  "ol_xuhuang": "audio/die/ol_xuhuang.mp3",
-  "ol_xunyu": "audio/die/ol_xunyu.mp3",
-  "ol_yangyi": "audio/die/ol_yangyi.mp3",
-  "ol_yanwen": "audio/die/ol_yanwen.mp3",
-  "ol_yuanshao": "audio/die/ol_yuanshao.mp3",
-  "ol_yufan": "audio/die/ol_yufan.mp3",
-  "ol_yujin": "audio/die/ol_yujin.mp3",
-  "ol_zhangchunhua": "audio/die/ol_zhangchunhua.mp3",
-  "ol_zhangzhang": "audio/die/ol_zhangzhang.mp3",
-  "ol_zhouqun": "audio/die/ol_zhouqun.mp3",
-  "ol_zhujun": "audio/die/ol_zhujun.mp3",
-  "ol_zhuling": "audio/die/ol_zhuling.mp3",
-  "ol_zhurong": "audio/die/ol_zhurong.mp3",
-  "old_guanzhang": "audio/die/old_guanzhang.mp3",
-  "old_huaxiong": "audio/die/old_huaxiong.mp3",
-  "old_madai": "audio/die/old_madai.mp3",
-  "old_maliang": "audio/die/old_maliang.mp3",
-  "old_quancong": "audio/die/old_quancong.mp3",
-  "old_wangyi": "audio/die/old_wangyi.mp3",
-  "old_zhoutai": "audio/die/old_zhoutai.mp3",
-  "old_zhuhuan": "audio/die/old_zhuhuan.mp3",
-  "panfeng": "audio/die/panfeng.mp3",
-  "pangde": "audio/die/pangde.mp3",
-  "pangdegong": "audio/die/pangdegong.mp3",
-  "panghui": "audio/die/panghui.mp3",
-  "panglingming": "audio/die/panglingming.mp3",
-  "pangshanmin": "audio/die/pangshanmin.mp3",
-  "pangtong": "audio/die/pangtong.mp3",
-  "panjun": "audio/die/panjun.mp3",
-  "panshu": "audio/die/panshu.mp3",
-  "panzhangmazhong": "audio/die/panzhangmazhong.mp3",
-  "peixiu": "audio/die/peixiu.mp3",
-  "peiyuanshao": "audio/die/peiyuanshao.mp3",
-  "puyuan": "audio/die/puyuan.mp3",
-  "qianzhao": "audio/die/qianzhao.mp3",
-  "qiaogong": "audio/die/qiaogong.mp3",
-  "qiaorui": "audio/die/qiaorui.mp3",
-  "qiaozhou": "audio/die/qiaozhou.mp3",
-  "qinghegongzhu": "audio/die/qinghegongzhu.mp3",
-  "qinlang": "audio/die/qinlang.mp3",
-  "qinmi": "audio/die/qinmi.mp3",
-  "qinyilu": "audio/die/qinyilu.mp3",
-  "qiuliju": "audio/die/qiuliju.mp3",
-  "quancong": "audio/die/quancong.mp3",
-  "quanhuijie": "audio/die/quanhuijie.mp3",
-  "quhuang": "audio/die/quhuang.mp3",
-  "quyi": "audio/die/quyi.mp3",
-  "quyuan": "audio/die/quyuan.mp3",
-  "re_bulianshi": "audio/die/re_bulianshi.mp3",
-  "re_caifuren": "audio/die/re_caifuren.mp3",
-  "re_caiwenji": "audio/die/re_caiwenji.mp3",
-  "re_caiyong": "audio/die/re_caiyong.mp3",
-  "re_caocao": "audio/die/re_caocao.mp3",
-  "re_caochong": "audio/die/re_caochong.mp3",
-  "re_caopi": "audio/die/re_caopi.mp3",
-  "re_caorui": "audio/die/re_caorui.mp3",
-  "re_caoxiu": "audio/die/re_caoxiu.mp3",
-  "re_caozhang": "audio/die/re_caozhang.mp3",
-  "re_caozhen": "audio/die/re_caozhen.mp3",
-  "re_caozhi": "audio/die/re_caozhi.mp3",
-  "re_chendeng": "audio/die/re_chendeng.mp3",
-  "re_chengong": "audio/die/re_chengong.mp3",
-  "re_chengpu": "audio/die/re_chengpu.mp3",
-  "re_chenqun": "audio/die/re_chenqun.mp3",
-  "re_chunyuqiong": "audio/die/re_chunyuqiong.mp3",
-  "re_daqiao": "audio/die/re_daqiao.mp3",
-  "re_dengai": "audio/die/re_dengai.mp3",
-  "re_dianwei": "audio/die/re_dianwei.mp3",
-  "re_diaochan": "audio/die/re_diaochan.mp3",
-  "re_dongbai": "audio/die/re_dongbai.mp3",
-  "re_dongcheng": "audio/die/re_dongcheng.mp3",
-  "re_dongzhuo": "audio/die/re_dongzhuo.mp3",
-  "re_duji": "audio/die/re_duji.mp3",
-  "re_fazheng": "audio/die/re_fazheng.mp3",
-  "re_fengfangnv": "audio/die/re_fengfangnv.mp3",
-  "re_fuhuanghou": "audio/die/re_fuhuanghou.mp3",
-  "re_ganning": "audio/die/re_ganning.mp3",
-  "re_gaoshun": "audio/die/re_gaoshun.mp3",
-  "re_gongsunyuan": "audio/die/re_gongsunyuan.mp3",
-  "re_gongsunzan": "audio/die/re_gongsunzan.mp3",
-  "re_guanping": "audio/die/re_guanping.mp3",
-  "re_guanyu": "audio/die/re_guanyu.mp3",
-  "re_guanzhang": "audio/die/re_guanzhang.mp3",
-  "re_guohuai": "audio/die/re_guohuai.mp3",
-  "re_guohuanghou": "audio/die/re_guohuanghou.mp3",
-  "re_guojia": "audio/die/re_guojia.mp3",
-  "re_guotufengji": "audio/die/re_guotufengji.mp3",
-  "re_guyong": "audio/die/re_guyong.mp3",
-  "re_handang": "audio/die/re_handang.mp3",
-  "re_hanhaoshihuan": "audio/die/re_hanhaoshihuan.mp3",
-  "re_huanggai": "audio/die/re_huanggai.mp3",
-  "re_huangyueying": "audio/die/re_huangyueying.mp3",
-  "re_huangzhong": "audio/die/re_huangzhong.mp3",
-  "re_huatuo": "audio/die/re_huatuo.mp3",
-  "re_huaxiong": "audio/die/re_huaxiong.mp3",
-  "re_hucheer": "audio/die/re_hucheer.mp3",
-  "re_jiangwei": "audio/die/re_jiangwei.mp3",
-  "re_jianyong": "audio/die/re_jianyong.mp3",
-  "re_jiaxu": "audio/die/re_jiaxu.mp3",
-  "re_jsp_huangyueying": "audio/die/re_jsp_huangyueying.mp3",
-  "re_jsp_pangtong": "audio/die/re_jsp_pangtong.mp3",
-  "re_jushou": "audio/die/re_jushou.mp3",
-  "re_liaohua": "audio/die/re_liaohua.mp3",
-  "re_lingtong": "audio/die/re_lingtong.mp3",
-  "re_liru": "audio/die/re_liru.mp3",
-  "re_liubei": "audio/die/re_liubei.mp3",
-  "re_liubiao": "audio/die/re_liubiao.mp3",
-  "re_liuchen": "audio/die/re_liuchen.mp3",
-  "re_liufeng": "audio/die/re_liufeng.mp3",
-  "re_liushan": "audio/die/re_liushan.mp3",
-  "re_liuzan": "audio/die/re_liuzan.mp3",
-  "re_lusu": "audio/die/re_lusu.mp3",
-  "re_luxun": "audio/die/re_luxun.mp3",
-  "re_lvbu": "audio/die/re_lvbu.mp3",
-  "re_lvmeng": "audio/die/re_lvmeng.mp3",
-  "re_machao": "audio/die/re_machao.mp3",
-  "re_madai": "audio/die/re_madai.mp3",
-  "re_manchong": "audio/die/re_manchong.mp3",
-  "re_masu": "audio/die/re_masu.mp3",
-  "re_mazhong": "audio/die/re_mazhong.mp3",
-  "re_menghuo": "audio/die/re_menghuo.mp3",
-  "re_miheng": "audio/die/re_miheng.mp3",
-  "re_nanhualaoxian": "audio/die/re_nanhualaoxian.mp3",
-  "re_panfeng": "audio/die/re_panfeng.mp3",
-  "re_pangde": "audio/die/re_pangde.mp3",
-  "re_pangdegong": "audio/die/re_pangdegong.mp3",
-  "re_pangtong": "audio/die/re_pangtong.mp3",
-  "re_panshu": "audio/die/re_panshu.mp3",
-  "re_panzhangmazhong": "audio/die/re_panzhangmazhong.mp3",
-  "re_quancong": "audio/die/re_quancong.mp3",
-  "re_simayi": "audio/die/re_simayi.mp3",
-  "re_sp_taishici": "audio/die/re_sp_taishici.mp3",
-  "re_sp_zhugeliang": "audio/die/re_sp_zhugeliang.mp3",
-  "re_sunben": "audio/die/re_sunben.mp3",
-  "re_sunce": "audio/die/re_sunce.mp3",
-  "re_sundeng": "audio/die/re_sundeng.mp3",
-  "re_sunjian": "audio/die/re_sunjian.mp3",
-  "re_sunluban": "audio/die/re_sunluban.mp3",
-  "re_sunquan": "audio/die/re_sunquan.mp3",
-  "re_sunshangxiang": "audio/die/re_sunshangxiang.mp3",
-  "re_sunxiu": "audio/die/re_sunxiu.mp3",
-  "re_sunyi": "audio/die/re_sunyi.mp3",
-  "re_taishici": "audio/die/re_taishici.mp3",
-  "re_taoqian": "audio/die/re_taoqian.mp3",
-  "re_wangyi": "audio/die/re_wangyi.mp3",
-  "re_weiyan": "audio/die/re_weiyan.mp3",
-  "re_wenpin": "audio/die/re_wenpin.mp3",
-  "re_wuguotai": "audio/die/re_wuguotai.mp3",
-  "re_wuyi": "audio/die/re_wuyi.mp3",
-  "re_xiahoudun": "audio/die/re_xiahoudun.mp3",
-  "re_xiahoushi": "audio/die/re_xiahoushi.mp3",
-  "re_xiahouyuan": "audio/die/re_xiahouyuan.mp3",
-  "re_xiaoqiao": "audio/die/re_xiaoqiao.mp3",
-  "re_xuhuang": "audio/die/re_xuhuang.mp3",
-  "re_xunchen": "audio/die/re_xunchen.mp3",
-  "re_xunyou": "audio/die/re_xunyou.mp3",
-  "re_xunyu": "audio/die/re_xunyu.mp3",
-  "re_xusheng": "audio/die/re_xusheng.mp3",
-  "re_xushu": "audio/die/re_xushu.mp3",
-  "re_xuzhu": "audio/die/re_xuzhu.mp3",
-  "re_yanwen": "audio/die/re_yanwen.mp3",
-  "re_yuanshu": "audio/die/re_yuanshu.mp3",
-  "re_yufan": "audio/die/re_yufan.mp3",
-  "re_yuji": "audio/die/re_yuji.mp3",
-  "re_zhangchunhua": "audio/die/re_zhangchunhua.mp3",
-  "re_zhangfei": "audio/die/re_zhangfei.mp3",
-  "re_zhanghe": "audio/die/re_zhanghe.mp3",
-  "re_zhangjiao": "audio/die/re_zhangjiao.mp3",
-  "re_zhangliang": "audio/die/re_zhangliang.mp3",
-  "re_zhangliao": "audio/die/re_zhangliao.mp3",
-  "re_zhangsong": "audio/die/re_zhangsong.mp3",
-  "re_zhangyi": "audio/die/re_zhangyi.mp3",
-  "re_zhangzhang": "audio/die/re_zhangzhang.mp3",
-  "re_zhaoyun": "audio/die/re_zhaoyun.mp3",
-  "re_zhenji": "audio/die/re_zhenji.mp3",
-  "re_zhonghui": "audio/die/re_zhonghui.mp3",
-  "re_zhongyao": "audio/die/re_zhongyao.mp3",
-  "re_zhoucang": "audio/die/re_zhoucang.mp3",
-  "re_zhouyu": "audio/die/re_zhouyu.mp3",
-  "re_zhugeliang": "audio/die/re_zhugeliang.mp3",
-  "re_zhuhuan": "audio/die/re_zhuhuan.mp3",
-  "re_zhuran": "audio/die/re_zhuran.mp3",
-  "re_zhurong": "audio/die/re_zhurong.mp3",
-  "re_zhuzhi": "audio/die/re_zhuzhi.mp3",
-  "re_zoushi": "audio/die/re_zoushi.mp3",
-  "re_zuoci": "audio/die/re_zuoci.mp3",
-  "ruanhui": "audio/die/ruanhui.mp3",
-  "ruanji": "audio/die/ruanji.mp3",
-  "ruanyu": "audio/die/ruanyu.mp3",
-  "ruiji": "audio/die/ruiji.mp3",
-  "sb_caocao": "audio/die/sb_caocao.mp3",
-  "sb_caopi": "audio/die/sb_caopi.mp3",
-  "sb_caoren": "audio/die/sb_caoren.mp3",
-  "sb_chengong": "audio/die/sb_chengong.mp3",
-  "sb_daqiao": "audio/die/sb_daqiao.mp3",
-  "sb_diaochan": "audio/die/sb_diaochan.mp3",
-  "sb_fazheng": "audio/die/sb_fazheng.mp3",
-  "sb_ganning": "audio/die/sb_ganning.mp3",
-  "sb_gaoshun": "audio/die/sb_gaoshun.mp3",
-  "sb_gongsunzan": "audio/die/sb_gongsunzan.mp3",
-  "sb_guanyu": "audio/die/sb_guanyu.mp3",
-  "sb_handang": "audio/die/sb_handang.mp3",
-  "sb_huanggai": "audio/die/sb_huanggai.mp3",
-  "sb_huangyueying": "audio/die/sb_huangyueying.mp3",
-  "sb_huangzhong": "audio/die/sb_huangzhong.mp3",
-  "sb_huaxiong": "audio/die/sb_huaxiong.mp3",
-  "sb_jiangwei": "audio/die/sb_jiangwei.mp3",
-  "sb_jiaxu": "audio/die/sb_jiaxu.mp3",
-  "sb_liubei": "audio/die/sb_liubei.mp3",
-  "sb_liubiao": "audio/die/sb_liubiao.mp3",
-  "sb_luxun": "audio/die/sb_luxun.mp3",
-  "sb_lvmeng": "audio/die/sb_lvmeng.mp3",
-  "sb_machao": "audio/die/sb_machao.mp3",
-  "sb_menghuo": "audio/die/sb_menghuo.mp3",
-  "sb_pangtong": "audio/die/sb_pangtong.mp3",
-  "sb_sp_zhugeliang": "audio/die/sb_sp_zhugeliang.mp3",
-  "sb_sunce": "audio/die/sb_sunce.mp3",
-  "sb_sunquan": "audio/die/sb_sunquan.mp3",
-  "sb_sunshangxiang": "audio/die/sb_sunshangxiang.mp3",
-  "sb_xiahoudun": "audio/die/sb_xiahoudun.mp3",
-  "sb_xiahoushi": "audio/die/sb_xiahoushi.mp3",
-  "sb_xiaoqiao": "audio/die/sb_xiaoqiao.mp3",
-  "sb_xuhuang": "audio/die/sb_xuhuang.mp3",
-  "sb_xunyu": "audio/die/sb_xunyu.mp3",
-  "sb_yl_luzhi": "audio/die/sb_yl_luzhi.mp3",
-  "sb_yuanshao": "audio/die/sb_yuanshao.mp3",
-  "sb_yujin": "audio/die/sb_yujin.mp3",
-  "sb_zhangfei": "audio/die/sb_zhangfei.mp3",
-  "sb_zhanghe": "audio/die/sb_zhanghe.mp3",
-  "sb_zhangjiao": "audio/die/sb_zhangjiao.mp3",
-  "sb_zhaoyun": "audio/die/sb_zhaoyun.mp3",
-  "sb_zhenji": "audio/die/sb_zhenji.mp3",
-  "sb_zhouyu": "audio/die/sb_zhouyu.mp3",
-  "sb_zhugejin": "audio/die/sb_zhugejin.mp3",
-  "sb_zhugeliang": "audio/die/sb_zhugeliang.mp3",
-  "sb_zhurong": "audio/die/sb_zhurong.mp3",
-  "shamoke": "audio/die/shamoke.mp3",
-  "shen_caocao": "audio/die/shen_caocao.mp3",
-  "shen_caopi": "audio/die/shen_caopi.mp3",
-  "shen_dengai": "audio/die/shen_dengai.mp3",
-  "shen_dianwei": "audio/die/shen_dianwei.mp3",
-  "shen_diaochan": "audio/die/shen_diaochan.mp3",
-  "shen_ganning": "audio/die/shen_ganning.mp3",
-  "shen_guanyu": "audio/die/shen_guanyu.mp3",
-  "shen_guojia": "audio/die/shen_guojia.mp3",
-  "shen_huangzhong": "audio/die/shen_huangzhong.mp3",
-  "shen_huatuo": "audio/die/shen_huatuo.mp3",
-  "shen_jiangwei": "audio/die/shen_jiangwei.mp3",
-  "shen_liubei": "audio/die/shen_liubei.mp3",
-  "shen_lusu": "audio/die/shen_lusu.mp3",
-  "shen_luxun": "audio/die/shen_luxun.mp3",
-  "shen_lvbu": "audio/die/shen_lvbu.mp3",
-  "shen_lvbu1": "audio/die/shen_lvbu1.mp3",
-  "shen_lvbu2": "audio/die/shen_lvbu2.mp3",
-  "shen_lvmeng": "audio/die/shen_lvmeng.mp3",
-  "shen_machao": "audio/die/shen_machao.mp3",
-  "shen_simayi": "audio/die/shen_simayi.mp3",
-  "shen_sunce": "audio/die/shen_sunce.mp3",
-  "shen_sunquan": "audio/die/shen_sunquan.mp3",
-  "shen_taishici": "audio/die/shen_taishici.mp3",
-  "shen_xunyu": "audio/die/shen_xunyu.mp3",
-  "shen_xuzhu": "audio/die/shen_xuzhu.mp3",
-  "shen_zhangfei": "audio/die/shen_zhangfei.mp3",
-  "shen_zhangjiao": "audio/die/shen_zhangjiao.mp3",
-  "shen_zhangliao": "audio/die/shen_zhangliao.mp3",
-  "shen_zhaoyun": "audio/die/shen_zhaoyun.mp3",
-  "shen_zhenji": "audio/die/shen_zhenji.mp3",
-  "shen_zhouyu": "audio/die/shen_zhouyu.mp3",
-  "shen_zhugeliang": "audio/die/shen_zhugeliang.mp3",
-  "shenpei": "audio/die/shenpei.mp3",
-  "shibao": "audio/die/shibao.mp3",
-  "shichangshi": "audio/die/shichangshi.mp3",
-  "shichangshiRest": "audio/die/shichangshiRest.mp3",
-  "shixie": "audio/die/shixie.mp3",
-  "shiyi": "audio/die/shiyi.mp3",
-  "simafu": "audio/die/simafu.mp3",
-  "simahui": "audio/die/simahui.mp3",
-  "simalang": "audio/die/simalang.mp3",
-  "simashi": "audio/die/simashi.mp3",
-  "simayi": "audio/die/simayi.mp3",
-  "simazhao": "audio/die/simazhao.mp3",
-  "simazhou": "audio/die/simazhou.mp3",
-  "sp_bianfuren": "audio/die/sp_bianfuren.mp3",
-  "sp_caiwenji": "audio/die/sp_caiwenji.mp3",
-  "sp_caohong": "audio/die/sp_caohong.mp3",
-  "sp_caoren": "audio/die/sp_caoren.mp3",
-  "sp_caosong": "audio/die/sp_caosong.mp3",
-  "sp_chendong": "audio/die/sp_chendong.mp3",
-  "sp_chenzhen": "audio/die/sp_chenzhen.mp3",
-  "sp_cuiyan": "audio/die/sp_cuiyan.mp3",
-  "sp_dongzhuo": "audio/die/sp_dongzhuo.mp3",
-  "sp_duyu": "audio/die/sp_duyu.mp3",
-  "sp_gaolan": "audio/die/sp_gaolan.mp3",
-  "sp_guanyu": "audio/die/sp_guanyu.mp3",
-  "sp_huaman": "audio/die/sp_huaman.mp3",
-  "sp_huangfusong": "audio/die/sp_huangfusong.mp3",
-  "sp_huaxin": "audio/die/sp_huaxin.mp3",
-  "sp_jianggan": "audio/die/sp_jianggan.mp3",
-  "sp_jiangqing": "audio/die/sp_jiangqing.mp3",
-  "sp_jiangwan": "audio/die/sp_jiangwan.mp3",
-  "sp_jiangwei": "audio/die/sp_jiangwei.mp3",
-  "sp_jiaxu": "audio/die/sp_jiaxu.mp3",
-  "sp_key_kanade": "audio/die/sp_key_kanade.mp3",
-  "sp_kongrong": "audio/die/sp_kongrong.mp3",
-  "sp_liuqi": "audio/die/sp_liuqi.mp3",
-  "sp_lvfan": "audio/die/sp_lvfan.mp3",
-  "sp_machao": "audio/die/sp_machao.mp3",
-  "sp_maojie": "audio/die/sp_maojie.mp3",
-  "sp_menghuo": "audio/die/sp_menghuo.mp3",
-  "sp_mifangfushiren": "audio/die/sp_mifangfushiren.mp3",
-  "sp_mifuren": "audio/die/sp_mifuren.mp3",
-  "sp_ol_zhanghe": "audio/die/sp_ol_zhanghe.mp3",
-  "sp_pangde": "audio/die/sp_pangde.mp3",
-  "sp_pangtong": "audio/die/sp_pangtong.mp3",
-  "sp_pengyang": "audio/die/sp_pengyang.mp3",
-  "sp_shenpei": "audio/die/sp_shenpei.mp3",
-  "sp_sufei": "audio/die/sp_sufei.mp3",
-  "sp_sunce": "audio/die/sp_sunce.mp3",
-  "sp_sunshangxiang": "audio/die/sp_sunshangxiang.mp3",
-  "sp_sunshao": "audio/die/sp_sunshao.mp3",
-  "sp_taishici": "audio/die/sp_taishici.mp3",
-  "sp_wangcan": "audio/die/sp_wangcan.mp3",
-  "sp_wangshuang": "audio/die/sp_wangshuang.mp3",
-  "sp_wenpin": "audio/die/sp_wenpin.mp3",
-  "sp_xiahoudun": "audio/die/sp_xiahoudun.mp3",
-  "sp_xinpi": "audio/die/sp_xinpi.mp3",
-  "sp_xujing": "audio/die/sp_xujing.mp3",
-  "sp_xunchen": "audio/die/sp_xunchen.mp3",
-  "sp_xusheng": "audio/die/sp_xusheng.mp3",
-  "sp_xuyou": "audio/die/sp_xuyou.mp3",
-  "sp_yanghu": "audio/die/sp_yanghu.mp3",
-  "sp_yangwan": "audio/die/sp_yangwan.mp3",
-  "sp_yuji": "audio/die/sp_yuji.mp3",
-  "sp_zhangchangpu": "audio/die/sp_zhangchangpu.mp3",
-  "sp_zhanghe": "audio/die/sp_zhanghe.mp3",
-  "sp_zhangjiao": "audio/die/sp_zhangjiao.mp3",
-  "sp_zhangliao": "audio/die/sp_zhangliao.mp3",
-  "sp_zhangwen": "audio/die/sp_zhangwen.mp3",
-  "sp_zhenji": "audio/die/sp_zhenji.mp3",
-  "sp_zhugeliang": "audio/die/sp_zhugeliang.mp3",
-  "sp_zhujun": "audio/die/sp_zhujun.mp3",
-  "sp_zongyu": "audio/die/sp_zongyu.mp3",
-  "st_xushu": "audio/die/st_xushu.mp3",
-  "st_yuanshu": "audio/die/st_yuanshu.mp3",
-  "star_caoren": "audio/die/star_caoren.mp3",
-  "star_dongzhuo": "audio/die/star_dongzhuo.mp3",
-  "star_sunjian": "audio/die/star_sunjian.mp3",
-  "star_sunshangxiang": "audio/die/star_sunshangxiang.mp3",
-  "star_xunyu": "audio/die/star_xunyu.mp3",
-  "star_yuanshao": "audio/die/star_yuanshao.mp3",
-  "star_yuanshu": "audio/die/star_yuanshu.mp3",
-  "star_zhangchunhua": "audio/die/star_zhangchunhua.mp3",
-  "sunce": "audio/die/sunce.mp3",
-  "sundeng": "audio/die/sundeng.mp3",
-  "sunhanhua": "audio/die/sunhanhua.mp3",
-  "sunhao": "audio/die/sunhao.mp3",
-  "sunhong": "audio/die/sunhong.mp3",
-  "sunhuan": "audio/die/sunhuan.mp3",
-  "sunjian": "audio/die/sunjian.mp3",
-  "sunlang": "audio/die/sunlang.mp3",
-  "sunli": "audio/die/sunli.mp3",
-  "sunliang": "audio/die/sunliang.mp3",
-  "sunlingluan": "audio/die/sunlingluan.mp3",
-  "sunluban": "audio/die/sunluban.mp3",
-  "sunluyu": "audio/die/sunluyu.mp3",
-  "sunqian": "audio/die/sunqian.mp3",
-  "sunquan": "audio/die/sunquan.mp3",
-  "sunru": "audio/die/sunru.mp3",
-  "sunshangxiang": "audio/die/sunshangxiang.mp3",
-  "sunshao": "audio/die/sunshao.mp3",
-  "sunwukong": "audio/die/sunwukong.mp3",
-  "sunxiu": "audio/die/sunxiu.mp3",
-  "sunyi": "audio/die/sunyi.mp3",
-  "sunyu": "audio/die/sunyu.mp3",
-  "sunziliufang": "audio/die/sunziliufang.mp3",
-  "tadun": "audio/die/tadun.mp3",
-  "taishici": "audio/die/taishici.mp3",
-  "tangji": "audio/die/tangji.mp3",
-  "taoqian": "audio/die/taoqian.mp3",
-  "taoshen": "audio/die/taoshen.mp3",
-  "tengfanglan": "audio/die/tengfanglan.mp3",
-  "tenggongzhu": "audio/die/tenggongzhu.mp3",
-  "tengyin": "audio/die/tengyin.mp3",
-  "tianchou": "audio/die/tianchou.mp3",
-  "tianfeng": "audio/die/tianfeng.mp3",
-  "tianshangyi": "audio/die/tianshangyi.mp3",
-  "tianyu": "audio/die/tianyu.mp3",
-  "tongyuan": "audio/die/tongyuan.mp3",
-  "tw_baoxin": "audio/die/tw_baoxin.mp3",
-  "tw_beimihu": "audio/die/tw_beimihu.mp3",
-  "tw_bingyuan": "audio/die/tw_bingyuan.mp3",
-  "tw_caocao": "audio/die/tw_caocao.mp3",
-  "tw_caozhao": "audio/die/tw_caozhao.mp3",
-  "tw_dongzhao": "audio/die/tw_dongzhao.mp3",
-  "tw_gexuan": "audio/die/tw_gexuan.mp3",
-  "tw_gongsunfan": "audio/die/tw_gongsunfan.mp3",
-  "tw_haomeng": "audio/die/tw_haomeng.mp3",
-  "tw_huchuquan": "audio/die/tw_huchuquan.mp3",
-  "tw_huojun": "audio/die/tw_huojun.mp3",
-  "tw_jiangji": "audio/die/tw_jiangji.mp3",
-  "tw_jiangwei": "audio/die/tw_jiangwei.mp3",
-  "tw_jianshuo": "audio/die/tw_jianshuo.mp3",
-  "tw_liubei": "audio/die/tw_liubei.mp3",
-  "tw_liufuren": "audio/die/tw_liufuren.mp3",
-  "tw_liuhong": "audio/die/tw_liuhong.mp3",
-  "tw_liwei": "audio/die/tw_liwei.mp3",
-  "tw_mateng": "audio/die/tw_mateng.mp3",
-  "tw_niufudongxie": "audio/die/tw_niufudongxie.mp3",
-  "tw_puyangxing": "audio/die/tw_puyangxing.mp3",
-  "tw_qiaorui": "audio/die/tw_qiaorui.mp3",
-  "tw_shen_guanyu": "audio/die/tw_shen_guanyu.mp3",
-  "tw_shen_lvmeng": "audio/die/tw_shen_lvmeng.mp3",
-  "tw_tianyu": "audio/die/tw_tianyu.mp3",
-  "tw_wangcan": "audio/die/tw_wangcan.mp3",
-  "tw_wangchang": "audio/die/tw_wangchang.mp3",
-  "tw_weixu": "audio/die/tw_weixu.mp3",
-  "tw_wenchou": "audio/die/tw_wenchou.mp3",
-  "tw_xiahouen": "audio/die/tw_xiahouen.mp3",
-  "tw_xiahoushang": "audio/die/tw_xiahoushang.mp3",
-  "tw_yangang": "audio/die/tw_yangang.mp3",
-  "tw_yanliang": "audio/die/tw_yanliang.mp3",
-  "tw_yanxiang": "audio/die/tw_yanxiang.mp3",
-  "tw_yuantan": "audio/die/tw_yuantan.mp3",
-  "tw_yufuluo": "audio/die/tw_yufuluo.mp3",
-  "tw_yujin": "audio/die/tw_yujin.mp3",
-  "tw_zhanghong": "audio/die/tw_zhanghong.mp3",
-  "tw_zhangji": "audio/die/tw_zhangji.mp3",
-  "tw_zhangmancheng": "audio/die/tw_zhangmancheng.mp3",
-  "tw_zhangnan": "audio/die/tw_zhangnan.mp3",
-  "tw_zhangning": "audio/die/tw_zhangning.mp3",
-  "tw_zhangzhao": "audio/die/tw_zhangzhao.mp3",
-  "vtb_xiaojiu": "audio/die/vtb_xiaojiu.mp3",
-  "vtb_xiaole": "audio/die/vtb_xiaole.mp3",
-  "vtb_xiaosha": "audio/die/vtb_xiaosha.mp3",
-  "vtb_xiaoshan": "audio/die/vtb_xiaoshan.mp3",
-  "vtb_xiaotao": "audio/die/vtb_xiaotao.mp3",
-  "wangcan": "audio/die/wangcan.mp3",
-  "wangfuzhaolei": "audio/die/wangfuzhaolei.mp3",
-  "wangguan": "audio/die/wangguan.mp3",
-  "wangji": "audio/die/wangji.mp3",
-  "wangjun": "audio/die/wangjun.mp3",
-  "wangkuang": "audio/die/wangkuang.mp3",
-  "wanglang": "audio/die/wanglang.mp3",
-  "wanglie": "audio/die/wanglie.mp3",
-  "wangling": "audio/die/wangling.mp3",
-  "wangping": "audio/die/wangping.mp3",
-  "wangrong": "audio/die/wangrong.mp3",
-  "wangshuang": "audio/die/wangshuang.mp3",
-  "wangtao": "audio/die/wangtao.mp3",
-  "wangwei": "audio/die/wangwei.mp3",
-  "wangxiang": "audio/die/wangxiang.mp3",
-  "wangyan": "audio/die/wangyan.mp3",
-  "wangyi": "audio/die/wangyi.mp3",
-  "wangyuanji": "audio/die/wangyuanji.mp3",
-  "wangyue": "audio/die/wangyue.mp3",
-  "wangyun": "audio/die/wangyun.mp3",
-  "wanniangongzhu": "audio/die/wanniangongzhu.mp3",
-  "weiguan": "audio/die/weiguan.mp3",
-  "weiwenzhugezhi": "audio/die/weiwenzhugezhi.mp3",
-  "weiyan": "audio/die/weiyan.mp3",
-  "weizi": "audio/die/weizi.mp3",
-  "wenpin": "audio/die/wenpin.mp3",
-  "wenyang": "audio/die/wenyang.mp3",
-  "wenyuan": "audio/die/wenyuan.mp3",
-  "wis_huaxiong": "audio/die/wis_huaxiong.mp3",
-  "wis_jiangwan": "audio/die/wis_jiangwan.mp3",
-  "wis_jiangwei": "audio/die/wis_jiangwei.mp3",
-  "wis_shuijing": "audio/die/wis_shuijing.mp3",
-  "wis_sunce": "audio/die/wis_sunce.mp3",
-  "wis_tianfeng": "audio/die/wis_tianfeng.mp3",
-  "wis_xuyou": "audio/die/wis_xuyou.mp3",
-  "wis_zhangzhao": "audio/die/wis_zhangzhao.mp3",
-  "wolongfengchu": "audio/die/wolongfengchu.mp3",
-  "wu_guanyu": "audio/die/wu_guanyu.mp3",
-  "wu_luxun": "audio/die/wu_luxun.mp3",
-  "wu_zhugeliang": "audio/die/wu_zhugeliang.mp3",
-  "wuanguo": "audio/die/wuanguo.mp3",
-  "wuban": "audio/die/wuban.mp3",
-  "wufan": "audio/die/wufan.mp3",
-  "wuguotai": "audio/die/wuguotai.mp3",
-  "wuhujiang": "audio/die/wuhujiang.mp3",
-  "wuhujiang2": "audio/die/wuhujiang2.mp3",
-  "wuhujiang3": "audio/die/wuhujiang3.mp3",
-  "wuhujiang4": "audio/die/wuhujiang4.mp3",
-  "wuhujiang5": "audio/die/wuhujiang5.mp3",
-  "wujing": "audio/die/wujing.mp3",
-  "wulan": "audio/die/wulan.mp3",
-  "wupu": "audio/die/wupu.mp3",
-  "wutugu": "audio/die/wutugu.mp3",
-  "wuxian": "audio/die/wuxian.mp3",
-  "wuyan": "audio/die/wuyan.mp3",
-  "wuyi": "audio/die/wuyi.mp3",
-  "xf_huangquan": "audio/die/xf_huangquan.mp3",
-  "xf_sufei": "audio/die/xf_sufei.mp3",
-  "xf_tangzi": "audio/die/xf_tangzi.mp3",
-  "xf_yiji": "audio/die/xf_yiji.mp3",
-  "xia_dianwei": "audio/die/xia_dianwei.mp3",
-  "xia_guanyu": "audio/die/xia_guanyu.mp3",
-  "xia_liubei": "audio/die/xia_liubei.mp3",
-  "xia_lusu": "audio/die/xia_lusu.mp3",
-  "xia_shie": "audio/die/xia_shie.mp3",
-  "xia_shitao": "audio/die/xia_shitao.mp3",
-  "xia_tongyuan": "audio/die/xia_tongyuan.mp3",
-  "xia_wangyue": "audio/die/xia_wangyue.mp3",
-  "xia_xiahoudun": "audio/die/xia_xiahoudun.mp3",
-  "xia_xiahousone": "audio/die/xia_xiahousone.mp3",
-  "xia_xiahouzie": "audio/die/xia_xiahouzie.mp3",
-  "xia_xushu": "audio/die/xia_xushu.mp3",
-  "xia_yuzhenzi": "audio/die/xia_yuzhenzi.mp3",
-  "xia_zhangwei": "audio/die/xia_zhangwei.mp3",
-  "xia_zhaoe": "audio/die/xia_zhaoe.mp3",
-  "xiahouba": "audio/die/xiahouba.mp3",
-  "xiahoudun": "audio/die/xiahoudun.mp3",
-  "xiahoujie": "audio/die/xiahoujie.mp3",
-  "xiahoujuan": "audio/die/xiahoujuan.mp3",
-  "xiahoulingnv": "audio/die/xiahoulingnv.mp3",
-  "xiahoumao": "audio/die/xiahoumao.mp3",
-  "xiahoushi": "audio/die/xiahoushi.mp3",
-  "xiahouxuan": "audio/die/xiahouxuan.mp3",
-  "xiahouyuan": "audio/die/xiahouyuan.mp3",
-  "xiangchong": "audio/die/xiangchong.mp3",
-  "xianglang": "audio/die/xianglang.mp3",
-  "xiangrang": "audio/die/xiangrang.mp3",
-  "xiaoqiao": "audio/die/xiaoqiao.mp3",
-  "xiaoyuehankehan": "audio/die/xiaoyuehankehan.mp3",
-  "xiaoyuehankehan2": "audio/die/xiaoyuehankehan2.mp3",
-  "xiaoyuehankehan3": "audio/die/xiaoyuehankehan3.mp3",
-  "xielingyu": "audio/die/xielingyu.mp3",
-  "xin_caifuren": "audio/die/xin_caifuren.mp3",
-  "xin_caoxiu": "audio/die/xin_caoxiu.mp3",
-  "xin_caozhang": "audio/die/xin_caozhang.mp3",
-  "xin_caozhen": "audio/die/xin_caozhen.mp3",
-  "xin_chengpu": "audio/die/xin_chengpu.mp3",
-  "xin_fazheng": "audio/die/xin_fazheng.mp3",
-  "xin_fuhuanghou": "audio/die/xin_fuhuanghou.mp3",
-  "xin_gaoshun": "audio/die/xin_gaoshun.mp3",
-  "xin_gongsunzan": "audio/die/xin_gongsunzan.mp3",
-  "xin_guohuai": "audio/die/xin_guohuai.mp3",
-  "xin_guozhao": "audio/die/xin_guozhao.mp3",
-  "xin_guyong": "audio/die/xin_guyong.mp3",
-  "xin_handang": "audio/die/xin_handang.mp3",
-  "xin_jianyong": "audio/die/xin_jianyong.mp3",
-  "xin_jushou": "audio/die/xin_jushou.mp3",
-  "xin_liaohua": "audio/die/xin_liaohua.mp3",
-  "xin_lingtong": "audio/die/xin_lingtong.mp3",
-  "xin_liubiao": "audio/die/xin_liubiao.mp3",
-  "xin_mamidi": "audio/die/xin_mamidi.mp3",
-  "xin_masu": "audio/die/xin_masu.mp3",
-  "xin_panzhangmazhong": "audio/die/xin_panzhangmazhong.mp3",
-  "xin_quancong": "audio/die/xin_quancong.mp3",
-  "xin_sunluban": "audio/die/xin_sunluban.mp3",
-  "xin_sunquan": "audio/die/xin_sunquan.mp3",
-  "xin_sunxiu": "audio/die/xin_sunxiu.mp3",
-  "xin_wuguotai": "audio/die/xin_wuguotai.mp3",
-  "xin_wuyi": "audio/die/xin_wuyi.mp3",
-  "xin_xusheng": "audio/die/xin_xusheng.mp3",
-  "xin_xushu": "audio/die/xin_xushu.mp3",
-  "xin_yuanshao": "audio/die/xin_yuanshao.mp3",
-  "xin_yufan": "audio/die/xin_yufan.mp3",
-  "xin_yuji": "audio/die/xin_yuji.mp3",
-  "xin_yujin": "audio/die/xin_yujin.mp3",
-  "xin_zhangyi": "audio/die/xin_zhangyi.mp3",
-  "xin_zhonghui": "audio/die/xin_zhonghui.mp3",
-  "xin_zhoucang": "audio/die/xin_zhoucang.mp3",
-  "xin_zhuhuan": "audio/die/xin_zhuhuan.mp3",
-  "xin_zhuran": "audio/die/xin_zhuran.mp3",
-  "xin_zhuzhi": "audio/die/xin_zhuzhi.mp3",
-  "xinchang": "audio/die/xinchang.mp3",
-  "xingdaorong": "audio/die/xingdaorong.mp3",
-  "xinpi": "audio/die/xinpi.mp3",
-  "xinping": "audio/die/xinping.mp3",
-  "xinxianying": "audio/die/xinxianying.mp3",
-  "xinzhongyong": "audio/die/xinzhongyong.mp3",
-  "xizheng": "audio/die/xizheng.mp3",
-  "xizhicai": "audio/die/xizhicai.mp3",
-  "xuangongzhu": "audio/die/xuangongzhu.mp3",
-  "xuelingyun": "audio/die/xuelingyun.mp3",
-  "xuezong": "audio/die/xuezong.mp3",
-  "xugong": "audio/die/xugong.mp3",
-  "xuhuang": "audio/die/xuhuang.mp3",
-  "xujing": "audio/die/xujing.mp3",
-  "xukun": "audio/die/xukun.mp3",
-  "xunchen": "audio/die/xunchen.mp3",
-  "xunyou": "audio/die/xunyou.mp3",
-  "xunyu": "audio/die/xunyu.mp3",
-  "xurong": "audio/die/xurong.mp3",
-  "xushao": "audio/die/xushao.mp3",
-  "xusheng": "audio/die/xusheng.mp3",
-  "xushi": "audio/die/xushi.mp3",
-  "xushu": "audio/die/xushu.mp3",
-  "xuyou": "audio/die/xuyou.mp3",
-  "xuzhu": "audio/die/xuzhu.mp3",
-  "yadan": "audio/die/yadan.mp3",
-  "yanbaihu": "audio/die/yanbaihu.mp3",
-  "yanfuren": "audio/die/yanfuren.mp3",
-  "yangbiao": "audio/die/yangbiao.mp3",
-  "yangfeng": "audio/die/yangfeng.mp3",
-  "yangfu": "audio/die/yangfu.mp3",
-  "yanghong": "audio/die/yanghong.mp3",
-  "yanghuiyu": "audio/die/yanghuiyu.mp3",
-  "yangwan": "audio/die/yangwan.mp3",
-  "yangxiu": "audio/die/yangxiu.mp3",
-  "yangyan": "audio/die/yangyan.mp3",
-  "yangyi": "audio/die/yangyi.mp3",
-  "yangzhi": "audio/die/yangzhi.mp3",
-  "yanjun": "audio/die/yanjun.mp3",
-  "yanpu": "audio/die/yanpu.mp3",
-  "yanrou": "audio/die/yanrou.mp3",
-  "yanwen": "audio/die/yanwen.mp3",
-  "yanyan": "audio/die/yanyan.mp3",
-  "yinfuren": "audio/die/yinfuren.mp3",
-  "yitianjian": "audio/die/yitianjian.mp3",
-  "yj_ganning": "audio/die/yj_ganning.mp3",
-  "yj_huangzhong": "audio/die/yj_huangzhong.mp3",
-  "yj_jushou": "audio/die/yj_jushou.mp3",
-  "yj_qiaozhou": "audio/die/yj_qiaozhou.mp3",
-  "yj_sb_guojia": "audio/die/yj_sb_guojia.mp3",
-  "yj_sb_guojia_shadow": "audio/die/yj_sb_guojia_shadow.mp3",
-  "yj_sufei": "audio/die/yj_sufei.mp3",
-  "yj_weiyan": "audio/die/yj_weiyan.mp3",
-  "yj_xuhuang": "audio/die/yj_xuhuang.mp3",
-  "yj_zhanghe": "audio/die/yj_zhanghe.mp3",
-  "yj_zhangliao": "audio/die/yj_zhangliao.mp3",
-  "yj_zhoubuyi": "audio/die/yj_zhoubuyi.mp3",
-  "yl_luzhi": "audio/die/yl_luzhi.mp3",
-  "yl_yuanshu": "audio/die/yl_yuanshu.mp3",
-  "yuanhuan": "audio/die/yuanhuan.mp3",
-  "yuanji": "audio/die/yuanji.mp3",
-  "yuanshao": "audio/die/yuanshao.mp3",
-  "yuanshu": "audio/die/yuanshu.mp3",
-  "yuantanyuanshang": "audio/die/yuantanyuanshang.mp3",
-  "yuantanyuanxiyuanshang": "audio/die/yuantanyuanxiyuanshang.mp3",
-  "yue_caiwenji": "audio/die/yue_caiwenji.mp3",
-  "yue_daqiao": "audio/die/yue_daqiao.mp3",
-  "yue_miheng": "audio/die/yue_miheng.mp3",
-  "yue_xiaoqiao": "audio/die/yue_xiaoqiao.mp3",
-  "yue_zhoufei": "audio/die/yue_zhoufei.mp3",
-  "yue_zoushi": "audio/die/yue_zoushi.mp3",
-  "yuechen": "audio/die/yuechen.mp3",
-  "yuejin": "audio/die/yuejin.mp3",
-  "yuejiu": "audio/die/yuejiu.mp3",
-  "yufan": "audio/die/yufan.mp3",
-  "yuji": "audio/die/yuji.mp3",
-  "yujin": "audio/die/yujin.mp3",
-  "yujin_yujin": "audio/die/yujin_yujin.mp3",
-  "zangba": "audio/die/zangba.mp3",
-  "zerong": "audio/die/zerong.mp3",
-  "zhangbao": "audio/die/zhangbao.mp3",
-  "zhangbu": "audio/die/zhangbu.mp3",
-  "zhangchangpu": "audio/die/zhangchangpu.mp3",
-  "zhangchu": "audio/die/zhangchu.mp3",
-  "zhangchunhua": "audio/die/zhangchunhua.mp3",
-  "zhangfei": "audio/die/zhangfei.mp3",
-  "zhangfen": "audio/die/zhangfen.mp3",
-  "zhanggong": "audio/die/zhanggong.mp3",
-  "zhanggongqi": "audio/die/zhanggongqi.mp3",
-  "zhanghe": "audio/die/zhanghe.mp3",
-  "zhangheng": "audio/die/zhangheng.mp3",
-  "zhanghu": "audio/die/zhanghu.mp3",
-  "zhanghua": "audio/die/zhanghua.mp3",
-  "zhanghuyuechen": "audio/die/zhanghuyuechen.mp3",
-  "zhangji": "audio/die/zhangji.mp3",
-  "zhangjiao": "audio/die/zhangjiao.mp3",
-  "zhangjinyun": "audio/die/zhangjinyun.mp3",
-  "zhangjunyi": "audio/die/zhangjunyi.mp3",
-  "zhangkai": "audio/die/zhangkai.mp3",
-  "zhangliao": "audio/die/zhangliao.mp3",
-  "zhangling": "audio/die/zhangling.mp3",
-  "zhanglu": "audio/die/zhanglu.mp3",
-  "zhangmiao": "audio/die/zhangmiao.mp3",
-  "zhangning": "audio/die/zhangning.mp3",
-  "zhangqiying": "audio/die/zhangqiying.mp3",
-  "zhangrang": "audio/die/zhangrang.mp3",
-  "zhangren": "audio/die/zhangren.mp3",
-  "zhangshiping": "audio/die/zhangshiping.mp3",
-  "zhangsong": "audio/die/zhangsong.mp3",
-  "zhangwen": "audio/die/zhangwen.mp3",
-  "zhangxingcai": "audio/die/zhangxingcai.mp3",
-  "zhangxiu": "audio/die/zhangxiu.mp3",
-  "zhangxuan": "audio/die/zhangxuan.mp3",
-  "zhangxun": "audio/die/zhangxun.mp3",
-  "zhangyan": "audio/die/zhangyan.mp3",
-  "zhangyao": "audio/die/zhangyao.mp3",
-  "zhangyi": "audio/die/zhangyi.mp3",
-  "zhangzhang": "audio/die/zhangzhang.mp3",
-  "zhangzhi": "audio/die/zhangzhi.mp3",
-  "zhangzhongjing": "audio/die/zhangzhongjing.mp3",
-  "zhaoang": "audio/die/zhaoang.mp3",
-  "zhaotongzhaoguang": "audio/die/zhaotongzhaoguang.mp3",
-  "zhaoxiang": "audio/die/zhaoxiang.mp3",
-  "zhaoyan": "audio/die/zhaoyan.mp3",
-  "zhaoyun": "audio/die/zhaoyun.mp3",
-  "zhaozhi": "audio/die/zhaozhi.mp3",
-  "zhaozhong": "audio/die/zhaozhong.mp3",
-  "zhenghun": "audio/die/zhenghun.mp3",
-  "zhengxuan": "audio/die/zhengxuan.mp3",
-  "zhenji": "audio/die/zhenji.mp3",
-  "zhiling": "audio/die/zhiling.mp3",
-  "zhonghui": "audio/die/zhonghui.mp3",
-  "zhongshiji": "audio/die/zhongshiji.mp3",
-  "zhongyan": "audio/die/zhongyan.mp3",
-  "zhongyao": "audio/die/zhongyao.mp3",
-  "zhoubuyi": "audio/die/zhoubuyi.mp3",
-  "zhoucang": "audio/die/zhoucang.mp3",
-  "zhouchu": "audio/die/zhouchu.mp3",
-  "zhoufang": "audio/die/zhoufang.mp3",
-  "zhoufei": "audio/die/zhoufei.mp3",
-  "zhouqun": "audio/die/zhouqun.mp3",
-  "zhoushan": "audio/die/zhoushan.mp3",
-  "zhoutai": "audio/die/zhoutai.mp3",
-  "zhouyi": "audio/die/zhouyi.mp3",
-  "zhouyu": "audio/die/zhouyu.mp3",
-  "zhugedan": "audio/die/zhugedan.mp3",
-  "zhugeguo": "audio/die/zhugeguo.mp3",
-  "zhugejin": "audio/die/zhugejin.mp3",
-  "zhugejing": "audio/die/zhugejing.mp3",
-  "zhugeke": "audio/die/zhugeke.mp3",
-  "zhugeliang": "audio/die/zhugeliang.mp3",
-  "zhugemengxue": "audio/die/zhugemengxue.mp3",
-  "zhugeruoxue": "audio/die/zhugeruoxue.mp3",
-  "zhugeshang": "audio/die/zhugeshang.mp3",
-  "zhugezhan": "audio/die/zhugezhan.mp3",
-  "zhuhuan": "audio/die/zhuhuan.mp3",
-  "zhujianping": "audio/die/zhujianping.mp3",
-  "zhujun": "audio/die/zhujun.mp3",
-  "zhuling": "audio/die/zhuling.mp3",
-  "zhupeilan": "audio/die/zhupeilan.mp3",
-  "zhuran": "audio/die/zhuran.mp3",
-  "zhurong": "audio/die/zhurong.mp3",
-  "zhutiexiong": "audio/die/zhutiexiong.mp3",
-  "zhutiexiong2": "audio/die/zhutiexiong2.mp3",
-  "zhuzhi": "audio/die/zhuzhi.mp3",
-  "zongyu": "audio/die/zongyu.mp3",
-  "zoushi": "audio/die/zoushi.mp3",
-  "zumao": "audio/die/zumao.mp3",
-  "zuoci": "audio/die/zuoci.mp3",
-  "zuofen": "audio/die/zuofen.mp3"
+  "ahuinan": {
+    "path": "audio/die/ahuinan.mp3",
+    "description": "阿会喃"
+  },
+  "bailingyun": {
+    "path": "audio/die/bailingyun.mp3",
+    "description": "柏灵筠"
+  },
+  "baosanniang": {
+    "path": "audio/die/baosanniang.mp3",
+    "description": "鲍三娘"
+  },
+  "beimihu": {
+    "path": "audio/die/beimihu.mp3",
+    "description": "卑弥呼"
+  },
+  "bianxi": {
+    "path": "audio/die/bianxi.mp3",
+    "description": "卞喜"
+  },
+  "bianyue": {
+    "path": "audio/die/bianyue.mp3",
+    "description": "卞玥"
+  },
+  "boss_lvbu2": {
+    "path": "audio/die/boss_lvbu2.mp3",
+    "description": "吕布 (Boss)"
+  },
+  "boss_lvbu3": {
+    "path": "audio/die/boss_lvbu3.mp3",
+    "description": "吕布 (Boss)"
+  },
+  "boss_wuguanwang": {
+    "path": "audio/die/boss_wuguanwang.mp3",
+    "description": ""
+  },
+  "boss_zhaoyun": {
+    "path": "audio/die/boss_zhaoyun.mp3",
+    "description": "高达一号"
+  },
+  "boss_zhuanlunwang": {
+    "path": "audio/die/boss_zhuanlunwang.mp3",
+    "description": ""
+  },
+  "bulianshi": {
+    "path": "audio/die/bulianshi.mp3",
+    "description": "步练师"
+  },
+  "buzhi": {
+    "path": "audio/die/buzhi.mp3",
+    "description": "步骘"
+  },
+  "caesar": {
+    "path": "audio/die/caesar.mp3",
+    "description": "凯撒大帝"
+  },
+  "caifuren": {
+    "path": "audio/die/caifuren.mp3",
+    "description": "蔡夫人"
+  },
+  "caimao": {
+    "path": "audio/die/caimao.mp3",
+    "description": "蔡瑁"
+  },
+  "caimaozhangyun": {
+    "path": "audio/die/caimaozhangyun.mp3",
+    "description": "蔡瑁张允"
+  },
+  "caiwenji": {
+    "path": "audio/die/caiwenji.mp3",
+    "description": "蔡琰"
+  },
+  "caiyong": {
+    "path": "audio/die/caiyong.mp3",
+    "description": "蔡邕"
+  },
+  "caizhaoji": {
+    "path": "audio/die/caizhaoji.mp3",
+    "description": "蔡琰"
+  },
+  "caizhenji": {
+    "path": "audio/die/caizhenji.mp3",
+    "description": "蔡贞姬"
+  },
+  "caoang": {
+    "path": "audio/die/caoang.mp3",
+    "description": "曹昂"
+  },
+  "caoanmin": {
+    "path": "audio/die/caoanmin.mp3",
+    "description": "曹安民"
+  },
+  "caocao": {
+    "path": "audio/die/caocao.mp3",
+    "description": "曹操"
+  },
+  "caochong": {
+    "path": "audio/die/caochong.mp3",
+    "description": "曹冲"
+  },
+  "caochun": {
+    "path": "audio/die/caochun.mp3",
+    "description": "曹纯"
+  },
+  "caofang": {
+    "path": "audio/die/caofang.mp3",
+    "description": "曹芳"
+  },
+  "caohong": {
+    "path": "audio/die/caohong.mp3",
+    "description": "曹洪"
+  },
+  "caohua": {
+    "path": "audio/die/caohua.mp3",
+    "description": "曹华"
+  },
+  "caojie": {
+    "path": "audio/die/caojie.mp3",
+    "description": "曹节"
+  },
+  "caojinyu": {
+    "path": "audio/die/caojinyu.mp3",
+    "description": "曹金玉"
+  },
+  "caomao": {
+    "path": "audio/die/caomao.mp3",
+    "description": "曹髦"
+  },
+  "caopi": {
+    "path": "audio/die/caopi.mp3",
+    "description": "曹丕"
+  },
+  "caoren": {
+    "path": "audio/die/caoren.mp3",
+    "description": "界曹仁"
+  },
+  "caorui": {
+    "path": "audio/die/caorui.mp3",
+    "description": "曹叡"
+  },
+  "caoshuang": {
+    "path": "audio/die/caoshuang.mp3",
+    "description": "曹爽"
+  },
+  "caosong": {
+    "path": "audio/die/caosong.mp3",
+    "description": "曹嵩"
+  },
+  "caoteng": {
+    "path": "audio/die/caoteng.mp3",
+    "description": "曹腾"
+  },
+  "caoxi": {
+    "path": "audio/die/caoxi.mp3",
+    "description": "曹羲"
+  },
+  "caoxian": {
+    "path": "audio/die/caoxian.mp3",
+    "description": "曹宪"
+  },
+  "caoxiancaohua": {
+    "path": "audio/die/caoxiancaohua.mp3",
+    "description": "曹宪曹华"
+  },
+  "caoxing": {
+    "path": "audio/die/caoxing.mp3",
+    "description": "曹性"
+  },
+  "caoxiu": {
+    "path": "audio/die/caoxiu.mp3",
+    "description": "曹休"
+  },
+  "caoyi": {
+    "path": "audio/die/caoyi.mp3",
+    "description": "曹轶"
+  },
+  "caoying": {
+    "path": "audio/die/caoying.mp3",
+    "description": "曹婴"
+  },
+  "caoyu": {
+    "path": "audio/die/caoyu.mp3",
+    "description": "曹宇"
+  },
+  "caozhang": {
+    "path": "audio/die/caozhang.mp3",
+    "description": "曹彰"
+  },
+  "caozhen": {
+    "path": "audio/die/caozhen.mp3",
+    "description": "曹真"
+  },
+  "caozhi": {
+    "path": "audio/die/caozhi.mp3",
+    "description": "曹植"
+  },
+  "cenhun": {
+    "path": "audio/die/cenhun.mp3",
+    "description": "岑昏"
+  },
+  "cheliji": {
+    "path": "audio/die/cheliji.mp3",
+    "description": "彻里吉"
+  },
+  "chendao": {
+    "path": "audio/die/chendao.mp3",
+    "description": "陈到"
+  },
+  "chendeng": {
+    "path": "audio/die/chendeng.mp3",
+    "description": "手杀陈登"
+  },
+  "chendong": {
+    "path": "audio/die/chendong.mp3",
+    "description": "陈武董袭"
+  },
+  "chengbing": {
+    "path": "audio/die/chengbing.mp3",
+    "description": "程秉"
+  },
+  "chengji": {
+    "path": "audio/die/chengji.mp3",
+    "description": "成济"
+  },
+  "chengjichengcui": {
+    "path": "audio/die/chengjichengcui.mp3",
+    "description": "成济成倅"
+  },
+  "chengong": {
+    "path": "audio/die/chengong.mp3",
+    "description": "陈宫"
+  },
+  "chengpu": {
+    "path": "audio/die/chengpu.mp3",
+    "description": "程普"
+  },
+  "chengui": {
+    "path": "audio/die/chengui.mp3",
+    "description": "陈珪"
+  },
+  "chengyu": {
+    "path": "audio/die/chengyu.mp3",
+    "description": "程昱"
+  },
+  "chenjiao": {
+    "path": "audio/die/chenjiao.mp3",
+    "description": "陈矫"
+  },
+  "chenlin": {
+    "path": "audio/die/chenlin.mp3",
+    "description": "陈琳"
+  },
+  "chenqun": {
+    "path": "audio/die/chenqun.mp3",
+    "description": "陈群"
+  },
+  "chenshi": {
+    "path": "audio/die/chenshi.mp3",
+    "description": "陈式"
+  },
+  "chentai": {
+    "path": "audio/die/chentai.mp3",
+    "description": "陈泰"
+  },
+  "chenwudongxi": {
+    "path": "audio/die/chenwudongxi.mp3",
+    "description": ""
+  },
+  "chunyuqiong": {
+    "path": "audio/die/chunyuqiong.mp3",
+    "description": "淳于琼"
+  },
+  "clan_hanrong": {
+    "path": "audio/die/clan_hanrong.mp3",
+    "description": "族韩融"
+  },
+  "clan_hanshao": {
+    "path": "audio/die/clan_hanshao.mp3",
+    "description": "族韩韶"
+  },
+  "clan_wanghun": {
+    "path": "audio/die/clan_wanghun.mp3",
+    "description": "族王浑"
+  },
+  "clan_wangling": {
+    "path": "audio/die/clan_wangling.mp3",
+    "description": "族王凌"
+  },
+  "clan_wanglun": {
+    "path": "audio/die/clan_wanglun.mp3",
+    "description": "族王沦"
+  },
+  "clan_wangyun": {
+    "path": "audio/die/clan_wangyun.mp3",
+    "description": "族王允"
+  },
+  "clan_wuban": {
+    "path": "audio/die/clan_wuban.mp3",
+    "description": "族吴班"
+  },
+  "clan_wukuang": {
+    "path": "audio/die/clan_wukuang.mp3",
+    "description": "族吴匡"
+  },
+  "clan_wuqiao": {
+    "path": "audio/die/clan_wuqiao.mp3",
+    "description": "族吴乔"
+  },
+  "clan_wuxian": {
+    "path": "audio/die/clan_wuxian.mp3",
+    "description": "族吴苋"
+  },
+  "clan_xuncai": {
+    "path": "audio/die/clan_xuncai.mp3",
+    "description": "族荀采"
+  },
+  "clan_xuncan": {
+    "path": "audio/die/clan_xuncan.mp3",
+    "description": "族荀粲"
+  },
+  "clan_xunchen": {
+    "path": "audio/die/clan_xunchen.mp3",
+    "description": "族荀谌"
+  },
+  "clan_xunshu": {
+    "path": "audio/die/clan_xunshu.mp3",
+    "description": "族荀淑"
+  },
+  "clan_xunyou": {
+    "path": "audio/die/clan_xunyou.mp3",
+    "description": "族荀攸"
+  },
+  "clan_zhonghui": {
+    "path": "audio/die/clan_zhonghui.mp3",
+    "description": "族钟会"
+  },
+  "clan_zhonghui2": {
+    "path": "audio/die/clan_zhonghui2.mp3",
+    "description": "族钟会"
+  },
+  "clan_zhonghui3": {
+    "path": "audio/die/clan_zhonghui3.mp3",
+    "description": "族钟会"
+  },
+  "clan_zhongyan": {
+    "path": "audio/die/clan_zhongyan.mp3",
+    "description": "族钟琰"
+  },
+  "clan_zhongyao": {
+    "path": "audio/die/clan_zhongyao.mp3",
+    "description": "族钟繇"
+  },
+  "clan_zhongyu": {
+    "path": "audio/die/clan_zhongyu.mp3",
+    "description": "族钟毓"
+  },
+  "cuimao": {
+    "path": "audio/die/cuimao.mp3",
+    "description": "崔琰毛玠"
+  },
+  "cuiyan": {
+    "path": "audio/die/cuiyan.mp3",
+    "description": "崔琰"
+  },
+  "daqiao": {
+    "path": "audio/die/daqiao.mp3",
+    "description": "大乔"
+  },
+  "daxiaoqiao": {
+    "path": "audio/die/daxiaoqiao.mp3",
+    "description": "大乔小乔"
+  },
+  "db_wenyang": {
+    "path": "audio/die/db_wenyang.mp3",
+    "description": "手杀文鸯"
+  },
+  "dc_bulianshi": {
+    "path": "audio/die/dc_bulianshi.mp3",
+    "description": "界步练师"
+  },
+  "dc_caiyang": {
+    "path": "audio/die/dc_caiyang.mp3",
+    "description": "蔡阳"
+  },
+  "dc_caoshuang": {
+    "path": "audio/die/dc_caoshuang.mp3",
+    "description": "新杀谋曹爽"
+  },
+  "dc_caozhi": {
+    "path": "audio/die/dc_caozhi.mp3",
+    "description": "界曹植"
+  },
+  "dc_chenqun": {
+    "path": "audio/die/dc_chenqun.mp3",
+    "description": "界陈群"
+  },
+  "dc_dengzhi": {
+    "path": "audio/die/dc_dengzhi.mp3",
+    "description": "D手杀邓芝"
+  },
+  "dc_dongzhao": {
+    "path": "audio/die/dc_dongzhao.mp3",
+    "description": "董昭"
+  },
+  "dc_duyu": {
+    "path": "audio/die/dc_duyu.mp3",
+    "description": "杜预"
+  },
+  "dc_gaolan": {
+    "path": "audio/die/dc_gaolan.mp3",
+    "description": "高览"
+  },
+  "dc_gongsunzan": {
+    "path": "audio/die/dc_gongsunzan.mp3",
+    "description": "新杀公孙瓒"
+  },
+  "dc_huangchengyan": {
+    "path": "audio/die/dc_huangchengyan.mp3",
+    "description": "黄承彦"
+  },
+  "dc_huanghao": {
+    "path": "audio/die/dc_huanghao.mp3",
+    "description": "新杀黄皓"
+  },
+  "dc_huangquan": {
+    "path": "audio/die/dc_huangquan.mp3",
+    "description": "黄权"
+  },
+  "dc_huangwudie": {
+    "path": "audio/die/dc_huangwudie.mp3",
+    "description": "黄舞蝶"
+  },
+  "dc_huangzu": {
+    "path": "audio/die/dc_huangzu.mp3",
+    "description": "黄祖"
+  },
+  "dc_huban": {
+    "path": "audio/die/dc_huban.mp3",
+    "description": "胡班"
+  },
+  "dc_hujinding": {
+    "path": "audio/die/dc_hujinding.mp3",
+    "description": "新杀胡金定"
+  },
+  "dc_huojun": {
+    "path": "audio/die/dc_huojun.mp3",
+    "description": "霍峻"
+  },
+  "dc_jiachong": {
+    "path": "audio/die/dc_jiachong.mp3",
+    "description": "贾充"
+  },
+  "dc_jiangji": {
+    "path": "audio/die/dc_jiangji.mp3",
+    "description": "新杀谋蒋济"
+  },
+  "dc_jiben": {
+    "path": "audio/die/dc_jiben.mp3",
+    "description": "吉本"
+  },
+  "dc_lifeng": {
+    "path": "audio/die/dc_lifeng.mp3",
+    "description": "李丰"
+  },
+  "dc_lingcao": {
+    "path": "audio/die/dc_lingcao.mp3",
+    "description": "新杀凌操"
+  },
+  "dc_liru": {
+    "path": "audio/die/dc_liru.mp3",
+    "description": "界李儒"
+  },
+  "dc_liuba": {
+    "path": "audio/die/dc_liuba.mp3",
+    "description": "刘巴"
+  },
+  "dc_liuli": {
+    "path": "audio/die/dc_liuli.mp3",
+    "description": "刘理"
+  },
+  "dc_liuye": {
+    "path": "audio/die/dc_liuye.mp3",
+    "description": "刘晔"
+  },
+  "dc_liuyu": {
+    "path": "audio/die/dc_liuyu.mp3",
+    "description": "新杀刘虞"
+  },
+  "dc_luotong": {
+    "path": "audio/die/dc_luotong.mp3",
+    "description": "骆统"
+  },
+  "dc_lvkuanglvxiang": {
+    "path": "audio/die/dc_lvkuanglvxiang.mp3",
+    "description": "吕旷吕翔"
+  },
+  "dc_mengda": {
+    "path": "audio/die/dc_mengda.mp3",
+    "description": "孟达"
+  },
+  "dc_qinghegongzhu": {
+    "path": "audio/die/dc_qinghegongzhu.mp3",
+    "description": "新杀清河公主"
+  },
+  "dc_ruiji": {
+    "path": "audio/die/dc_ruiji.mp3",
+    "description": "芮姬"
+  },
+  "dc_sb_chengyu": {
+    "path": "audio/die/dc_sb_chengyu.mp3",
+    "description": "新杀谋程昱"
+  },
+  "dc_sb_chenlin": {
+    "path": "audio/die/dc_sb_chenlin.mp3",
+    "description": "新杀谋陈琳"
+  },
+  "dc_sb_dianwei": {
+    "path": "audio/die/dc_sb_dianwei.mp3",
+    "description": "新杀谋典韦"
+  },
+  "dc_sb_guanping": {
+    "path": "audio/die/dc_sb_guanping.mp3",
+    "description": "新杀谋关平"
+  },
+  "dc_sb_huanggai": {
+    "path": "audio/die/dc_sb_huanggai.mp3",
+    "description": "新杀谋黄盖"
+  },
+  "dc_sb_hucheer": {
+    "path": "audio/die/dc_sb_hucheer.mp3",
+    "description": "新杀谋胡车儿"
+  },
+  "dc_sb_jiaxu": {
+    "path": "audio/die/dc_sb_jiaxu.mp3",
+    "description": "新杀谋贾诩"
+  },
+  "dc_sb_jiaxu_shadow": {
+    "path": "audio/die/dc_sb_jiaxu_shadow.mp3",
+    "description": "新杀谋贾诩"
+  },
+  "dc_sb_jushou": {
+    "path": "audio/die/dc_sb_jushou.mp3",
+    "description": "新杀谋沮授"
+  },
+  "dc_sb_lusu": {
+    "path": "audio/die/dc_sb_lusu.mp3",
+    "description": "新杀谋鲁肃"
+  },
+  "dc_sb_lusu_shadow": {
+    "path": "audio/die/dc_sb_lusu_shadow.mp3",
+    "description": "新杀谋鲁肃"
+  },
+  "dc_sb_simayi": {
+    "path": "audio/die/dc_sb_simayi.mp3",
+    "description": "新杀谋司马懿"
+  },
+  "dc_sb_simayi_shadow": {
+    "path": "audio/die/dc_sb_simayi_shadow.mp3",
+    "description": "新杀谋司马懿"
+  },
+  "dc_sb_zhangxiu": {
+    "path": "audio/die/dc_sb_zhangxiu.mp3",
+    "description": "新杀谋张绣"
+  },
+  "dc_sb_zhouyu": {
+    "path": "audio/die/dc_sb_zhouyu.mp3",
+    "description": "新杀谋周瑜"
+  },
+  "dc_sb_zhouyu_shadow": {
+    "path": "audio/die/dc_sb_zhouyu_shadow.mp3",
+    "description": "新杀谋周瑜"
+  },
+  "dc_sb_zhugejin": {
+    "path": "audio/die/dc_sb_zhugejin.mp3",
+    "description": "新杀谋诸葛瑾"
+  },
+  "dc_shen_huatuo": {
+    "path": "audio/die/dc_shen_huatuo.mp3",
+    "description": "神华佗"
+  },
+  "dc_simashi": {
+    "path": "audio/die/dc_simashi.mp3",
+    "description": "新杀谋司马师"
+  },
+  "dc_sp_jiaxu": {
+    "path": "audio/die/dc_sp_jiaxu.mp3",
+    "description": "新杀SP贾诩"
+  },
+  "dc_sunchen": {
+    "path": "audio/die/dc_sunchen.mp3",
+    "description": "孙綝"
+  },
+  "dc_sunhanhua": {
+    "path": "audio/die/dc_sunhanhua.mp3",
+    "description": "孙寒华"
+  },
+  "dc_sunru": {
+    "path": "audio/die/dc_sunru.mp3",
+    "description": "孙茹"
+  },
+  "dc_sunziliufang": {
+    "path": "audio/die/dc_sunziliufang.mp3",
+    "description": "新杀孙资刘放"
+  },
+  "dc_tengfanglan": {
+    "path": "audio/die/dc_tengfanglan.mp3",
+    "description": "滕芳兰"
+  },
+  "dc_wangchang": {
+    "path": "audio/die/dc_wangchang.mp3",
+    "description": "王昶"
+  },
+  "dc_wangjun": {
+    "path": "audio/die/dc_wangjun.mp3",
+    "description": "王濬"
+  },
+  "dc_wangling": {
+    "path": "audio/die/dc_wangling.mp3",
+    "description": "新杀谋王凌"
+  },
+  "dc_wangyun": {
+    "path": "audio/die/dc_wangyun.mp3",
+    "description": "新杀王允"
+  },
+  "dc_wuban": {
+    "path": "audio/die/dc_wuban.mp3",
+    "description": "吴班"
+  },
+  "dc_xujing": {
+    "path": "audio/die/dc_xujing.mp3",
+    "description": "许靖"
+  },
+  "dc_xushu": {
+    "path": "audio/die/dc_xushu.mp3",
+    "description": "新杀徐庶"
+  },
+  "dc_yangbiao": {
+    "path": "audio/die/dc_yangbiao.mp3",
+    "description": "杨彪"
+  },
+  "dc_yanghu": {
+    "path": "audio/die/dc_yanghu.mp3",
+    "description": "羊祜"
+  },
+  "dc_yuejiu": {
+    "path": "audio/die/dc_yuejiu.mp3",
+    "description": "乐就"
+  },
+  "dc_zhangmancheng": {
+    "path": "audio/die/dc_zhangmancheng.mp3",
+    "description": "张曼成"
+  },
+  "dc_zhaotongzhaoguang": {
+    "path": "audio/die/dc_zhaotongzhaoguang.mp3",
+    "description": "赵统赵广"
+  },
+  "dc_zhaoyun": {
+    "path": "audio/die/dc_zhaoyun.mp3",
+    "description": "经典神赵云"
+  },
+  "dc_zhuling": {
+    "path": "audio/die/dc_zhuling.mp3",
+    "description": "朱灵"
+  },
+  "dengai": {
+    "path": "audio/die/dengai.mp3",
+    "description": "邓艾"
+  },
+  "dengshizai": {
+    "path": "audio/die/dengshizai.mp3",
+    "description": "邓艾"
+  },
+  "dengzhi": {
+    "path": "audio/die/dengzhi.mp3",
+    "description": "手杀邓芝"
+  },
+  "dengzhong": {
+    "path": "audio/die/dengzhong.mp3",
+    "description": "邓忠"
+  },
+  "dianwei": {
+    "path": "audio/die/dianwei.mp3",
+    "description": "典韦"
+  },
+  "diaochan": {
+    "path": "audio/die/diaochan.mp3",
+    "description": "貂蝉"
+  },
+  "dingfeng": {
+    "path": "audio/die/dingfeng.mp3",
+    "description": "丁奉"
+  },
+  "dingshangwan": {
+    "path": "audio/die/dingshangwan.mp3",
+    "description": "丁尚涴"
+  },
+  "dingyuan": {
+    "path": "audio/die/dingyuan.mp3",
+    "description": "手杀丁原"
+  },
+  "dongbai": {
+    "path": "audio/die/dongbai.mp3",
+    "description": "OL董白"
+  },
+  "dongcheng": {
+    "path": "audio/die/dongcheng.mp3",
+    "description": "手杀董承"
+  },
+  "dongguiren": {
+    "path": "audio/die/dongguiren.mp3",
+    "description": "董贵人"
+  },
+  "dongtuna": {
+    "path": "audio/die/dongtuna.mp3",
+    "description": "董荼那"
+  },
+  "dongwan": {
+    "path": "audio/die/dongwan.mp3",
+    "description": "董绾"
+  },
+  "dongxie": {
+    "path": "audio/die/dongxie.mp3",
+    "description": "董翓"
+  },
+  "dongyun": {
+    "path": "audio/die/dongyun.mp3",
+    "description": "董允"
+  },
+  "dongzhao": {
+    "path": "audio/die/dongzhao.mp3",
+    "description": "OL董昭"
+  },
+  "dongzhuo": {
+    "path": "audio/die/dongzhuo.mp3",
+    "description": "董卓"
+  },
+  "duanjiong": {
+    "path": "audio/die/duanjiong.mp3",
+    "description": "段颎"
+  },
+  "duanqiaoxiao": {
+    "path": "audio/die/duanqiaoxiao.mp3",
+    "description": "段巧笑"
+  },
+  "duanwei": {
+    "path": "audio/die/duanwei.mp3",
+    "description": "段煨"
+  },
+  "dufuren": {
+    "path": "audio/die/dufuren.mp3",
+    "description": "杜夫人"
+  },
+  "duji": {
+    "path": "audio/die/duji.mp3",
+    "description": "杜畿"
+  },
+  "dukui": {
+    "path": "audio/die/dukui.mp3",
+    "description": "杜夔"
+  },
+  "duosidawang": {
+    "path": "audio/die/duosidawang.mp3",
+    "description": "朵思大王"
+  },
+  "duxi": {
+    "path": "audio/die/duxi.mp3",
+    "description": "杜袭"
+  },
+  "duyu": {
+    "path": "audio/die/duyu.mp3",
+    "description": "晋杜预"
+  },
+  "fanchou": {
+    "path": "audio/die/fanchou.mp3",
+    "description": "樊稠"
+  },
+  "fanjiangzhangda": {
+    "path": "audio/die/fanjiangzhangda.mp3",
+    "description": "范强张达"
+  },
+  "fanyufeng": {
+    "path": "audio/die/fanyufeng.mp3",
+    "description": "樊玉凤"
+  },
+  "fazheng": {
+    "path": "audio/die/fazheng.mp3",
+    "description": "旧法正"
+  },
+  "feiyao": {
+    "path": "audio/die/feiyao.mp3",
+    "description": "费曜"
+  },
+  "feiyi": {
+    "path": "audio/die/feiyi.mp3",
+    "description": "手杀费祎"
+  },
+  "fengfang": {
+    "path": "audio/die/fengfang.mp3",
+    "description": "冯方"
+  },
+  "fengfangnv": {
+    "path": "audio/die/fengfangnv.mp3",
+    "description": "OL冯妤"
+  },
+  "fengxi": {
+    "path": "audio/die/fengxi.mp3",
+    "description": "冯熙"
+  },
+  "fuhuanghou": {
+    "path": "audio/die/fuhuanghou.mp3",
+    "description": "伏寿"
+  },
+  "fuqian": {
+    "path": "audio/die/fuqian.mp3",
+    "description": "傅佥"
+  },
+  "furong": {
+    "path": "audio/die/furong.mp3",
+    "description": "手杀傅肜"
+  },
+  "furongfuqian": {
+    "path": "audio/die/furongfuqian.mp3",
+    "description": "傅肜傅佥"
+  },
+  "fuwan": {
+    "path": "audio/die/fuwan.mp3",
+    "description": "伏完"
+  },
+  "ganfuren": {
+    "path": "audio/die/ganfuren.mp3",
+    "description": "标甘夫人"
+  },
+  "ganfurenmifuren": {
+    "path": "audio/die/ganfurenmifuren.mp3",
+    "description": "甘夫人糜夫人"
+  },
+  "ganning": {
+    "path": "audio/die/ganning.mp3",
+    "description": "甘宁"
+  },
+  "gaogan": {
+    "path": "audio/die/gaogan.mp3",
+    "description": "高干"
+  },
+  "gaolan": {
+    "path": "audio/die/gaolan.mp3",
+    "description": "OL高览"
+  },
+  "gaoshun": {
+    "path": "audio/die/gaoshun.mp3",
+    "description": "高顺"
+  },
+  "gaoxiang": {
+    "path": "audio/die/gaoxiang.mp3",
+    "description": "高翔"
+  },
+  "gexuan": {
+    "path": "audio/die/gexuan.mp3",
+    "description": "葛玄"
+  },
+  "gongsundu": {
+    "path": "audio/die/gongsundu.mp3",
+    "description": "公孙度"
+  },
+  "gongsunkang": {
+    "path": "audio/die/gongsunkang.mp3",
+    "description": "公孙康"
+  },
+  "gongsunxiu": {
+    "path": "audio/die/gongsunxiu.mp3",
+    "description": "公孙修"
+  },
+  "gongsunyuan": {
+    "path": "audio/die/gongsunyuan.mp3",
+    "description": "公孙渊"
+  },
+  "gongsunzan": {
+    "path": "audio/die/gongsunzan.mp3",
+    "description": "公孙瓒"
+  },
+  "guanhai": {
+    "path": "audio/die/guanhai.mp3",
+    "description": "管亥"
+  },
+  "guanlu": {
+    "path": "audio/die/guanlu.mp3",
+    "description": "管辂"
+  },
+  "guanning": {
+    "path": "audio/die/guanning.mp3",
+    "description": "管宁"
+  },
+  "guanping": {
+    "path": "audio/die/guanping.mp3",
+    "description": "关平"
+  },
+  "guanqiujian": {
+    "path": "audio/die/guanqiujian.mp3",
+    "description": "毌丘俭"
+  },
+  "guansuo": {
+    "path": "audio/die/guansuo.mp3",
+    "description": "关索"
+  },
+  "guanyinping": {
+    "path": "audio/die/guanyinping.mp3",
+    "description": "关银屏"
+  },
+  "guanyu": {
+    "path": "audio/die/guanyu.mp3",
+    "description": "关羽"
+  },
+  "guanyue": {
+    "path": "audio/die/guanyue.mp3",
+    "description": "关樾"
+  },
+  "guanzhang": {
+    "path": "audio/die/guanzhang.mp3",
+    "description": "关兴张苞"
+  },
+  "guohuai": {
+    "path": "audio/die/guohuai.mp3",
+    "description": "郭淮"
+  },
+  "guohuanghou": {
+    "path": "audio/die/guohuanghou.mp3",
+    "description": "郭皇后"
+  },
+  "guojia": {
+    "path": "audio/die/guojia.mp3",
+    "description": "郭嘉"
+  },
+  "guosi": {
+    "path": "audio/die/guosi.mp3",
+    "description": "郭汜"
+  },
+  "guotu": {
+    "path": "audio/die/guotu.mp3",
+    "description": "郭图"
+  },
+  "guotufengji": {
+    "path": "audio/die/guotufengji.mp3",
+    "description": "郭图逢纪"
+  },
+  "guozhao": {
+    "path": "audio/die/guozhao.mp3",
+    "description": "郭照"
+  },
+  "guyong": {
+    "path": "audio/die/guyong.mp3",
+    "description": "顾雍"
+  },
+  "guzhielai": {
+    "path": "audio/die/guzhielai.mp3",
+    "description": ""
+  },
+  "gz_dc_yanghu": {
+    "path": "audio/die/gz_dc_yanghu.mp3",
+    "description": "国战羊祜"
+  },
+  "gz_dengai": {
+    "path": "audio/die/gz_dengai.mp3",
+    "description": "国战邓艾"
+  },
+  "gz_dengzhi": {
+    "path": "audio/die/gz_dengzhi.mp3",
+    "description": "国战手杀邓芝"
+  },
+  "gz_gongsunyuan": {
+    "path": "audio/die/gz_gongsunyuan.mp3",
+    "description": "国战公孙渊"
+  },
+  "gz_huangzu": {
+    "path": "audio/die/gz_huangzu.mp3",
+    "description": "黄祖"
+  },
+  "gz_jiangqing": {
+    "path": "audio/die/gz_jiangqing.mp3",
+    "description": "蒋钦"
+  },
+  "gz_jiangwei": {
+    "path": "audio/die/gz_jiangwei.mp3",
+    "description": "国战姜维"
+  },
+  "gz_jun_caocao": {
+    "path": "audio/die/gz_jun_caocao.mp3",
+    "description": "国战君曹操"
+  },
+  "gz_jun_liubei": {
+    "path": "audio/die/gz_jun_liubei.mp3",
+    "description": "国战君刘备"
+  },
+  "gz_jun_sunquan": {
+    "path": "audio/die/gz_jun_sunquan.mp3",
+    "description": "国战君孙权"
+  },
+  "gz_jun_zhangjiao": {
+    "path": "audio/die/gz_jun_zhangjiao.mp3",
+    "description": "国战君旧张角"
+  },
+  "gz_liuba": {
+    "path": "audio/die/gz_liuba.mp3",
+    "description": "国战手杀刘巴"
+  },
+  "gz_liuqi": {
+    "path": "audio/die/gz_liuqi.mp3",
+    "description": "国战刘琦"
+  },
+  "gz_lukang": {
+    "path": "audio/die/gz_lukang.mp3",
+    "description": "国战陆抗"
+  },
+  "gz_luxun": {
+    "path": "audio/die/gz_luxun.mp3",
+    "description": "国战陆逊"
+  },
+  "gz_panjun": {
+    "path": "audio/die/gz_panjun.mp3",
+    "description": "国战潘濬"
+  },
+  "gz_pengyang": {
+    "path": "audio/die/gz_pengyang.mp3",
+    "description": "国战手杀彭羕"
+  },
+  "gz_re_xushu": {
+    "path": "audio/die/gz_re_xushu.mp3",
+    "description": "徐庶"
+  },
+  "gz_shixie": {
+    "path": "audio/die/gz_shixie.mp3",
+    "description": "国战士燮"
+  },
+  "gz_simazhao": {
+    "path": "audio/die/gz_simazhao.mp3",
+    "description": "国战司马昭"
+  },
+  "gz_sunchen": {
+    "path": "audio/die/gz_sunchen.mp3",
+    "description": ""
+  },
+  "gz_tangzi": {
+    "path": "audio/die/gz_tangzi.mp3",
+    "description": "国战唐咨"
+  },
+  "gz_wenqin": {
+    "path": "audio/die/gz_wenqin.mp3",
+    "description": "国战文钦"
+  },
+  "gz_wujing": {
+    "path": "audio/die/gz_wujing.mp3",
+    "description": "国战吴景"
+  },
+  "gz_xf_sufei": {
+    "path": "audio/die/gz_xf_sufei.mp3",
+    "description": "苏飞"
+  },
+  "gz_xiahouba": {
+    "path": "audio/die/gz_xiahouba.mp3",
+    "description": "国战夏侯霸"
+  },
+  "gz_xusheng": {
+    "path": "audio/die/gz_xusheng.mp3",
+    "description": "国战徐盛"
+  },
+  "gz_xuyou": {
+    "path": "audio/die/gz_xuyou.mp3",
+    "description": "国战许攸"
+  },
+  "gz_yanbaihu": {
+    "path": "audio/die/gz_yanbaihu.mp3",
+    "description": "国战严虎"
+  },
+  "gz_yuji": {
+    "path": "audio/die/gz_yuji.mp3",
+    "description": "国战旧于吉"
+  },
+  "gz_zhanglu": {
+    "path": "audio/die/gz_zhanglu.mp3",
+    "description": "国战张鲁"
+  },
+  "gz_zhonghui": {
+    "path": "audio/die/gz_zhonghui.mp3",
+    "description": "国战钟会"
+  },
+  "gz_zhugeke": {
+    "path": "audio/die/gz_zhugeke.mp3",
+    "description": "国战诸葛恪"
+  },
+  "gz_zhuling": {
+    "path": "audio/die/gz_zhuling.mp3",
+    "description": "国战朱灵"
+  },
+  "hanba": {
+    "path": "audio/die/hanba.mp3",
+    "description": "旱魃"
+  },
+  "handang": {
+    "path": "audio/die/handang.mp3",
+    "description": "韩当"
+  },
+  "hanfu": {
+    "path": "audio/die/hanfu.mp3",
+    "description": "韩馥"
+  },
+  "hanhaoshihuan": {
+    "path": "audio/die/hanhaoshihuan.mp3",
+    "description": "韩浩史涣"
+  },
+  "hanlong": {
+    "path": "audio/die/hanlong.mp3",
+    "description": "韩龙"
+  },
+  "hanmeng": {
+    "path": "audio/die/hanmeng.mp3",
+    "description": "韩猛"
+  },
+  "hansui": {
+    "path": "audio/die/hansui.mp3",
+    "description": "韩遂"
+  },
+  "haomeng": {
+    "path": "audio/die/haomeng.mp3",
+    "description": "郝萌"
+  },
+  "haopu": {
+    "path": "audio/die/haopu.mp3",
+    "description": "郝普"
+  },
+  "haozhao": {
+    "path": "audio/die/haozhao.mp3",
+    "description": "郝昭"
+  },
+  "hejin": {
+    "path": "audio/die/hejin.mp3",
+    "description": "何进"
+  },
+  "heqi": {
+    "path": "audio/die/heqi.mp3",
+    "description": "贺齐"
+  },
+  "hetaihou": {
+    "path": "audio/die/hetaihou.mp3",
+    "description": "何太后"
+  },
+  "heyan": {
+    "path": "audio/die/heyan.mp3",
+    "description": "何晏"
+  },
+  "huaman": {
+    "path": "audio/die/huaman.mp3",
+    "description": "花鬘"
+  },
+  "huan_jiangwei": {
+    "path": "audio/die/huan_jiangwei.mp3",
+    "description": "幻姜维"
+  },
+  "huan_liushan": {
+    "path": "audio/die/huan_liushan.mp3",
+    "description": "幻刘禅"
+  },
+  "huan_luxun": {
+    "path": "audio/die/huan_luxun.mp3",
+    "description": "幻陆逊"
+  },
+  "huan_simayi": {
+    "path": "audio/die/huan_simayi.mp3",
+    "description": "幻司马懿"
+  },
+  "huan_weiyan": {
+    "path": "audio/die/huan_weiyan.mp3",
+    "description": "幻魏延"
+  },
+  "huan_zhanghe": {
+    "path": "audio/die/huan_zhanghe.mp3",
+    "description": "幻张郃"
+  },
+  "huan_zhaoyun": {
+    "path": "audio/die/huan_zhaoyun.mp3",
+    "description": "幻赵云"
+  },
+  "huan_zhugeguo": {
+    "path": "audio/die/huan_zhugeguo.mp3",
+    "description": "幻诸葛果"
+  },
+  "huan_zhugeliang": {
+    "path": "audio/die/huan_zhugeliang.mp3",
+    "description": "幻诸葛亮"
+  },
+  "huan_zhugeliang_shadow": {
+    "path": "audio/die/huan_zhugeliang_shadow.mp3",
+    "description": "幻诸葛亮"
+  },
+  "huanfan": {
+    "path": "audio/die/huanfan.mp3",
+    "description": "桓范"
+  },
+  "huangchengyan": {
+    "path": "audio/die/huangchengyan.mp3",
+    "description": "OL黄承彦"
+  },
+  "huangfusong": {
+    "path": "audio/die/huangfusong.mp3",
+    "description": "皇甫嵩"
+  },
+  "huanggai": {
+    "path": "audio/die/huanggai.mp3",
+    "description": "黄盖"
+  },
+  "huanghao": {
+    "path": "audio/die/huanghao.mp3",
+    "description": "黄皓"
+  },
+  "huangyueying": {
+    "path": "audio/die/huangyueying.mp3",
+    "description": "黄月英"
+  },
+  "huangzhong": {
+    "path": "audio/die/huangzhong.mp3",
+    "description": "旧黄忠"
+  },
+  "huangzu": {
+    "path": "audio/die/huangzu.mp3",
+    "description": "OL黄祖"
+  },
+  "huatuo": {
+    "path": "audio/die/huatuo.mp3",
+    "description": "华佗"
+  },
+  "huaxin": {
+    "path": "audio/die/huaxin.mp3",
+    "description": "华歆"
+  },
+  "huaxiong": {
+    "path": "audio/die/huaxiong.mp3",
+    "description": "华雄"
+  },
+  "hucheer": {
+    "path": "audio/die/hucheer.mp3",
+    "description": "手杀胡车儿"
+  },
+  "hujinding": {
+    "path": "audio/die/hujinding.mp3",
+    "description": "手杀胡金定"
+  },
+  "huojun": {
+    "path": "audio/die/huojun.mp3",
+    "description": "OL霍峻"
+  },
+  "huzhao": {
+    "path": "audio/die/huzhao.mp3",
+    "description": "胡昭"
+  },
+  "jiachong": {
+    "path": "audio/die/jiachong.mp3",
+    "description": "TW贾充"
+  },
+  "jiakui": {
+    "path": "audio/die/jiakui.mp3",
+    "description": "贾逵"
+  },
+  "jiangboyue": {
+    "path": "audio/die/jiangboyue.mp3",
+    "description": ""
+  },
+  "jiangfei": {
+    "path": "audio/die/jiangfei.mp3",
+    "description": "蒋琬费祎"
+  },
+  "jianggan": {
+    "path": "audio/die/jianggan.mp3",
+    "description": "蒋干"
+  },
+  "jiangqin": {
+    "path": "audio/die/jiangqin.mp3",
+    "description": "战役篇蒋钦"
+  },
+  "jiangwanfeiyi": {
+    "path": "audio/die/jiangwanfeiyi.mp3",
+    "description": "手杀费祎"
+  },
+  "jiangwei": {
+    "path": "audio/die/jiangwei.mp3",
+    "description": "姜维"
+  },
+  "jianyong": {
+    "path": "audio/die/jianyong.mp3",
+    "description": "简雍"
+  },
+  "jiawenhe": {
+    "path": "audio/die/jiawenhe.mp3",
+    "description": "贾诩"
+  },
+  "jiaxu": {
+    "path": "audio/die/jiaxu.mp3",
+    "description": "贾诩"
+  },
+  "jikang": {
+    "path": "audio/die/jikang.mp3",
+    "description": "嵇康"
+  },
+  "jiling": {
+    "path": "audio/die/jiling.mp3",
+    "description": "战役篇纪灵"
+  },
+  "jin_guohuai": {
+    "path": "audio/die/jin_guohuai.mp3",
+    "description": "郭槐"
+  },
+  "jin_jiachong": {
+    "path": "audio/die/jin_jiachong.mp3",
+    "description": "晋贾充"
+  },
+  "jin_jsrg_simazhao": {
+    "path": "audio/die/jin_jsrg_simazhao.mp3",
+    "description": "梦司马昭"
+  },
+  "jin_simashi": {
+    "path": "audio/die/jin_simashi.mp3",
+    "description": "晋司马师"
+  },
+  "jin_simayi": {
+    "path": "audio/die/jin_simayi.mp3",
+    "description": "晋司马懿"
+  },
+  "jin_simazhao": {
+    "path": "audio/die/jin_simazhao.mp3",
+    "description": "晋司马昭"
+  },
+  "jin_wangyuanji": {
+    "path": "audio/die/jin_wangyuanji.mp3",
+    "description": "晋王元姬"
+  },
+  "jin_xiahouhui": {
+    "path": "audio/die/jin_xiahouhui.mp3",
+    "description": "晋夏侯徽"
+  },
+  "jin_yanghu": {
+    "path": "audio/die/jin_yanghu.mp3",
+    "description": "晋羊祜"
+  },
+  "jin_yanghuiyu": {
+    "path": "audio/die/jin_yanghuiyu.mp3",
+    "description": "晋羊徽瑜"
+  },
+  "jin_zhangchunhua": {
+    "path": "audio/die/jin_zhangchunhua.mp3",
+    "description": "晋张春华"
+  },
+  "jin_zhouchu": {
+    "path": "audio/die/jin_zhouchu.mp3",
+    "description": "周处"
+  },
+  "jinxuandi": {
+    "path": "audio/die/jinxuandi.mp3",
+    "description": "刘协"
+  },
+  "jsp_caoren": {
+    "path": "audio/die/jsp_caoren.mp3",
+    "description": "☆SP曹仁"
+  },
+  "jsp_guanyu": {
+    "path": "audio/die/jsp_guanyu.mp3",
+    "description": "SP关羽"
+  },
+  "jsp_huangyueying": {
+    "path": "audio/die/jsp_huangyueying.mp3",
+    "description": "SP黄月英"
+  },
+  "jsrg_caocao": {
+    "path": "audio/die/jsrg_caocao.mp3",
+    "description": "梦曹操"
+  },
+  "jsrg_hejin": {
+    "path": "audio/die/jsrg_hejin.mp3",
+    "description": "起何进"
+  },
+  "jsrg_jiananfeng": {
+    "path": "audio/die/jsrg_jiananfeng.mp3",
+    "description": "兴贾南风"
+  },
+  "jsrg_limi": {
+    "path": "audio/die/jsrg_limi.mp3",
+    "description": "兴李密"
+  },
+  "jsrg_liubei": {
+    "path": "audio/die/jsrg_liubei.mp3",
+    "description": "起刘备"
+  },
+  "jsrg_liuhong": {
+    "path": "audio/die/jsrg_liuhong.mp3",
+    "description": "起刘宏"
+  },
+  "jsrg_malong": {
+    "path": "audio/die/jsrg_malong.mp3",
+    "description": "兴马隆"
+  },
+  "jsrg_simazhao": {
+    "path": "audio/die/jsrg_simazhao.mp3",
+    "description": "梦司马昭"
+  },
+  "jsrg_sunjian": {
+    "path": "audio/die/jsrg_sunjian.mp3",
+    "description": "起孙坚"
+  },
+  "jsrg_wangjun": {
+    "path": "audio/die/jsrg_wangjun.mp3",
+    "description": "兴王濬"
+  },
+  "jsrg_wangyun": {
+    "path": "audio/die/jsrg_wangyun.mp3",
+    "description": "起王允"
+  },
+  "jsrg_wenyang": {
+    "path": "audio/die/jsrg_wenyang.mp3",
+    "description": "兴文鸯"
+  },
+  "jsrg_zhugedan": {
+    "path": "audio/die/jsrg_zhugedan.mp3",
+    "description": "兴诸葛诞"
+  },
+  "junk_guanyu": {
+    "path": "audio/die/junk_guanyu.mp3",
+    "description": "旧谋关羽"
+  },
+  "kanze": {
+    "path": "audio/die/kanze.mp3",
+    "description": "OL阚泽"
+  },
+  "kebineng": {
+    "path": "audio/die/kebineng.mp3",
+    "description": "轲比能"
+  },
+  "key_abyusa": {
+    "path": "audio/die/key_abyusa.mp3",
+    "description": "游佐"
+  },
+  "key_hinata": {
+    "path": "audio/die/key_hinata.mp3",
+    "description": "日向秀树"
+  },
+  "key_hisako": {
+    "path": "audio/die/key_hisako.mp3",
+    "description": "渕田久子"
+  },
+  "key_noda": {
+    "path": "audio/die/key_noda.mp3",
+    "description": "野田"
+  },
+  "key_saya": {
+    "path": "audio/die/key_saya.mp3",
+    "description": "朱鹭户沙耶"
+  },
+  "key_shiina": {
+    "path": "audio/die/key_shiina.mp3",
+    "description": "椎名"
+  },
+  "key_shiki": {
+    "path": "audio/die/key_shiki.mp3",
+    "description": "神山识"
+  },
+  "key_shiorimiyuki": {
+    "path": "audio/die/key_shiorimiyuki.mp3",
+    "description": "关根诗织&入江美雪"
+  },
+  "key_yui": {
+    "path": "audio/die/key_yui.mp3",
+    "description": "由依"
+  },
+  "key_yuri": {
+    "path": "audio/die/key_yuri.mp3",
+    "description": "仲村由理"
+  },
+  "kongrong": {
+    "path": "audio/die/kongrong.mp3",
+    "description": "战役篇孔融"
+  },
+  "kuailiangkuaiyue": {
+    "path": "audio/die/kuailiangkuaiyue.mp3",
+    "description": "蒯良蒯越"
+  },
+  "kuaiqi": {
+    "path": "audio/die/kuaiqi.mp3",
+    "description": "蒯祺"
+  },
+  "laimin": {
+    "path": "audio/die/laimin.mp3",
+    "description": "来敏"
+  },
+  "laiyinger": {
+    "path": "audio/die/laiyinger.mp3",
+    "description": "来莺儿"
+  },
+  "leibo": {
+    "path": "audio/die/leibo.mp3",
+    "description": "雷薄"
+  },
+  "leitong": {
+    "path": "audio/die/leitong.mp3",
+    "description": "雷铜"
+  },
+  "liangxing": {
+    "path": "audio/die/liangxing.mp3",
+    "description": "梁兴"
+  },
+  "liaohua": {
+    "path": "audio/die/liaohua.mp3",
+    "description": "廖化"
+  },
+  "libai": {
+    "path": "audio/die/libai.mp3",
+    "description": "李白"
+  },
+  "libai2": {
+    "path": "audio/die/libai2.mp3",
+    "description": "李白"
+  },
+  "licaiwei": {
+    "path": "audio/die/licaiwei.mp3",
+    "description": "李采薇"
+  },
+  "licuilianzhaoquanding": {
+    "path": "audio/die/licuilianzhaoquanding.mp3",
+    "description": "李翠莲赵全定"
+  },
+  "lidian": {
+    "path": "audio/die/lidian.mp3",
+    "description": "李典"
+  },
+  "lifeng": {
+    "path": "audio/die/lifeng.mp3",
+    "description": "手杀李丰"
+  },
+  "lijue": {
+    "path": "audio/die/lijue.mp3",
+    "description": "李傕"
+  },
+  "lingcao": {
+    "path": "audio/die/lingcao.mp3",
+    "description": "凌操"
+  },
+  "linghuyu": {
+    "path": "audio/die/linghuyu.mp3",
+    "description": "令狐愚"
+  },
+  "lingju": {
+    "path": "audio/die/lingju.mp3",
+    "description": "灵雎"
+  },
+  "lingtong": {
+    "path": "audio/die/lingtong.mp3",
+    "description": "凌统"
+  },
+  "liqueguosi": {
+    "path": "audio/die/liqueguosi.mp3",
+    "description": "李傕郭汜"
+  },
+  "liru": {
+    "path": "audio/die/liru.mp3",
+    "description": "旧李儒"
+  },
+  "lisu": {
+    "path": "audio/die/lisu.mp3",
+    "description": "李肃"
+  },
+  "litong": {
+    "path": "audio/die/litong.mp3",
+    "description": "李通"
+  },
+  "liuba": {
+    "path": "audio/die/liuba.mp3",
+    "description": "手杀刘巴"
+  },
+  "liubei": {
+    "path": "audio/die/liubei.mp3",
+    "description": "刘备"
+  },
+  "liubian": {
+    "path": "audio/die/liubian.mp3",
+    "description": "刘辩"
+  },
+  "liubiao": {
+    "path": "audio/die/liubiao.mp3",
+    "description": "刘表"
+  },
+  "liuchen": {
+    "path": "audio/die/liuchen.mp3",
+    "description": "刘谌"
+  },
+  "liucheng": {
+    "path": "audio/die/liucheng.mp3",
+    "description": "谋刘赪"
+  },
+  "liuchongluojun": {
+    "path": "audio/die/liuchongluojun.mp3",
+    "description": "刘宠骆俊"
+  },
+  "liufeng": {
+    "path": "audio/die/liufeng.mp3",
+    "description": "刘封"
+  },
+  "liuhong": {
+    "path": "audio/die/liuhong.mp3",
+    "description": "刘宏"
+  },
+  "liuhui": {
+    "path": "audio/die/liuhui.mp3",
+    "description": "刘徽"
+  },
+  "liupan": {
+    "path": "audio/die/liupan.mp3",
+    "description": "刘磐"
+  },
+  "liupi": {
+    "path": "audio/die/liupi.mp3",
+    "description": "新杀刘辟"
+  },
+  "liushan": {
+    "path": "audio/die/liushan.mp3",
+    "description": "刘禅"
+  },
+  "liutan": {
+    "path": "audio/die/liutan.mp3",
+    "description": "柳婒"
+  },
+  "liuxie": {
+    "path": "audio/die/liuxie.mp3",
+    "description": "刘协"
+  },
+  "liuyan": {
+    "path": "audio/die/liuyan.mp3",
+    "description": "刘焉"
+  },
+  "liuyao": {
+    "path": "audio/die/liuyao.mp3",
+    "description": "刘繇"
+  },
+  "liuye": {
+    "path": "audio/die/liuye.mp3",
+    "description": "手杀刘晔"
+  },
+  "liuyong": {
+    "path": "audio/die/liuyong.mp3",
+    "description": "刘永"
+  },
+  "liuyu": {
+    "path": "audio/die/liuyu.mp3",
+    "description": "刘虞"
+  },
+  "liuzan": {
+    "path": "audio/die/liuzan.mp3",
+    "description": "手杀留赞"
+  },
+  "liuzhang": {
+    "path": "audio/die/liuzhang.mp3",
+    "description": "刘璋"
+  },
+  "liwan": {
+    "path": "audio/die/liwan.mp3",
+    "description": "李婉"
+  },
+  "liyan": {
+    "path": "audio/die/liyan.mp3",
+    "description": "李严"
+  },
+  "liyi": {
+    "path": "audio/die/liyi.mp3",
+    "description": "李异"
+  },
+  "liyixiejing": {
+    "path": "audio/die/liyixiejing.mp3",
+    "description": "李异谢旌"
+  },
+  "lizhaojiaobo": {
+    "path": "audio/die/lizhaojiaobo.mp3",
+    "description": "李昭焦伯"
+  },
+  "longwang": {
+    "path": "audio/die/longwang.mp3",
+    "description": "龙王"
+  },
+  "luboyan": {
+    "path": "audio/die/luboyan.mp3",
+    "description": "陆逊"
+  },
+  "luji": {
+    "path": "audio/die/luji.mp3",
+    "description": "陆绩"
+  },
+  "lukai": {
+    "path": "audio/die/lukai.mp3",
+    "description": "陆凯"
+  },
+  "lukang": {
+    "path": "audio/die/lukang.mp3",
+    "description": "陆抗"
+  },
+  "luotong": {
+    "path": "audio/die/luotong.mp3",
+    "description": "手杀骆统"
+  },
+  "luoxian": {
+    "path": "audio/die/luoxian.mp3",
+    "description": "罗宪"
+  },
+  "lushi": {
+    "path": "audio/die/lushi.mp3",
+    "description": "卢氏"
+  },
+  "lusu": {
+    "path": "audio/die/lusu.mp3",
+    "description": "旧鲁肃"
+  },
+  "luxun": {
+    "path": "audio/die/luxun.mp3",
+    "description": "陆逊"
+  },
+  "luyi": {
+    "path": "audio/die/luyi.mp3",
+    "description": "卢弈"
+  },
+  "luyusheng": {
+    "path": "audio/die/luyusheng.mp3",
+    "description": "陆郁生"
+  },
+  "luzhi": {
+    "path": "audio/die/luzhi.mp3",
+    "description": "鲁芝"
+  },
+  "lvboshe": {
+    "path": "audio/die/lvboshe.mp3",
+    "description": "吕伯奢"
+  },
+  "lvbu": {
+    "path": "audio/die/lvbu.mp3",
+    "description": "吕布"
+  },
+  "lvdai": {
+    "path": "audio/die/lvdai.mp3",
+    "description": "吕岱"
+  },
+  "lvfan": {
+    "path": "audio/die/lvfan.mp3",
+    "description": "吕范"
+  },
+  "lvkai": {
+    "path": "audio/die/lvkai.mp3",
+    "description": "吕凯"
+  },
+  "lvkuanglvxiang": {
+    "path": "audio/die/lvkuanglvxiang.mp3",
+    "description": "OL吕旷吕翔"
+  },
+  "lvlingqi": {
+    "path": "audio/die/lvlingqi.mp3",
+    "description": "吕玲绮"
+  },
+  "lvmeng": {
+    "path": "audio/die/lvmeng.mp3",
+    "description": "吕蒙"
+  },
+  "lvqian": {
+    "path": "audio/die/lvqian.mp3",
+    "description": "吕虔"
+  },
+  "machao": {
+    "path": "audio/die/machao.mp3",
+    "description": "马超"
+  },
+  "macheng": {
+    "path": "audio/die/macheng.mp3",
+    "description": "马承"
+  },
+  "madai": {
+    "path": "audio/die/madai.mp3",
+    "description": "旧马岱"
+  },
+  "majun": {
+    "path": "audio/die/majun.mp3",
+    "description": "手杀马钧"
+  },
+  "maliang": {
+    "path": "audio/die/maliang.mp3",
+    "description": "马良"
+  },
+  "malingli": {
+    "path": "audio/die/malingli.mp3",
+    "description": "马伶俐"
+  },
+  "mamidi": {
+    "path": "audio/die/mamidi.mp3",
+    "description": "马日磾"
+  },
+  "manchong": {
+    "path": "audio/die/manchong.mp3",
+    "description": "满宠"
+  },
+  "mangyachang": {
+    "path": "audio/die/mangyachang.mp3",
+    "description": "忙牙长"
+  },
+  "mateng": {
+    "path": "audio/die/mateng.mp3",
+    "description": "战役篇马腾"
+  },
+  "maxiumatie": {
+    "path": "audio/die/maxiumatie.mp3",
+    "description": "马休马铁"
+  },
+  "mayuanyi": {
+    "path": "audio/die/mayuanyi.mp3",
+    "description": "马元义"
+  },
+  "mayunlu": {
+    "path": "audio/die/mayunlu.mp3",
+    "description": "马云騄"
+  },
+  "mazhong": {
+    "path": "audio/die/mazhong.mp3",
+    "description": "马忠"
+  },
+  "mb_caomao": {
+    "path": "audio/die/mb_caomao.mp3",
+    "description": "手杀曹髦"
+  },
+  "mb_chengui": {
+    "path": "audio/die/mb_chengui.mp3",
+    "description": "手杀陈珪"
+  },
+  "mb_huban": {
+    "path": "audio/die/mb_huban.mp3",
+    "description": "手杀胡班"
+  },
+  "mb_simafu": {
+    "path": "audio/die/mb_simafu.mp3",
+    "description": "手杀司马孚"
+  },
+  "mb_simazhou": {
+    "path": "audio/die/mb_simazhou.mp3",
+    "description": "手杀司马伷"
+  },
+  "mb_sp_guanqiujian": {
+    "path": "audio/die/mb_sp_guanqiujian.mp3",
+    "description": "玄毌丘俭"
+  },
+  "mb_sp_zhenji": {
+    "path": "audio/die/mb_sp_zhenji.mp3",
+    "description": "手杀SP甄宓"
+  },
+  "mb_wangjing": {
+    "path": "audio/die/mb_wangjing.mp3",
+    "description": "王经"
+  },
+  "mb_wenqin": {
+    "path": "audio/die/mb_wenqin.mp3",
+    "description": "玄文钦"
+  },
+  "mb_xianglang": {
+    "path": "audio/die/mb_xianglang.mp3",
+    "description": "手杀向朗"
+  },
+  "mb_zhangfen": {
+    "path": "audio/die/mb_zhangfen.mp3",
+    "description": "手杀张奋"
+  },
+  "mengda": {
+    "path": "audio/die/mengda.mp3",
+    "description": "OL孟达"
+  },
+  "menghuo": {
+    "path": "audio/die/menghuo.mp3",
+    "description": "孟获"
+  },
+  "mengjie": {
+    "path": "audio/die/mengjie.mp3",
+    "description": "孟节"
+  },
+  "mengyou": {
+    "path": "audio/die/mengyou.mp3",
+    "description": "孟优"
+  },
+  "mifangfushiren": {
+    "path": "audio/die/mifangfushiren.mp3",
+    "description": ""
+  },
+  "mifuren": {
+    "path": "audio/die/mifuren.mp3",
+    "description": "糜夫人"
+  },
+  "miheng": {
+    "path": "audio/die/miheng.mp3",
+    "description": "手杀祢衡"
+  },
+  "mizhu": {
+    "path": "audio/die/mizhu.mp3",
+    "description": "糜竺"
+  },
+  "mp_liuling": {
+    "path": "audio/die/mp_liuling.mp3",
+    "description": "刘伶"
+  },
+  "mp_wangrong": {
+    "path": "audio/die/mp_wangrong.mp3",
+    "description": "王戎"
+  },
+  "muludawang": {
+    "path": "audio/die/muludawang.mp3",
+    "description": "木鹿大王"
+  },
+  "mushun": {
+    "path": "audio/die/mushun.mp3",
+    "description": "穆顺"
+  },
+  "nanhualaoxian": {
+    "path": "audio/die/nanhualaoxian.mp3",
+    "description": "手杀南华老仙"
+  },
+  "nashime": {
+    "path": "audio/die/nashime.mp3",
+    "description": "难升米"
+  },
+  "neo_xuchu": {
+    "path": "audio/die/neo_xuchu.mp3",
+    "description": "许褚 (Neo)"
+  },
+  "neo_zhouyu": {
+    "path": "audio/die/neo_zhouyu.mp3",
+    "description": "周瑜 (Neo)"
+  },
+  "new_caoren": {
+    "path": "audio/die/new_caoren.mp3",
+    "description": "旧曹仁"
+  },
+  "new_simayi": {
+    "path": "audio/die/new_simayi.mp3",
+    "description": "应天神司马懿"
+  },
+  "nezha": {
+    "path": "audio/die/nezha.mp3",
+    "description": "哪吒"
+  },
+  "niufu": {
+    "path": "audio/die/niufu.mp3",
+    "description": "牛辅"
+  },
+  "niujin": {
+    "path": "audio/die/niujin.mp3",
+    "description": "牛金"
+  },
+  "ns_zanghong": {
+    "path": "audio/die/ns_zanghong.mp3",
+    "description": "臧洪"
+  },
+  "ol_bianfuren": {
+    "path": "audio/die/ol_bianfuren.mp3",
+    "description": "卞夫人"
+  },
+  "ol_caifuren": {
+    "path": "audio/die/ol_caifuren.mp3",
+    "description": "OL界蔡夫人"
+  },
+  "ol_caiwenji": {
+    "path": "audio/die/ol_caiwenji.mp3",
+    "description": "界蔡琰"
+  },
+  "ol_caochong": {
+    "path": "audio/die/ol_caochong.mp3",
+    "description": "OL界曹冲"
+  },
+  "ol_chendeng": {
+    "path": "audio/die/ol_chendeng.mp3",
+    "description": "OL陈登"
+  },
+  "ol_dengai": {
+    "path": "audio/die/ol_dengai.mp3",
+    "description": "界邓艾"
+  },
+  "ol_dengzhi": {
+    "path": "audio/die/ol_dengzhi.mp3",
+    "description": "OL邓芝"
+  },
+  "ol_dianwei": {
+    "path": "audio/die/ol_dianwei.mp3",
+    "description": "界典韦"
+  },
+  "ol_dingshangwan": {
+    "path": "audio/die/ol_dingshangwan.mp3",
+    "description": "OL丁尚涴"
+  },
+  "ol_dingyuan": {
+    "path": "audio/die/ol_dingyuan.mp3",
+    "description": "丁原"
+  },
+  "ol_dongzhao": {
+    "path": "audio/die/ol_dongzhao.mp3",
+    "description": "OL董昭"
+  },
+  "ol_dongzhuo": {
+    "path": "audio/die/ol_dongzhuo.mp3",
+    "description": "界董卓"
+  },
+  "ol_fazheng": {
+    "path": "audio/die/ol_fazheng.mp3",
+    "description": "OL界法正"
+  },
+  "ol_feiyi": {
+    "path": "audio/die/ol_feiyi.mp3",
+    "description": "费祎"
+  },
+  "ol_furong": {
+    "path": "audio/die/ol_furong.mp3",
+    "description": "傅肜"
+  },
+  "ol_huangzhong": {
+    "path": "audio/die/ol_huangzhong.mp3",
+    "description": "界黄忠"
+  },
+  "ol_huaxin": {
+    "path": "audio/die/ol_huaxin.mp3",
+    "description": "OL华歆"
+  },
+  "ol_huban": {
+    "path": "audio/die/ol_huban.mp3",
+    "description": "OL胡班"
+  },
+  "ol_hujinding": {
+    "path": "audio/die/ol_hujinding.mp3",
+    "description": "胡金定"
+  },
+  "ol_jiangwan": {
+    "path": "audio/die/ol_jiangwan.mp3",
+    "description": "蒋琬"
+  },
+  "ol_jiangwei": {
+    "path": "audio/die/ol_jiangwei.mp3",
+    "description": "界姜维"
+  },
+  "ol_jsrg_caocao": {
+    "path": "audio/die/ol_jsrg_caocao.mp3",
+    "description": "忠曹操"
+  },
+  "ol_kebineng": {
+    "path": "audio/die/ol_kebineng.mp3",
+    "description": "OL轲比能"
+  },
+  "ol_lisu": {
+    "path": "audio/die/ol_lisu.mp3",
+    "description": "OL李肃"
+  },
+  "ol_liuba": {
+    "path": "audio/die/ol_liuba.mp3",
+    "description": "OL刘巴"
+  },
+  "ol_liupi": {
+    "path": "audio/die/ol_liupi.mp3",
+    "description": "刘辟"
+  },
+  "ol_liushan": {
+    "path": "audio/die/ol_liushan.mp3",
+    "description": "界刘禅"
+  },
+  "ol_liwan": {
+    "path": "audio/die/ol_liwan.mp3",
+    "description": "OL李婉"
+  },
+  "ol_lukai": {
+    "path": "audio/die/ol_lukai.mp3",
+    "description": "OL陆凯"
+  },
+  "ol_lusu": {
+    "path": "audio/die/ol_lusu.mp3",
+    "description": "界鲁肃"
+  },
+  "ol_luyusheng": {
+    "path": "audio/die/ol_luyusheng.mp3",
+    "description": "OL陆郁生"
+  },
+  "ol_mengda": {
+    "path": "audio/die/ol_mengda.mp3",
+    "description": "OL孟达"
+  },
+  "ol_pangde": {
+    "path": "audio/die/ol_pangde.mp3",
+    "description": "界庞德"
+  },
+  "ol_pangtong": {
+    "path": "audio/die/ol_pangtong.mp3",
+    "description": "界庞统"
+  },
+  "ol_pengyang": {
+    "path": "audio/die/ol_pengyang.mp3",
+    "description": "彭羕"
+  },
+  "ol_puyuan": {
+    "path": "audio/die/ol_puyuan.mp3",
+    "description": "OL蒲元"
+  },
+  "ol_qianzhao": {
+    "path": "audio/die/ol_qianzhao.mp3",
+    "description": "牵招"
+  },
+  "ol_sb_guanyu": {
+    "path": "audio/die/ol_sb_guanyu.mp3",
+    "description": "OL谋关羽"
+  },
+  "ol_sb_jiangwei": {
+    "path": "audio/die/ol_sb_jiangwei.mp3",
+    "description": "OL谋姜维"
+  },
+  "ol_sb_kongrong": {
+    "path": "audio/die/ol_sb_kongrong.mp3",
+    "description": "OL谋孔融"
+  },
+  "ol_sb_pangtong": {
+    "path": "audio/die/ol_sb_pangtong.mp3",
+    "description": "OL谋庞统"
+  },
+  "ol_sb_pangtong2": {
+    "path": "audio/die/ol_sb_pangtong2.mp3",
+    "description": "OL谋庞统"
+  },
+  "ol_sb_pangtong3": {
+    "path": "audio/die/ol_sb_pangtong3.mp3",
+    "description": "OL谋庞统"
+  },
+  "ol_sb_sunjian": {
+    "path": "audio/die/ol_sb_sunjian.mp3",
+    "description": "OL谋孙坚"
+  },
+  "ol_sb_taishici": {
+    "path": "audio/die/ol_sb_taishici.mp3",
+    "description": "OL谋太史慈"
+  },
+  "ol_sb_yuanshao": {
+    "path": "audio/die/ol_sb_yuanshao.mp3",
+    "description": "OL谋袁绍"
+  },
+  "ol_sb_yuanshao2": {
+    "path": "audio/die/ol_sb_yuanshao2.mp3",
+    "description": "OL谋袁绍"
+  },
+  "ol_sp_zhugeliang": {
+    "path": "audio/die/ol_sp_zhugeliang.mp3",
+    "description": "界卧龙"
+  },
+  "ol_sunjian": {
+    "path": "audio/die/ol_sunjian.mp3",
+    "description": "界孙坚"
+  },
+  "ol_sunru": {
+    "path": "audio/die/ol_sunru.mp3",
+    "description": "OL孙茹"
+  },
+  "ol_wangrong": {
+    "path": "audio/die/ol_wangrong.mp3",
+    "description": "OL王荣"
+  },
+  "ol_weiyan": {
+    "path": "audio/die/ol_weiyan.mp3",
+    "description": "界魏延"
+  },
+  "ol_wenqin": {
+    "path": "audio/die/ol_wenqin.mp3",
+    "description": "文钦"
+  },
+  "ol_wuguotai": {
+    "path": "audio/die/ol_wuguotai.mp3",
+    "description": "OL界吴国太"
+  },
+  "ol_xiahouyuan": {
+    "path": "audio/die/ol_xiahouyuan.mp3",
+    "description": "界夏侯渊"
+  },
+  "ol_xiaoqiao": {
+    "path": "audio/die/ol_xiaoqiao.mp3",
+    "description": "界小乔"
+  },
+  "ol_xuhuang": {
+    "path": "audio/die/ol_xuhuang.mp3",
+    "description": "界徐晃"
+  },
+  "ol_xunyu": {
+    "path": "audio/die/ol_xunyu.mp3",
+    "description": "界荀彧"
+  },
+  "ol_yangyi": {
+    "path": "audio/die/ol_yangyi.mp3",
+    "description": "杨仪"
+  },
+  "ol_yanwen": {
+    "path": "audio/die/ol_yanwen.mp3",
+    "description": "界颜良文丑"
+  },
+  "ol_yuanshao": {
+    "path": "audio/die/ol_yuanshao.mp3",
+    "description": "界袁绍"
+  },
+  "ol_yufan": {
+    "path": "audio/die/ol_yufan.mp3",
+    "description": "OL界虞翻"
+  },
+  "ol_yujin": {
+    "path": "audio/die/ol_yujin.mp3",
+    "description": "手杀界于禁"
+  },
+  "ol_zhangchunhua": {
+    "path": "audio/die/ol_zhangchunhua.mp3",
+    "description": "OL界张春华"
+  },
+  "ol_zhangzhang": {
+    "path": "audio/die/ol_zhangzhang.mp3",
+    "description": "界张昭张纮"
+  },
+  "ol_zhouqun": {
+    "path": "audio/die/ol_zhouqun.mp3",
+    "description": "周群"
+  },
+  "ol_zhujun": {
+    "path": "audio/die/ol_zhujun.mp3",
+    "description": "OL朱儁"
+  },
+  "ol_zhuling": {
+    "path": "audio/die/ol_zhuling.mp3",
+    "description": "OL朱灵"
+  },
+  "ol_zhurong": {
+    "path": "audio/die/ol_zhurong.mp3",
+    "description": "界祝融"
+  },
+  "old_guanzhang": {
+    "path": "audio/die/old_guanzhang.mp3",
+    "description": "旧关兴张苞"
+  },
+  "old_huaxiong": {
+    "path": "audio/die/old_huaxiong.mp3",
+    "description": "将华雄"
+  },
+  "old_madai": {
+    "path": "audio/die/old_madai.mp3",
+    "description": "马岱"
+  },
+  "old_maliang": {
+    "path": "audio/die/old_maliang.mp3",
+    "description": "旧马良"
+  },
+  "old_quancong": {
+    "path": "audio/die/old_quancong.mp3",
+    "description": "TW全琮"
+  },
+  "old_wangyi": {
+    "path": "audio/die/old_wangyi.mp3",
+    "description": "旧王异"
+  },
+  "old_zhoutai": {
+    "path": "audio/die/old_zhoutai.mp3",
+    "description": "周泰"
+  },
+  "old_zhuhuan": {
+    "path": "audio/die/old_zhuhuan.mp3",
+    "description": "旧朱桓"
+  },
+  "panfeng": {
+    "path": "audio/die/panfeng.mp3",
+    "description": "旧潘凤"
+  },
+  "pangde": {
+    "path": "audio/die/pangde.mp3",
+    "description": "旧庞德"
+  },
+  "pangdegong": {
+    "path": "audio/die/pangdegong.mp3",
+    "description": "手杀庞德公"
+  },
+  "panghui": {
+    "path": "audio/die/panghui.mp3",
+    "description": "庞会"
+  },
+  "panglingming": {
+    "path": "audio/die/panglingming.mp3",
+    "description": "旧庞德"
+  },
+  "pangshanmin": {
+    "path": "audio/die/pangshanmin.mp3",
+    "description": "庞山民"
+  },
+  "pangtong": {
+    "path": "audio/die/pangtong.mp3",
+    "description": "庞统"
+  },
+  "panjun": {
+    "path": "audio/die/panjun.mp3",
+    "description": "潘濬"
+  },
+  "panshu": {
+    "path": "audio/die/panshu.mp3",
+    "description": "OL潘淑"
+  },
+  "panzhangmazhong": {
+    "path": "audio/die/panzhangmazhong.mp3",
+    "description": "潘璋马忠"
+  },
+  "peixiu": {
+    "path": "audio/die/peixiu.mp3",
+    "description": "手杀裴秀"
+  },
+  "peiyuanshao": {
+    "path": "audio/die/peiyuanshao.mp3",
+    "description": "裴元绍"
+  },
+  "puyuan": {
+    "path": "audio/die/puyuan.mp3",
+    "description": "蒲元"
+  },
+  "qianzhao": {
+    "path": "audio/die/qianzhao.mp3",
+    "description": "手杀牵招"
+  },
+  "qiaogong": {
+    "path": "audio/die/qiaogong.mp3",
+    "description": "桥公"
+  },
+  "qiaorui": {
+    "path": "audio/die/qiaorui.mp3",
+    "description": "桥蕤"
+  },
+  "qiaozhou": {
+    "path": "audio/die/qiaozhou.mp3",
+    "description": "手杀谯周"
+  },
+  "qinghegongzhu": {
+    "path": "audio/die/qinghegongzhu.mp3",
+    "description": "清河公主"
+  },
+  "qinlang": {
+    "path": "audio/die/qinlang.mp3",
+    "description": "秦朗"
+  },
+  "qinmi": {
+    "path": "audio/die/qinmi.mp3",
+    "description": "秦宓"
+  },
+  "qinyilu": {
+    "path": "audio/die/qinyilu.mp3",
+    "description": "秦宜禄"
+  },
+  "qiuliju": {
+    "path": "audio/die/qiuliju.mp3",
+    "description": "丘力居"
+  },
+  "quancong": {
+    "path": "audio/die/quancong.mp3",
+    "description": "全琮"
+  },
+  "quanhuijie": {
+    "path": "audio/die/quanhuijie.mp3",
+    "description": "全惠解"
+  },
+  "quhuang": {
+    "path": "audio/die/quhuang.mp3",
+    "description": "屈晃"
+  },
+  "quyi": {
+    "path": "audio/die/quyi.mp3",
+    "description": "麴义"
+  },
+  "quyuan": {
+    "path": "audio/die/quyuan.mp3",
+    "description": "屈原"
+  },
+  "re_bulianshi": {
+    "path": "audio/die/re_bulianshi.mp3",
+    "description": "手杀界步练师"
+  },
+  "re_caifuren": {
+    "path": "audio/die/re_caifuren.mp3",
+    "description": "界蔡夫人"
+  },
+  "re_caiwenji": {
+    "path": "audio/die/re_caiwenji.mp3",
+    "description": "手杀界蔡琰"
+  },
+  "re_caiyong": {
+    "path": "audio/die/re_caiyong.mp3",
+    "description": "界蔡邕"
+  },
+  "re_caocao": {
+    "path": "audio/die/re_caocao.mp3",
+    "description": "界曹操"
+  },
+  "re_caochong": {
+    "path": "audio/die/re_caochong.mp3",
+    "description": "界曹冲"
+  },
+  "re_caopi": {
+    "path": "audio/die/re_caopi.mp3",
+    "description": "界曹丕"
+  },
+  "re_caorui": {
+    "path": "audio/die/re_caorui.mp3",
+    "description": "界曹叡"
+  },
+  "re_caoxiu": {
+    "path": "audio/die/re_caoxiu.mp3",
+    "description": "界曹休"
+  },
+  "re_caozhang": {
+    "path": "audio/die/re_caozhang.mp3",
+    "description": "界曹彰"
+  },
+  "re_caozhen": {
+    "path": "audio/die/re_caozhen.mp3",
+    "description": "界曹真"
+  },
+  "re_caozhi": {
+    "path": "audio/die/re_caozhi.mp3",
+    "description": "手杀界曹植"
+  },
+  "re_chendeng": {
+    "path": "audio/die/re_chendeng.mp3",
+    "description": "陈登"
+  },
+  "re_chengong": {
+    "path": "audio/die/re_chengong.mp3",
+    "description": "界陈宫"
+  },
+  "re_chengpu": {
+    "path": "audio/die/re_chengpu.mp3",
+    "description": "界程普"
+  },
+  "re_chenqun": {
+    "path": "audio/die/re_chenqun.mp3",
+    "description": "手杀界陈群"
+  },
+  "re_chunyuqiong": {
+    "path": "audio/die/re_chunyuqiong.mp3",
+    "description": "淳于琼"
+  },
+  "re_daqiao": {
+    "path": "audio/die/re_daqiao.mp3",
+    "description": "界大乔"
+  },
+  "re_dengai": {
+    "path": "audio/die/re_dengai.mp3",
+    "description": "手杀界邓艾"
+  },
+  "re_dianwei": {
+    "path": "audio/die/re_dianwei.mp3",
+    "description": "手杀界典韦"
+  },
+  "re_diaochan": {
+    "path": "audio/die/re_diaochan.mp3",
+    "description": "界貂蝉"
+  },
+  "re_dongbai": {
+    "path": "audio/die/re_dongbai.mp3",
+    "description": "董白"
+  },
+  "re_dongcheng": {
+    "path": "audio/die/re_dongcheng.mp3",
+    "description": "董承"
+  },
+  "re_dongzhuo": {
+    "path": "audio/die/re_dongzhuo.mp3",
+    "description": "手杀界董卓"
+  },
+  "re_duji": {
+    "path": "audio/die/re_duji.mp3",
+    "description": "界杜畿"
+  },
+  "re_fazheng": {
+    "path": "audio/die/re_fazheng.mp3",
+    "description": "界法正"
+  },
+  "re_fengfangnv": {
+    "path": "audio/die/re_fengfangnv.mp3",
+    "description": "冯妤"
+  },
+  "re_fuhuanghou": {
+    "path": "audio/die/re_fuhuanghou.mp3",
+    "description": "界伏寿"
+  },
+  "re_ganning": {
+    "path": "audio/die/re_ganning.mp3",
+    "description": "界甘宁"
+  },
+  "re_gaoshun": {
+    "path": "audio/die/re_gaoshun.mp3",
+    "description": "手杀界高顺"
+  },
+  "re_gongsunyuan": {
+    "path": "audio/die/re_gongsunyuan.mp3",
+    "description": "界公孙渊"
+  },
+  "re_gongsunzan": {
+    "path": "audio/die/re_gongsunzan.mp3",
+    "description": "界公孙瓒"
+  },
+  "re_guanping": {
+    "path": "audio/die/re_guanping.mp3",
+    "description": "界关平"
+  },
+  "re_guanyu": {
+    "path": "audio/die/re_guanyu.mp3",
+    "description": "界关羽"
+  },
+  "re_guanzhang": {
+    "path": "audio/die/re_guanzhang.mp3",
+    "description": "界关兴张苞"
+  },
+  "re_guohuai": {
+    "path": "audio/die/re_guohuai.mp3",
+    "description": "界郭淮"
+  },
+  "re_guohuanghou": {
+    "path": "audio/die/re_guohuanghou.mp3",
+    "description": "界郭皇后"
+  },
+  "re_guojia": {
+    "path": "audio/die/re_guojia.mp3",
+    "description": "界郭嘉"
+  },
+  "re_guotufengji": {
+    "path": "audio/die/re_guotufengji.mp3",
+    "description": "界郭图逢纪"
+  },
+  "re_guyong": {
+    "path": "audio/die/re_guyong.mp3",
+    "description": "界顾雍"
+  },
+  "re_handang": {
+    "path": "audio/die/re_handang.mp3",
+    "description": "手杀界韩当"
+  },
+  "re_hanhaoshihuan": {
+    "path": "audio/die/re_hanhaoshihuan.mp3",
+    "description": "界韩浩史涣"
+  },
+  "re_huanggai": {
+    "path": "audio/die/re_huanggai.mp3",
+    "description": "界黄盖"
+  },
+  "re_huangyueying": {
+    "path": "audio/die/re_huangyueying.mp3",
+    "description": "界黄月英"
+  },
+  "re_huangzhong": {
+    "path": "audio/die/re_huangzhong.mp3",
+    "description": "黄忠"
+  },
+  "re_huatuo": {
+    "path": "audio/die/re_huatuo.mp3",
+    "description": "界华佗"
+  },
+  "re_huaxiong": {
+    "path": "audio/die/re_huaxiong.mp3",
+    "description": "界华雄"
+  },
+  "re_hucheer": {
+    "path": "audio/die/re_hucheer.mp3",
+    "description": "胡车儿"
+  },
+  "re_jiangwei": {
+    "path": "audio/die/re_jiangwei.mp3",
+    "description": "手杀界姜维"
+  },
+  "re_jianyong": {
+    "path": "audio/die/re_jianyong.mp3",
+    "description": "界简雍"
+  },
+  "re_jiaxu": {
+    "path": "audio/die/re_jiaxu.mp3",
+    "description": "界贾诩"
+  },
+  "re_jsp_huangyueying": {
+    "path": "audio/die/re_jsp_huangyueying.mp3",
+    "description": "界SP黄月英"
+  },
+  "re_jsp_pangtong": {
+    "path": "audio/die/re_jsp_pangtong.mp3",
+    "description": "SP庞统"
+  },
+  "re_jushou": {
+    "path": "audio/die/re_jushou.mp3",
+    "description": "界沮授"
+  },
+  "re_liaohua": {
+    "path": "audio/die/re_liaohua.mp3",
+    "description": "界廖化"
+  },
+  "re_lingtong": {
+    "path": "audio/die/re_lingtong.mp3",
+    "description": "手杀界凌统"
+  },
+  "re_liru": {
+    "path": "audio/die/re_liru.mp3",
+    "description": "手杀界李儒"
+  },
+  "re_liubei": {
+    "path": "audio/die/re_liubei.mp3",
+    "description": "界刘备"
+  },
+  "re_liubiao": {
+    "path": "audio/die/re_liubiao.mp3",
+    "description": "手杀界刘表"
+  },
+  "re_liuchen": {
+    "path": "audio/die/re_liuchen.mp3",
+    "description": "界刘谌"
+  },
+  "re_liufeng": {
+    "path": "audio/die/re_liufeng.mp3",
+    "description": "界刘封"
+  },
+  "re_liushan": {
+    "path": "audio/die/re_liushan.mp3",
+    "description": "手杀界刘禅"
+  },
+  "re_liuzan": {
+    "path": "audio/die/re_liuzan.mp3",
+    "description": "留赞"
+  },
+  "re_lusu": {
+    "path": "audio/die/re_lusu.mp3",
+    "description": "鲁肃"
+  },
+  "re_luxun": {
+    "path": "audio/die/re_luxun.mp3",
+    "description": "界陆逊"
+  },
+  "re_lvbu": {
+    "path": "audio/die/re_lvbu.mp3",
+    "description": "界吕布"
+  },
+  "re_lvmeng": {
+    "path": "audio/die/re_lvmeng.mp3",
+    "description": "界吕蒙"
+  },
+  "re_machao": {
+    "path": "audio/die/re_machao.mp3",
+    "description": "界马超"
+  },
+  "re_madai": {
+    "path": "audio/die/re_madai.mp3",
+    "description": "界马岱"
+  },
+  "re_manchong": {
+    "path": "audio/die/re_manchong.mp3",
+    "description": "界满宠"
+  },
+  "re_masu": {
+    "path": "audio/die/re_masu.mp3",
+    "description": "界马谡"
+  },
+  "re_mazhong": {
+    "path": "audio/die/re_mazhong.mp3",
+    "description": "界马忠"
+  },
+  "re_menghuo": {
+    "path": "audio/die/re_menghuo.mp3",
+    "description": "界孟获"
+  },
+  "re_miheng": {
+    "path": "audio/die/re_miheng.mp3",
+    "description": "祢衡"
+  },
+  "re_nanhualaoxian": {
+    "path": "audio/die/re_nanhualaoxian.mp3",
+    "description": "南华老仙"
+  },
+  "re_panfeng": {
+    "path": "audio/die/re_panfeng.mp3",
+    "description": "潘凤"
+  },
+  "re_pangde": {
+    "path": "audio/die/re_pangde.mp3",
+    "description": "庞德"
+  },
+  "re_pangdegong": {
+    "path": "audio/die/re_pangdegong.mp3",
+    "description": "庞德公"
+  },
+  "re_pangtong": {
+    "path": "audio/die/re_pangtong.mp3",
+    "description": "手杀界庞统"
+  },
+  "re_panshu": {
+    "path": "audio/die/re_panshu.mp3",
+    "description": "潘淑"
+  },
+  "re_panzhangmazhong": {
+    "path": "audio/die/re_panzhangmazhong.mp3",
+    "description": "界潘璋马忠"
+  },
+  "re_quancong": {
+    "path": "audio/die/re_quancong.mp3",
+    "description": "界全琮"
+  },
+  "re_simayi": {
+    "path": "audio/die/re_simayi.mp3",
+    "description": "界司马懿"
+  },
+  "re_sp_taishici": {
+    "path": "audio/die/re_sp_taishici.mp3",
+    "description": "界SP太史慈"
+  },
+  "re_sp_zhugeliang": {
+    "path": "audio/die/re_sp_zhugeliang.mp3",
+    "description": "手杀界卧龙"
+  },
+  "re_sunben": {
+    "path": "audio/die/re_sunben.mp3",
+    "description": "界孙笨"
+  },
+  "re_sunce": {
+    "path": "audio/die/re_sunce.mp3",
+    "description": "界孙策"
+  },
+  "re_sundeng": {
+    "path": "audio/die/re_sundeng.mp3",
+    "description": "界孙登"
+  },
+  "re_sunjian": {
+    "path": "audio/die/re_sunjian.mp3",
+    "description": "手杀界孙坚"
+  },
+  "re_sunluban": {
+    "path": "audio/die/re_sunluban.mp3",
+    "description": "界孙鲁班"
+  },
+  "re_sunquan": {
+    "path": "audio/die/re_sunquan.mp3",
+    "description": "界孙权"
+  },
+  "re_sunshangxiang": {
+    "path": "audio/die/re_sunshangxiang.mp3",
+    "description": "界孙尚香"
+  },
+  "re_sunxiu": {
+    "path": "audio/die/re_sunxiu.mp3",
+    "description": "界孙休"
+  },
+  "re_sunyi": {
+    "path": "audio/die/re_sunyi.mp3",
+    "description": "孙翊"
+  },
+  "re_taishici": {
+    "path": "audio/die/re_taishici.mp3",
+    "description": "界太史慈"
+  },
+  "re_taoqian": {
+    "path": "audio/die/re_taoqian.mp3",
+    "description": "陶谦"
+  },
+  "re_wangyi": {
+    "path": "audio/die/re_wangyi.mp3",
+    "description": "界王异"
+  },
+  "re_weiyan": {
+    "path": "audio/die/re_weiyan.mp3",
+    "description": "魏延"
+  },
+  "re_wenpin": {
+    "path": "audio/die/re_wenpin.mp3",
+    "description": "界文聘"
+  },
+  "re_wuguotai": {
+    "path": "audio/die/re_wuguotai.mp3",
+    "description": "手杀界吴国太"
+  },
+  "re_wuyi": {
+    "path": "audio/die/re_wuyi.mp3",
+    "description": "界吴懿"
+  },
+  "re_xiahoudun": {
+    "path": "audio/die/re_xiahoudun.mp3",
+    "description": "界夏侯惇"
+  },
+  "re_xiahoushi": {
+    "path": "audio/die/re_xiahoushi.mp3",
+    "description": "界夏侯氏"
+  },
+  "re_xiahouyuan": {
+    "path": "audio/die/re_xiahouyuan.mp3",
+    "description": "夏侯渊"
+  },
+  "re_xiaoqiao": {
+    "path": "audio/die/re_xiaoqiao.mp3",
+    "description": "手杀界小乔"
+  },
+  "re_xuhuang": {
+    "path": "audio/die/re_xuhuang.mp3",
+    "description": "徐晃"
+  },
+  "re_xunchen": {
+    "path": "audio/die/re_xunchen.mp3",
+    "description": "荀谌"
+  },
+  "re_xunyou": {
+    "path": "audio/die/re_xunyou.mp3",
+    "description": "界荀攸"
+  },
+  "re_xunyu": {
+    "path": "audio/die/re_xunyu.mp3",
+    "description": "手杀界荀彧"
+  },
+  "re_xusheng": {
+    "path": "audio/die/re_xusheng.mp3",
+    "description": "手杀界徐盛"
+  },
+  "re_xushu": {
+    "path": "audio/die/re_xushu.mp3",
+    "description": "界徐庶"
+  },
+  "re_xuzhu": {
+    "path": "audio/die/re_xuzhu.mp3",
+    "description": "界许褚"
+  },
+  "re_yanwen": {
+    "path": "audio/die/re_yanwen.mp3",
+    "description": "手杀界颜良文丑"
+  },
+  "re_yuanshu": {
+    "path": "audio/die/re_yuanshu.mp3",
+    "description": "袁术"
+  },
+  "re_yufan": {
+    "path": "audio/die/re_yufan.mp3",
+    "description": "手杀界虞翻"
+  },
+  "re_yuji": {
+    "path": "audio/die/re_yuji.mp3",
+    "description": "于吉"
+  },
+  "re_zhangchunhua": {
+    "path": "audio/die/re_zhangchunhua.mp3",
+    "description": "界张春华"
+  },
+  "re_zhangfei": {
+    "path": "audio/die/re_zhangfei.mp3",
+    "description": "界张飞"
+  },
+  "re_zhanghe": {
+    "path": "audio/die/re_zhanghe.mp3",
+    "description": "界张郃"
+  },
+  "re_zhangjiao": {
+    "path": "audio/die/re_zhangjiao.mp3",
+    "description": "界张角"
+  },
+  "re_zhangliang": {
+    "path": "audio/die/re_zhangliang.mp3",
+    "description": "张梁"
+  },
+  "re_zhangliao": {
+    "path": "audio/die/re_zhangliao.mp3",
+    "description": "界张辽"
+  },
+  "re_zhangsong": {
+    "path": "audio/die/re_zhangsong.mp3",
+    "description": "界张松"
+  },
+  "re_zhangyi": {
+    "path": "audio/die/re_zhangyi.mp3",
+    "description": "界张嶷"
+  },
+  "re_zhangzhang": {
+    "path": "audio/die/re_zhangzhang.mp3",
+    "description": "手杀界张昭张纮"
+  },
+  "re_zhaoyun": {
+    "path": "audio/die/re_zhaoyun.mp3",
+    "description": "界赵云"
+  },
+  "re_zhenji": {
+    "path": "audio/die/re_zhenji.mp3",
+    "description": "界甄宓"
+  },
+  "re_zhonghui": {
+    "path": "audio/die/re_zhonghui.mp3",
+    "description": "手杀界钟会"
+  },
+  "re_zhongyao": {
+    "path": "audio/die/re_zhongyao.mp3",
+    "description": "界钟繇"
+  },
+  "re_zhoucang": {
+    "path": "audio/die/re_zhoucang.mp3",
+    "description": "界周仓"
+  },
+  "re_zhouyu": {
+    "path": "audio/die/re_zhouyu.mp3",
+    "description": "界周瑜"
+  },
+  "re_zhugeliang": {
+    "path": "audio/die/re_zhugeliang.mp3",
+    "description": "界诸葛亮"
+  },
+  "re_zhuhuan": {
+    "path": "audio/die/re_zhuhuan.mp3",
+    "description": "界朱桓"
+  },
+  "re_zhuran": {
+    "path": "audio/die/re_zhuran.mp3",
+    "description": "界朱然"
+  },
+  "re_zhurong": {
+    "path": "audio/die/re_zhurong.mp3",
+    "description": "手杀界祝融"
+  },
+  "re_zhuzhi": {
+    "path": "audio/die/re_zhuzhi.mp3",
+    "description": "界朱治"
+  },
+  "re_zoushi": {
+    "path": "audio/die/re_zoushi.mp3",
+    "description": "邹氏"
+  },
+  "re_zuoci": {
+    "path": "audio/die/re_zuoci.mp3",
+    "description": "界左慈"
+  },
+  "ruanhui": {
+    "path": "audio/die/ruanhui.mp3",
+    "description": "阮慧"
+  },
+  "ruanji": {
+    "path": "audio/die/ruanji.mp3",
+    "description": "阮籍"
+  },
+  "ruanyu": {
+    "path": "audio/die/ruanyu.mp3",
+    "description": "阮瑀"
+  },
+  "ruiji": {
+    "path": "audio/die/ruiji.mp3",
+    "description": "OL芮姬"
+  },
+  "sb_caocao": {
+    "path": "audio/die/sb_caocao.mp3",
+    "description": "谋曹操"
+  },
+  "sb_caopi": {
+    "path": "audio/die/sb_caopi.mp3",
+    "description": "谋曹丕"
+  },
+  "sb_caoren": {
+    "path": "audio/die/sb_caoren.mp3",
+    "description": "谋曹仁"
+  },
+  "sb_chengong": {
+    "path": "audio/die/sb_chengong.mp3",
+    "description": "谋陈宫"
+  },
+  "sb_daqiao": {
+    "path": "audio/die/sb_daqiao.mp3",
+    "description": "谋大乔"
+  },
+  "sb_diaochan": {
+    "path": "audio/die/sb_diaochan.mp3",
+    "description": "谋貂蝉"
+  },
+  "sb_fazheng": {
+    "path": "audio/die/sb_fazheng.mp3",
+    "description": "谋法正"
+  },
+  "sb_ganning": {
+    "path": "audio/die/sb_ganning.mp3",
+    "description": "谋甘宁"
+  },
+  "sb_gaoshun": {
+    "path": "audio/die/sb_gaoshun.mp3",
+    "description": "谋高顺"
+  },
+  "sb_gongsunzan": {
+    "path": "audio/die/sb_gongsunzan.mp3",
+    "description": "谋公孙瓒"
+  },
+  "sb_guanyu": {
+    "path": "audio/die/sb_guanyu.mp3",
+    "description": "谋关羽"
+  },
+  "sb_handang": {
+    "path": "audio/die/sb_handang.mp3",
+    "description": "谋韩当"
+  },
+  "sb_huanggai": {
+    "path": "audio/die/sb_huanggai.mp3",
+    "description": "谋黄盖"
+  },
+  "sb_huangyueying": {
+    "path": "audio/die/sb_huangyueying.mp3",
+    "description": "谋黄月英"
+  },
+  "sb_huangzhong": {
+    "path": "audio/die/sb_huangzhong.mp3",
+    "description": "谋黄忠"
+  },
+  "sb_huaxiong": {
+    "path": "audio/die/sb_huaxiong.mp3",
+    "description": "谋华雄"
+  },
+  "sb_jiangwei": {
+    "path": "audio/die/sb_jiangwei.mp3",
+    "description": "谋姜维"
+  },
+  "sb_jiaxu": {
+    "path": "audio/die/sb_jiaxu.mp3",
+    "description": "谋贾诩"
+  },
+  "sb_liubei": {
+    "path": "audio/die/sb_liubei.mp3",
+    "description": "谋刘备"
+  },
+  "sb_liubiao": {
+    "path": "audio/die/sb_liubiao.mp3",
+    "description": "谋刘表"
+  },
+  "sb_luxun": {
+    "path": "audio/die/sb_luxun.mp3",
+    "description": "谋陆逊"
+  },
+  "sb_lvmeng": {
+    "path": "audio/die/sb_lvmeng.mp3",
+    "description": "谋吕蒙"
+  },
+  "sb_machao": {
+    "path": "audio/die/sb_machao.mp3",
+    "description": "谋马超"
+  },
+  "sb_menghuo": {
+    "path": "audio/die/sb_menghuo.mp3",
+    "description": "谋孟获"
+  },
+  "sb_pangtong": {
+    "path": "audio/die/sb_pangtong.mp3",
+    "description": "谋庞统"
+  },
+  "sb_sp_zhugeliang": {
+    "path": "audio/die/sb_sp_zhugeliang.mp3",
+    "description": "谋诸葛亮"
+  },
+  "sb_sunce": {
+    "path": "audio/die/sb_sunce.mp3",
+    "description": "谋孙策"
+  },
+  "sb_sunquan": {
+    "path": "audio/die/sb_sunquan.mp3",
+    "description": "谋孙权"
+  },
+  "sb_sunshangxiang": {
+    "path": "audio/die/sb_sunshangxiang.mp3",
+    "description": "谋孙尚香"
+  },
+  "sb_xiahoudun": {
+    "path": "audio/die/sb_xiahoudun.mp3",
+    "description": "谋夏侯惇"
+  },
+  "sb_xiahoushi": {
+    "path": "audio/die/sb_xiahoushi.mp3",
+    "description": "谋夏侯氏"
+  },
+  "sb_xiaoqiao": {
+    "path": "audio/die/sb_xiaoqiao.mp3",
+    "description": "谋小乔"
+  },
+  "sb_xuhuang": {
+    "path": "audio/die/sb_xuhuang.mp3",
+    "description": "谋徐晃"
+  },
+  "sb_xunyu": {
+    "path": "audio/die/sb_xunyu.mp3",
+    "description": "谋荀彧"
+  },
+  "sb_yl_luzhi": {
+    "path": "audio/die/sb_yl_luzhi.mp3",
+    "description": "谋卢植"
+  },
+  "sb_yuanshao": {
+    "path": "audio/die/sb_yuanshao.mp3",
+    "description": "谋袁绍"
+  },
+  "sb_yujin": {
+    "path": "audio/die/sb_yujin.mp3",
+    "description": "谋于禁"
+  },
+  "sb_zhangfei": {
+    "path": "audio/die/sb_zhangfei.mp3",
+    "description": "谋张飞"
+  },
+  "sb_zhanghe": {
+    "path": "audio/die/sb_zhanghe.mp3",
+    "description": "谋张郃"
+  },
+  "sb_zhangjiao": {
+    "path": "audio/die/sb_zhangjiao.mp3",
+    "description": "谋张角"
+  },
+  "sb_zhaoyun": {
+    "path": "audio/die/sb_zhaoyun.mp3",
+    "description": "谋赵云"
+  },
+  "sb_zhenji": {
+    "path": "audio/die/sb_zhenji.mp3",
+    "description": "谋甄宓"
+  },
+  "sb_zhouyu": {
+    "path": "audio/die/sb_zhouyu.mp3",
+    "description": "谋周瑜"
+  },
+  "sb_zhugejin": {
+    "path": "audio/die/sb_zhugejin.mp3",
+    "description": "谋诸葛瑾"
+  },
+  "sb_zhugeliang": {
+    "path": "audio/die/sb_zhugeliang.mp3",
+    "description": "谋诸葛亮"
+  },
+  "sb_zhurong": {
+    "path": "audio/die/sb_zhurong.mp3",
+    "description": "谋祝融"
+  },
+  "shamoke": {
+    "path": "audio/die/shamoke.mp3",
+    "description": "沙摩柯"
+  },
+  "shen_caocao": {
+    "path": "audio/die/shen_caocao.mp3",
+    "description": "神曹操"
+  },
+  "shen_caopi": {
+    "path": "audio/die/shen_caopi.mp3",
+    "description": "神曹丕"
+  },
+  "shen_dengai": {
+    "path": "audio/die/shen_dengai.mp3",
+    "description": "神邓艾"
+  },
+  "shen_dianwei": {
+    "path": "audio/die/shen_dianwei.mp3",
+    "description": "神典韦"
+  },
+  "shen_diaochan": {
+    "path": "audio/die/shen_diaochan.mp3",
+    "description": "神貂蝉"
+  },
+  "shen_ganning": {
+    "path": "audio/die/shen_ganning.mp3",
+    "description": "神甘宁"
+  },
+  "shen_guanyu": {
+    "path": "audio/die/shen_guanyu.mp3",
+    "description": "神关羽"
+  },
+  "shen_guojia": {
+    "path": "audio/die/shen_guojia.mp3",
+    "description": "神郭嘉"
+  },
+  "shen_huangzhong": {
+    "path": "audio/die/shen_huangzhong.mp3",
+    "description": "神黄忠"
+  },
+  "shen_huatuo": {
+    "path": "audio/die/shen_huatuo.mp3",
+    "description": "手杀神华佗"
+  },
+  "shen_jiangwei": {
+    "path": "audio/die/shen_jiangwei.mp3",
+    "description": "神姜维"
+  },
+  "shen_liubei": {
+    "path": "audio/die/shen_liubei.mp3",
+    "description": "神刘备"
+  },
+  "shen_lusu": {
+    "path": "audio/die/shen_lusu.mp3",
+    "description": "神鲁肃"
+  },
+  "shen_luxun": {
+    "path": "audio/die/shen_luxun.mp3",
+    "description": "神陆逊"
+  },
+  "shen_lvbu": {
+    "path": "audio/die/shen_lvbu.mp3",
+    "description": "神吕布"
+  },
+  "shen_lvbu1": {
+    "path": "audio/die/shen_lvbu1.mp3",
+    "description": "神吕布"
+  },
+  "shen_lvbu2": {
+    "path": "audio/die/shen_lvbu2.mp3",
+    "description": "神吕布"
+  },
+  "shen_lvmeng": {
+    "path": "audio/die/shen_lvmeng.mp3",
+    "description": "神吕蒙"
+  },
+  "shen_machao": {
+    "path": "audio/die/shen_machao.mp3",
+    "description": "神马超"
+  },
+  "shen_simayi": {
+    "path": "audio/die/shen_simayi.mp3",
+    "description": "神司马懿"
+  },
+  "shen_sunce": {
+    "path": "audio/die/shen_sunce.mp3",
+    "description": "神孙策"
+  },
+  "shen_sunquan": {
+    "path": "audio/die/shen_sunquan.mp3",
+    "description": "神孙权"
+  },
+  "shen_taishici": {
+    "path": "audio/die/shen_taishici.mp3",
+    "description": "神太史慈"
+  },
+  "shen_xunyu": {
+    "path": "audio/die/shen_xunyu.mp3",
+    "description": "神荀彧"
+  },
+  "shen_xuzhu": {
+    "path": "audio/die/shen_xuzhu.mp3",
+    "description": "神许褚"
+  },
+  "shen_zhangfei": {
+    "path": "audio/die/shen_zhangfei.mp3",
+    "description": "神张飞"
+  },
+  "shen_zhangjiao": {
+    "path": "audio/die/shen_zhangjiao.mp3",
+    "description": "神张角"
+  },
+  "shen_zhangliao": {
+    "path": "audio/die/shen_zhangliao.mp3",
+    "description": "神张辽"
+  },
+  "shen_zhaoyun": {
+    "path": "audio/die/shen_zhaoyun.mp3",
+    "description": "神赵云"
+  },
+  "shen_zhenji": {
+    "path": "audio/die/shen_zhenji.mp3",
+    "description": "神甄宓"
+  },
+  "shen_zhouyu": {
+    "path": "audio/die/shen_zhouyu.mp3",
+    "description": "神周瑜"
+  },
+  "shen_zhugeliang": {
+    "path": "audio/die/shen_zhugeliang.mp3",
+    "description": "神诸葛亮"
+  },
+  "shenpei": {
+    "path": "audio/die/shenpei.mp3",
+    "description": "审配"
+  },
+  "shibao": {
+    "path": "audio/die/shibao.mp3",
+    "description": "石苞"
+  },
+  "shichangshi": {
+    "path": "audio/die/shichangshi.mp3",
+    "description": "十常侍"
+  },
+  "shichangshiRest": {
+    "path": "audio/die/shichangshiRest.mp3",
+    "description": "十常侍"
+  },
+  "shixie": {
+    "path": "audio/die/shixie.mp3",
+    "description": "士燮"
+  },
+  "shiyi": {
+    "path": "audio/die/shiyi.mp3",
+    "description": "是仪"
+  },
+  "simafu": {
+    "path": "audio/die/simafu.mp3",
+    "description": "TW司马孚"
+  },
+  "simahui": {
+    "path": "audio/die/simahui.mp3",
+    "description": "司马徽"
+  },
+  "simalang": {
+    "path": "audio/die/simalang.mp3",
+    "description": "司马朗"
+  },
+  "simashi": {
+    "path": "audio/die/simashi.mp3",
+    "description": "司马师"
+  },
+  "simayi": {
+    "path": "audio/die/simayi.mp3",
+    "description": "司马懿"
+  },
+  "simazhao": {
+    "path": "audio/die/simazhao.mp3",
+    "description": "司马昭"
+  },
+  "simazhou": {
+    "path": "audio/die/simazhou.mp3",
+    "description": "司马伷"
+  },
+  "sp_bianfuren": {
+    "path": "audio/die/sp_bianfuren.mp3",
+    "description": "手杀卞夫人"
+  },
+  "sp_caiwenji": {
+    "path": "audio/die/sp_caiwenji.mp3",
+    "description": "SP蔡琰"
+  },
+  "sp_caohong": {
+    "path": "audio/die/sp_caohong.mp3",
+    "description": "SP曹洪"
+  },
+  "sp_caoren": {
+    "path": "audio/die/sp_caoren.mp3",
+    "description": "SP曹仁"
+  },
+  "sp_caosong": {
+    "path": "audio/die/sp_caosong.mp3",
+    "description": "手杀曹嵩"
+  },
+  "sp_chendong": {
+    "path": "audio/die/sp_chendong.mp3",
+    "description": "手杀陈武董袭"
+  },
+  "sp_chenzhen": {
+    "path": "audio/die/sp_chenzhen.mp3",
+    "description": "陈震"
+  },
+  "sp_cuiyan": {
+    "path": "audio/die/sp_cuiyan.mp3",
+    "description": "手杀崔琰"
+  },
+  "sp_dongzhuo": {
+    "path": "audio/die/sp_dongzhuo.mp3",
+    "description": "SP董卓"
+  },
+  "sp_duyu": {
+    "path": "audio/die/sp_duyu.mp3",
+    "description": "手杀杜预"
+  },
+  "sp_gaolan": {
+    "path": "audio/die/sp_gaolan.mp3",
+    "description": "手杀高览"
+  },
+  "sp_guanyu": {
+    "path": "audio/die/sp_guanyu.mp3",
+    "description": "SP关羽"
+  },
+  "sp_huaman": {
+    "path": "audio/die/sp_huaman.mp3",
+    "description": "手杀花鬘"
+  },
+  "sp_huangfusong": {
+    "path": "audio/die/sp_huangfusong.mp3",
+    "description": "手杀皇甫嵩"
+  },
+  "sp_huaxin": {
+    "path": "audio/die/sp_huaxin.mp3",
+    "description": "手杀华歆"
+  },
+  "sp_jianggan": {
+    "path": "audio/die/sp_jianggan.mp3",
+    "description": "手杀蒋干"
+  },
+  "sp_jiangqing": {
+    "path": "audio/die/sp_jiangqing.mp3",
+    "description": "蒋钦"
+  },
+  "sp_jiangwan": {
+    "path": "audio/die/sp_jiangwan.mp3",
+    "description": "手杀蒋琬"
+  },
+  "sp_jiangwei": {
+    "path": "audio/die/sp_jiangwei.mp3",
+    "description": "SP姜维"
+  },
+  "sp_jiaxu": {
+    "path": "audio/die/sp_jiaxu.mp3",
+    "description": "SP贾诩"
+  },
+  "sp_key_kanade": {
+    "path": "audio/die/sp_key_kanade.mp3",
+    "description": "SP立华奏"
+  },
+  "sp_kongrong": {
+    "path": "audio/die/sp_kongrong.mp3",
+    "description": "手杀孔融"
+  },
+  "sp_liuqi": {
+    "path": "audio/die/sp_liuqi.mp3",
+    "description": "刘琦"
+  },
+  "sp_lvfan": {
+    "path": "audio/die/sp_lvfan.mp3",
+    "description": "手杀吕范"
+  },
+  "sp_machao": {
+    "path": "audio/die/sp_machao.mp3",
+    "description": "SP马超"
+  },
+  "sp_maojie": {
+    "path": "audio/die/sp_maojie.mp3",
+    "description": "毛玠"
+  },
+  "sp_menghuo": {
+    "path": "audio/die/sp_menghuo.mp3",
+    "description": "SP孟获"
+  },
+  "sp_mifangfushiren": {
+    "path": "audio/die/sp_mifangfushiren.mp3",
+    "description": "糜芳傅士仁"
+  },
+  "sp_mifuren": {
+    "path": "audio/die/sp_mifuren.mp3",
+    "description": "手杀糜夫人"
+  },
+  "sp_ol_zhanghe": {
+    "path": "audio/die/sp_ol_zhanghe.mp3",
+    "description": "SP张郃"
+  },
+  "sp_pangde": {
+    "path": "audio/die/sp_pangde.mp3",
+    "description": "SP庞德"
+  },
+  "sp_pangtong": {
+    "path": "audio/die/sp_pangtong.mp3",
+    "description": "☆SP庞统"
+  },
+  "sp_pengyang": {
+    "path": "audio/die/sp_pengyang.mp3",
+    "description": "手杀彭羕"
+  },
+  "sp_shenpei": {
+    "path": "audio/die/sp_shenpei.mp3",
+    "description": "SP审配"
+  },
+  "sp_sufei": {
+    "path": "audio/die/sp_sufei.mp3",
+    "description": "手杀苏飞"
+  },
+  "sp_sunce": {
+    "path": "audio/die/sp_sunce.mp3",
+    "description": "SP孙策"
+  },
+  "sp_sunshangxiang": {
+    "path": "audio/die/sp_sunshangxiang.mp3",
+    "description": "SP孙尚香"
+  },
+  "sp_sunshao": {
+    "path": "audio/die/sp_sunshao.mp3",
+    "description": "手杀孙邵"
+  },
+  "sp_taishici": {
+    "path": "audio/die/sp_taishici.mp3",
+    "description": "SP太史慈"
+  },
+  "sp_wangcan": {
+    "path": "audio/die/sp_wangcan.mp3",
+    "description": "手杀王粲"
+  },
+  "sp_wangshuang": {
+    "path": "audio/die/sp_wangshuang.mp3",
+    "description": "手杀王双"
+  },
+  "sp_wenpin": {
+    "path": "audio/die/sp_wenpin.mp3",
+    "description": "SP文聘"
+  },
+  "sp_xiahoudun": {
+    "path": "audio/die/sp_xiahoudun.mp3",
+    "description": "☆SP夏侯惇"
+  },
+  "sp_xinpi": {
+    "path": "audio/die/sp_xinpi.mp3",
+    "description": "手杀辛毗"
+  },
+  "sp_xujing": {
+    "path": "audio/die/sp_xujing.mp3",
+    "description": "手杀许靖"
+  },
+  "sp_xunchen": {
+    "path": "audio/die/sp_xunchen.mp3",
+    "description": "手杀荀谌"
+  },
+  "sp_xusheng": {
+    "path": "audio/die/sp_xusheng.mp3",
+    "description": "SP徐盛"
+  },
+  "sp_xuyou": {
+    "path": "audio/die/sp_xuyou.mp3",
+    "description": "SP许攸"
+  },
+  "sp_yanghu": {
+    "path": "audio/die/sp_yanghu.mp3",
+    "description": "手杀羊祜"
+  },
+  "sp_yangwan": {
+    "path": "audio/die/sp_yangwan.mp3",
+    "description": "谋杨婉"
+  },
+  "sp_yuji": {
+    "path": "audio/die/sp_yuji.mp3",
+    "description": "SP旧于吉"
+  },
+  "sp_zhangchangpu": {
+    "path": "audio/die/sp_zhangchangpu.mp3",
+    "description": "手杀张昌蒲"
+  },
+  "sp_zhanghe": {
+    "path": "audio/die/sp_zhanghe.mp3",
+    "description": "SP张郃"
+  },
+  "sp_zhangjiao": {
+    "path": "audio/die/sp_zhangjiao.mp3",
+    "description": "张角"
+  },
+  "sp_zhangliao": {
+    "path": "audio/die/sp_zhangliao.mp3",
+    "description": "SP张辽"
+  },
+  "sp_zhangwen": {
+    "path": "audio/die/sp_zhangwen.mp3",
+    "description": "手杀张温"
+  },
+  "sp_zhenji": {
+    "path": "audio/die/sp_zhenji.mp3",
+    "description": "SP甄宓"
+  },
+  "sp_zhugeliang": {
+    "path": "audio/die/sp_zhugeliang.mp3",
+    "description": "卧龙"
+  },
+  "sp_zhujun": {
+    "path": "audio/die/sp_zhujun.mp3",
+    "description": "手杀朱儁"
+  },
+  "sp_zongyu": {
+    "path": "audio/die/sp_zongyu.mp3",
+    "description": "手杀宗预"
+  },
+  "st_xushu": {
+    "path": "audio/die/st_xushu.mp3",
+    "description": "旧徐庶 (ST)"
+  },
+  "st_yuanshu": {
+    "path": "audio/die/st_yuanshu.mp3",
+    "description": "SP袁术 (ST)"
+  },
+  "star_caoren": {
+    "path": "audio/die/star_caoren.mp3",
+    "description": "星曹仁"
+  },
+  "star_dongzhuo": {
+    "path": "audio/die/star_dongzhuo.mp3",
+    "description": "星董卓"
+  },
+  "star_sunjian": {
+    "path": "audio/die/star_sunjian.mp3",
+    "description": "星孙坚"
+  },
+  "star_sunshangxiang": {
+    "path": "audio/die/star_sunshangxiang.mp3",
+    "description": "星孙尚香"
+  },
+  "star_xunyu": {
+    "path": "audio/die/star_xunyu.mp3",
+    "description": "星荀彧"
+  },
+  "star_yuanshao": {
+    "path": "audio/die/star_yuanshao.mp3",
+    "description": "星袁绍"
+  },
+  "star_yuanshu": {
+    "path": "audio/die/star_yuanshu.mp3",
+    "description": "星袁术"
+  },
+  "star_zhangchunhua": {
+    "path": "audio/die/star_zhangchunhua.mp3",
+    "description": "星张春华"
+  },
+  "sunce": {
+    "path": "audio/die/sunce.mp3",
+    "description": "孙策"
+  },
+  "sundeng": {
+    "path": "audio/die/sundeng.mp3",
+    "description": "孙登"
+  },
+  "sunhanhua": {
+    "path": "audio/die/sunhanhua.mp3",
+    "description": "手杀孙寒华"
+  },
+  "sunhao": {
+    "path": "audio/die/sunhao.mp3",
+    "description": "孙皓"
+  },
+  "sunhong": {
+    "path": "audio/die/sunhong.mp3",
+    "description": "孙弘"
+  },
+  "sunhuan": {
+    "path": "audio/die/sunhuan.mp3",
+    "description": "孙桓"
+  },
+  "sunjian": {
+    "path": "audio/die/sunjian.mp3",
+    "description": "孙坚"
+  },
+  "sunlang": {
+    "path": "audio/die/sunlang.mp3",
+    "description": "孙狼"
+  },
+  "sunli": {
+    "path": "audio/die/sunli.mp3",
+    "description": "孙礼"
+  },
+  "sunliang": {
+    "path": "audio/die/sunliang.mp3",
+    "description": "孙亮"
+  },
+  "sunlingluan": {
+    "path": "audio/die/sunlingluan.mp3",
+    "description": "孙翎鸾"
+  },
+  "sunluban": {
+    "path": "audio/die/sunluban.mp3",
+    "description": "孙鲁班"
+  },
+  "sunluyu": {
+    "path": "audio/die/sunluyu.mp3",
+    "description": "OL孙鲁育"
+  },
+  "sunqian": {
+    "path": "audio/die/sunqian.mp3",
+    "description": "孙乾"
+  },
+  "sunquan": {
+    "path": "audio/die/sunquan.mp3",
+    "description": "孙权"
+  },
+  "sunru": {
+    "path": "audio/die/sunru.mp3",
+    "description": "手杀孙茹"
+  },
+  "sunshangxiang": {
+    "path": "audio/die/sunshangxiang.mp3",
+    "description": "孙尚香"
+  },
+  "sunshao": {
+    "path": "audio/die/sunshao.mp3",
+    "description": "孙邵"
+  },
+  "sunwukong": {
+    "path": "audio/die/sunwukong.mp3",
+    "description": "孙悟空"
+  },
+  "sunxiu": {
+    "path": "audio/die/sunxiu.mp3",
+    "description": "孙休"
+  },
+  "sunyi": {
+    "path": "audio/die/sunyi.mp3",
+    "description": "手杀孙翊"
+  },
+  "sunyu": {
+    "path": "audio/die/sunyu.mp3",
+    "description": "孙瑜"
+  },
+  "sunziliufang": {
+    "path": "audio/die/sunziliufang.mp3",
+    "description": "孙资刘放"
+  },
+  "tadun": {
+    "path": "audio/die/tadun.mp3",
+    "description": "蹋顿"
+  },
+  "taishici": {
+    "path": "audio/die/taishici.mp3",
+    "description": "太史慈"
+  },
+  "tangji": {
+    "path": "audio/die/tangji.mp3",
+    "description": "唐姬"
+  },
+  "taoqian": {
+    "path": "audio/die/taoqian.mp3",
+    "description": "手杀陶谦"
+  },
+  "taoshen": {
+    "path": "audio/die/taoshen.mp3",
+    "description": "涛神"
+  },
+  "tengfanglan": {
+    "path": "audio/die/tengfanglan.mp3",
+    "description": "OL滕芳兰"
+  },
+  "tenggongzhu": {
+    "path": "audio/die/tenggongzhu.mp3",
+    "description": "滕公主"
+  },
+  "tengyin": {
+    "path": "audio/die/tengyin.mp3",
+    "description": "滕胤"
+  },
+  "tianchou": {
+    "path": "audio/die/tianchou.mp3",
+    "description": "田畴"
+  },
+  "tianfeng": {
+    "path": "audio/die/tianfeng.mp3",
+    "description": "战役篇田丰"
+  },
+  "tianshangyi": {
+    "path": "audio/die/tianshangyi.mp3",
+    "description": "田尚衣"
+  },
+  "tianyu": {
+    "path": "audio/die/tianyu.mp3",
+    "description": "天狱"
+  },
+  "tongyuan": {
+    "path": "audio/die/tongyuan.mp3",
+    "description": "童渊"
+  },
+  "tw_baoxin": {
+    "path": "audio/die/tw_baoxin.mp3",
+    "description": "TW鲍信"
+  },
+  "tw_beimihu": {
+    "path": "audio/die/tw_beimihu.mp3",
+    "description": "TW卑弥呼"
+  },
+  "tw_bingyuan": {
+    "path": "audio/die/tw_bingyuan.mp3",
+    "description": "邴原"
+  },
+  "tw_caocao": {
+    "path": "audio/die/tw_caocao.mp3",
+    "description": "TW曹操"
+  },
+  "tw_caozhao": {
+    "path": "audio/die/tw_caozhao.mp3",
+    "description": "曹肇"
+  },
+  "tw_dongzhao": {
+    "path": "audio/die/tw_dongzhao.mp3",
+    "description": "TW董昭"
+  },
+  "tw_gexuan": {
+    "path": "audio/die/tw_gexuan.mp3",
+    "description": "TW葛玄"
+  },
+  "tw_gongsunfan": {
+    "path": "audio/die/tw_gongsunfan.mp3",
+    "description": "公孙范"
+  },
+  "tw_haomeng": {
+    "path": "audio/die/tw_haomeng.mp3",
+    "description": "TW郝萌"
+  },
+  "tw_huchuquan": {
+    "path": "audio/die/tw_huchuquan.mp3",
+    "description": "呼厨泉"
+  },
+  "tw_huojun": {
+    "path": "audio/die/tw_huojun.mp3",
+    "description": "TW霍峻"
+  },
+  "tw_jiangji": {
+    "path": "audio/die/tw_jiangji.mp3",
+    "description": "TW蒋济"
+  },
+  "tw_jiangwei": {
+    "path": "audio/die/tw_jiangwei.mp3",
+    "description": "姜维"
+  },
+  "tw_jianshuo": {
+    "path": "audio/die/tw_jianshuo.mp3",
+    "description": "蹇硕"
+  },
+  "tw_liubei": {
+    "path": "audio/die/tw_liubei.mp3",
+    "description": "刘备 (台服/繁中)"
+  },
+  "tw_liufuren": {
+    "path": "audio/die/tw_liufuren.mp3",
+    "description": "刘夫人"
+  },
+  "tw_liuhong": {
+    "path": "audio/die/tw_liuhong.mp3",
+    "description": "TW刘宏"
+  },
+  "tw_liwei": {
+    "path": "audio/die/tw_liwei.mp3",
+    "description": "TW李遗"
+  },
+  "tw_mateng": {
+    "path": "audio/die/tw_mateng.mp3",
+    "description": "TW马腾"
+  },
+  "tw_niufudongxie": {
+    "path": "audio/die/tw_niufudongxie.mp3",
+    "description": "牛辅董翓"
+  },
+  "tw_puyangxing": {
+    "path": "audio/die/tw_puyangxing.mp3",
+    "description": "濮阳兴"
+  },
+  "tw_qiaorui": {
+    "path": "audio/die/tw_qiaorui.mp3",
+    "description": "TW桥蕤"
+  },
+  "tw_shen_guanyu": {
+    "path": "audio/die/tw_shen_guanyu.mp3",
+    "description": "TW神关羽"
+  },
+  "tw_shen_lvmeng": {
+    "path": "audio/die/tw_shen_lvmeng.mp3",
+    "description": "TW神吕蒙"
+  },
+  "tw_tianyu": {
+    "path": "audio/die/tw_tianyu.mp3",
+    "description": "TW田豫"
+  },
+  "tw_wangcan": {
+    "path": "audio/die/tw_wangcan.mp3",
+    "description": "TW王粲"
+  },
+  "tw_wangchang": {
+    "path": "audio/die/tw_wangchang.mp3",
+    "description": "TW王昶"
+  },
+  "tw_weixu": {
+    "path": "audio/die/tw_weixu.mp3",
+    "description": "魏续"
+  },
+  "tw_wenchou": {
+    "path": "audio/die/tw_wenchou.mp3",
+    "description": "文丑"
+  },
+  "tw_xiahouen": {
+    "path": "audio/die/tw_xiahouen.mp3",
+    "description": "夏侯恩"
+  },
+  "tw_xiahoushang": {
+    "path": "audio/die/tw_xiahoushang.mp3",
+    "description": "夏侯尚"
+  },
+  "tw_yangang": {
+    "path": "audio/die/tw_yangang.mp3",
+    "description": "严纲"
+  },
+  "tw_yanliang": {
+    "path": "audio/die/tw_yanliang.mp3",
+    "description": "颜良"
+  },
+  "tw_yanxiang": {
+    "path": "audio/die/tw_yanxiang.mp3",
+    "description": "TW阎象"
+  },
+  "tw_yuantan": {
+    "path": "audio/die/tw_yuantan.mp3",
+    "description": "袁谭"
+  },
+  "tw_yufuluo": {
+    "path": "audio/die/tw_yufuluo.mp3",
+    "description": "于夫罗"
+  },
+  "tw_yujin": {
+    "path": "audio/die/tw_yujin.mp3",
+    "description": "SP于禁"
+  },
+  "tw_zhanghong": {
+    "path": "audio/die/tw_zhanghong.mp3",
+    "description": "张纮"
+  },
+  "tw_zhangji": {
+    "path": "audio/die/tw_zhangji.mp3",
+    "description": "TW张既"
+  },
+  "tw_zhangmancheng": {
+    "path": "audio/die/tw_zhangmancheng.mp3",
+    "description": "TW张曼成"
+  },
+  "tw_zhangnan": {
+    "path": "audio/die/tw_zhangnan.mp3",
+    "description": "张南"
+  },
+  "tw_zhangning": {
+    "path": "audio/die/tw_zhangning.mp3",
+    "description": "TW张宁"
+  },
+  "tw_zhangzhao": {
+    "path": "audio/die/tw_zhangzhao.mp3",
+    "description": "张昭"
+  },
+  "vtb_xiaojiu": {
+    "path": "audio/die/vtb_xiaojiu.mp3",
+    "description": "小酒"
+  },
+  "vtb_xiaole": {
+    "path": "audio/die/vtb_xiaole.mp3",
+    "description": "小乐"
+  },
+  "vtb_xiaosha": {
+    "path": "audio/die/vtb_xiaosha.mp3",
+    "description": "小杀"
+  },
+  "vtb_xiaoshan": {
+    "path": "audio/die/vtb_xiaoshan.mp3",
+    "description": "小闪"
+  },
+  "vtb_xiaotao": {
+    "path": "audio/die/vtb_xiaotao.mp3",
+    "description": "小桃"
+  },
+  "wangcan": {
+    "path": "audio/die/wangcan.mp3",
+    "description": "王粲"
+  },
+  "wangfuzhaolei": {
+    "path": "audio/die/wangfuzhaolei.mp3",
+    "description": "王甫赵累"
+  },
+  "wangguan": {
+    "path": "audio/die/wangguan.mp3",
+    "description": "王瓘"
+  },
+  "wangji": {
+    "path": "audio/die/wangji.mp3",
+    "description": "王基"
+  },
+  "wangjun": {
+    "path": "audio/die/wangjun.mp3",
+    "description": "手杀王濬"
+  },
+  "wangkuang": {
+    "path": "audio/die/wangkuang.mp3",
+    "description": "王匡"
+  },
+  "wanglang": {
+    "path": "audio/die/wanglang.mp3",
+    "description": "王朗"
+  },
+  "wanglie": {
+    "path": "audio/die/wanglie.mp3",
+    "description": "王烈"
+  },
+  "wangling": {
+    "path": "audio/die/wangling.mp3",
+    "description": "王凌"
+  },
+  "wangping": {
+    "path": "audio/die/wangping.mp3",
+    "description": "王平"
+  },
+  "wangrong": {
+    "path": "audio/die/wangrong.mp3",
+    "description": "王荣"
+  },
+  "wangshuang": {
+    "path": "audio/die/wangshuang.mp3",
+    "description": "王双"
+  },
+  "wangtao": {
+    "path": "audio/die/wangtao.mp3",
+    "description": "王桃"
+  },
+  "wangwei": {
+    "path": "audio/die/wangwei.mp3",
+    "description": "王威"
+  },
+  "wangxiang": {
+    "path": "audio/die/wangxiang.mp3",
+    "description": "王祥"
+  },
+  "wangyan": {
+    "path": "audio/die/wangyan.mp3",
+    "description": "王衍"
+  },
+  "wangyi": {
+    "path": "audio/die/wangyi.mp3",
+    "description": "王异"
+  },
+  "wangyuanji": {
+    "path": "audio/die/wangyuanji.mp3",
+    "description": "王元姬"
+  },
+  "wangyue": {
+    "path": "audio/die/wangyue.mp3",
+    "description": "王悦"
+  },
+  "wangyun": {
+    "path": "audio/die/wangyun.mp3",
+    "description": "王允"
+  },
+  "wanniangongzhu": {
+    "path": "audio/die/wanniangongzhu.mp3",
+    "description": "万年公主"
+  },
+  "weiguan": {
+    "path": "audio/die/weiguan.mp3",
+    "description": "卫瓘"
+  },
+  "weiwenzhugezhi": {
+    "path": "audio/die/weiwenzhugezhi.mp3",
+    "description": "卫温诸葛直"
+  },
+  "weiyan": {
+    "path": "audio/die/weiyan.mp3",
+    "description": "旧魏延"
+  },
+  "weizi": {
+    "path": "audio/die/weizi.mp3",
+    "description": "卫兹"
+  },
+  "wenpin": {
+    "path": "audio/die/wenpin.mp3",
+    "description": "文聘"
+  },
+  "wenyang": {
+    "path": "audio/die/wenyang.mp3",
+    "description": "文鸯"
+  },
+  "wenyuan": {
+    "path": "audio/die/wenyuan.mp3",
+    "description": "文鸳"
+  },
+  "wis_huaxiong": {
+    "path": "audio/die/wis_huaxiong.mp3",
+    "description": "华雄 (智)"
+  },
+  "wis_jiangwan": {
+    "path": "audio/die/wis_jiangwan.mp3",
+    "description": ""
+  },
+  "wis_jiangwei": {
+    "path": "audio/die/wis_jiangwei.mp3",
+    "description": "姜维 (智)"
+  },
+  "wis_shuijing": {
+    "path": "audio/die/wis_shuijing.mp3",
+    "description": ""
+  },
+  "wis_sunce": {
+    "path": "audio/die/wis_sunce.mp3",
+    "description": "孙策 (智)"
+  },
+  "wis_tianfeng": {
+    "path": "audio/die/wis_tianfeng.mp3",
+    "description": "战役篇田丰 (智)"
+  },
+  "wis_xuyou": {
+    "path": "audio/die/wis_xuyou.mp3",
+    "description": "许攸 (智)"
+  },
+  "wis_zhangzhao": {
+    "path": "audio/die/wis_zhangzhao.mp3",
+    "description": ""
+  },
+  "wolongfengchu": {
+    "path": "audio/die/wolongfengchu.mp3",
+    "description": "卧龙凤雏"
+  },
+  "wu_guanyu": {
+    "path": "audio/die/wu_guanyu.mp3",
+    "description": "武关羽"
+  },
+  "wu_luxun": {
+    "path": "audio/die/wu_luxun.mp3",
+    "description": "武陆逊"
+  },
+  "wu_zhugeliang": {
+    "path": "audio/die/wu_zhugeliang.mp3",
+    "description": "武诸葛亮"
+  },
+  "wuanguo": {
+    "path": "audio/die/wuanguo.mp3",
+    "description": "武安国"
+  },
+  "wuban": {
+    "path": "audio/die/wuban.mp3",
+    "description": "TW吴班"
+  },
+  "wufan": {
+    "path": "audio/die/wufan.mp3",
+    "description": "吴范"
+  },
+  "wuguotai": {
+    "path": "audio/die/wuguotai.mp3",
+    "description": "吴国太"
+  },
+  "wuhujiang": {
+    "path": "audio/die/wuhujiang.mp3",
+    "description": "魂五虎"
+  },
+  "wuhujiang2": {
+    "path": "audio/die/wuhujiang2.mp3",
+    "description": "魂五虎"
+  },
+  "wuhujiang3": {
+    "path": "audio/die/wuhujiang3.mp3",
+    "description": "魂五虎"
+  },
+  "wuhujiang4": {
+    "path": "audio/die/wuhujiang4.mp3",
+    "description": "魂五虎"
+  },
+  "wuhujiang5": {
+    "path": "audio/die/wuhujiang5.mp3",
+    "description": "魂五虎"
+  },
+  "wujing": {
+    "path": "audio/die/wujing.mp3",
+    "description": "吴景"
+  },
+  "wulan": {
+    "path": "audio/die/wulan.mp3",
+    "description": "吴兰"
+  },
+  "wupu": {
+    "path": "audio/die/wupu.mp3",
+    "description": "吴普"
+  },
+  "wutugu": {
+    "path": "audio/die/wutugu.mp3",
+    "description": "兀突骨"
+  },
+  "wuxian": {
+    "path": "audio/die/wuxian.mp3",
+    "description": "吴苋"
+  },
+  "wuyan": {
+    "path": "audio/die/wuyan.mp3",
+    "description": "吾彦"
+  },
+  "wuyi": {
+    "path": "audio/die/wuyi.mp3",
+    "description": "吴懿"
+  },
+  "xf_huangquan": {
+    "path": "audio/die/xf_huangquan.mp3",
+    "description": "OL黄权"
+  },
+  "xf_sufei": {
+    "path": "audio/die/xf_sufei.mp3",
+    "description": "OL苏飞"
+  },
+  "xf_tangzi": {
+    "path": "audio/die/xf_tangzi.mp3",
+    "description": "唐咨"
+  },
+  "xf_yiji": {
+    "path": "audio/die/xf_yiji.mp3",
+    "description": "伊籍"
+  },
+  "xia_dianwei": {
+    "path": "audio/die/xia_dianwei.mp3",
+    "description": "侠典韦"
+  },
+  "xia_guanyu": {
+    "path": "audio/die/xia_guanyu.mp3",
+    "description": "侠关羽"
+  },
+  "xia_liubei": {
+    "path": "audio/die/xia_liubei.mp3",
+    "description": "侠刘备"
+  },
+  "xia_lusu": {
+    "path": "audio/die/xia_lusu.mp3",
+    "description": "侠鲁肃"
+  },
+  "xia_shie": {
+    "path": "audio/die/xia_shie.mp3",
+    "description": "史阿"
+  },
+  "xia_shitao": {
+    "path": "audio/die/xia_shitao.mp3",
+    "description": "石韬"
+  },
+  "xia_tongyuan": {
+    "path": "audio/die/xia_tongyuan.mp3",
+    "description": "侠童渊"
+  },
+  "xia_wangyue": {
+    "path": "audio/die/xia_wangyue.mp3",
+    "description": "王越"
+  },
+  "xia_xiahoudun": {
+    "path": "audio/die/xia_xiahoudun.mp3",
+    "description": "侠夏侯惇"
+  },
+  "xia_xiahousone": {
+    "path": "audio/die/xia_xiahousone.mp3",
+    "description": "夏侯子萼"
+  },
+  "xia_xiahouzie": {
+    "path": "audio/die/xia_xiahouzie.mp3",
+    "description": "夏侯紫萼"
+  },
+  "xia_xushu": {
+    "path": "audio/die/xia_xushu.mp3",
+    "description": "侠徐庶"
+  },
+  "xia_yuzhenzi": {
+    "path": "audio/die/xia_yuzhenzi.mp3",
+    "description": "玉真子"
+  },
+  "xia_zhangwei": {
+    "path": "audio/die/xia_zhangwei.mp3",
+    "description": "张葳"
+  },
+  "xia_zhaoe": {
+    "path": "audio/die/xia_zhaoe.mp3",
+    "description": "赵娥"
+  },
+  "xiahouba": {
+    "path": "audio/die/xiahouba.mp3",
+    "description": "夏侯霸"
+  },
+  "xiahoudun": {
+    "path": "audio/die/xiahoudun.mp3",
+    "description": "夏侯惇"
+  },
+  "xiahoujie": {
+    "path": "audio/die/xiahoujie.mp3",
+    "description": "夏侯杰"
+  },
+  "xiahoujuan": {
+    "path": "audio/die/xiahoujuan.mp3",
+    "description": ""
+  },
+  "xiahoulingnv": {
+    "path": "audio/die/xiahoulingnv.mp3",
+    "description": "夏侯令女"
+  },
+  "xiahoumao": {
+    "path": "audio/die/xiahoumao.mp3",
+    "description": "夏侯楙"
+  },
+  "xiahoushi": {
+    "path": "audio/die/xiahoushi.mp3",
+    "description": "夏侯氏"
+  },
+  "xiahouxuan": {
+    "path": "audio/die/xiahouxuan.mp3",
+    "description": "夏侯玄"
+  },
+  "xiahouyuan": {
+    "path": "audio/die/xiahouyuan.mp3",
+    "description": "旧夏侯渊"
+  },
+  "xiangchong": {
+    "path": "audio/die/xiangchong.mp3",
+    "description": "向宠"
+  },
+  "xianglang": {
+    "path": "audio/die/xianglang.mp3",
+    "description": "向朗"
+  },
+  "xiangrang": {
+    "path": "audio/die/xiangrang.mp3",
+    "description": "向朗"
+  },
+  "xiaoqiao": {
+    "path": "audio/die/xiaoqiao.mp3",
+    "description": "小乔"
+  },
+  "xiaoyuehankehan": {
+    "path": "audio/die/xiaoyuehankehan.mp3",
+    "description": "小约翰可汗"
+  },
+  "xiaoyuehankehan2": {
+    "path": "audio/die/xiaoyuehankehan2.mp3",
+    "description": "小约翰可汗"
+  },
+  "xiaoyuehankehan3": {
+    "path": "audio/die/xiaoyuehankehan3.mp3",
+    "description": "小约翰可汗"
+  },
+  "xielingyu": {
+    "path": "audio/die/xielingyu.mp3",
+    "description": "谢灵毓"
+  },
+  "xin_caifuren": {
+    "path": "audio/die/xin_caifuren.mp3",
+    "description": "手杀界蔡夫人"
+  },
+  "xin_caoxiu": {
+    "path": "audio/die/xin_caoxiu.mp3",
+    "description": "手杀界曹休"
+  },
+  "xin_caozhang": {
+    "path": "audio/die/xin_caozhang.mp3",
+    "description": "手杀界曹彰"
+  },
+  "xin_caozhen": {
+    "path": "audio/die/xin_caozhen.mp3",
+    "description": "手杀界曹真"
+  },
+  "xin_chengpu": {
+    "path": "audio/die/xin_chengpu.mp3",
+    "description": "手杀界程普"
+  },
+  "xin_fazheng": {
+    "path": "audio/die/xin_fazheng.mp3",
+    "description": "法正"
+  },
+  "xin_fuhuanghou": {
+    "path": "audio/die/xin_fuhuanghou.mp3",
+    "description": "手杀界伏寿"
+  },
+  "xin_gaoshun": {
+    "path": "audio/die/xin_gaoshun.mp3",
+    "description": "界高顺"
+  },
+  "xin_gongsunzan": {
+    "path": "audio/die/xin_gongsunzan.mp3",
+    "description": "手杀界公孙瓒"
+  },
+  "xin_guohuai": {
+    "path": "audio/die/xin_guohuai.mp3",
+    "description": "手杀界郭淮"
+  },
+  "xin_guozhao": {
+    "path": "audio/die/xin_guozhao.mp3",
+    "description": "手杀郭照"
+  },
+  "xin_guyong": {
+    "path": "audio/die/xin_guyong.mp3",
+    "description": "手杀界顾雍"
+  },
+  "xin_handang": {
+    "path": "audio/die/xin_handang.mp3",
+    "description": "界韩当"
+  },
+  "xin_jianyong": {
+    "path": "audio/die/xin_jianyong.mp3",
+    "description": "手杀界简雍"
+  },
+  "xin_jushou": {
+    "path": "audio/die/xin_jushou.mp3",
+    "description": "手杀界沮授"
+  },
+  "xin_liaohua": {
+    "path": "audio/die/xin_liaohua.mp3",
+    "description": "手杀界廖化"
+  },
+  "xin_lingtong": {
+    "path": "audio/die/xin_lingtong.mp3",
+    "description": "界凌统"
+  },
+  "xin_liubiao": {
+    "path": "audio/die/xin_liubiao.mp3",
+    "description": "界刘表"
+  },
+  "xin_mamidi": {
+    "path": "audio/die/xin_mamidi.mp3",
+    "description": "手杀马日磾"
+  },
+  "xin_masu": {
+    "path": "audio/die/xin_masu.mp3",
+    "description": "马谡"
+  },
+  "xin_panzhangmazhong": {
+    "path": "audio/die/xin_panzhangmazhong.mp3",
+    "description": "手杀界潘璋马忠"
+  },
+  "xin_quancong": {
+    "path": "audio/die/xin_quancong.mp3",
+    "description": "手杀界全琮"
+  },
+  "xin_sunluban": {
+    "path": "audio/die/xin_sunluban.mp3",
+    "description": "手杀界孙鲁班"
+  },
+  "xin_sunquan": {
+    "path": "audio/die/xin_sunquan.mp3",
+    "description": "会玩孙权"
+  },
+  "xin_sunxiu": {
+    "path": "audio/die/xin_sunxiu.mp3",
+    "description": "手杀界孙休"
+  },
+  "xin_wuguotai": {
+    "path": "audio/die/xin_wuguotai.mp3",
+    "description": "界吴国太"
+  },
+  "xin_wuyi": {
+    "path": "audio/die/xin_wuyi.mp3",
+    "description": "手杀界吴懿"
+  },
+  "xin_xusheng": {
+    "path": "audio/die/xin_xusheng.mp3",
+    "description": "界徐盛"
+  },
+  "xin_xushu": {
+    "path": "audio/die/xin_xushu.mp3",
+    "description": "徐庶"
+  },
+  "xin_yuanshao": {
+    "path": "audio/die/xin_yuanshao.mp3",
+    "description": "手杀界袁绍"
+  },
+  "xin_yufan": {
+    "path": "audio/die/xin_yufan.mp3",
+    "description": "界虞翻"
+  },
+  "xin_yuji": {
+    "path": "audio/die/xin_yuji.mp3",
+    "description": "界于吉"
+  },
+  "xin_yujin": {
+    "path": "audio/die/xin_yujin.mp3",
+    "description": "节钺于禁"
+  },
+  "xin_zhangyi": {
+    "path": "audio/die/xin_zhangyi.mp3",
+    "description": "手杀界张嶷"
+  },
+  "xin_zhonghui": {
+    "path": "audio/die/xin_zhonghui.mp3",
+    "description": "界钟会"
+  },
+  "xin_zhoucang": {
+    "path": "audio/die/xin_zhoucang.mp3",
+    "description": "手杀界周仓"
+  },
+  "xin_zhuhuan": {
+    "path": "audio/die/xin_zhuhuan.mp3",
+    "description": "手杀界朱桓"
+  },
+  "xin_zhuran": {
+    "path": "audio/die/xin_zhuran.mp3",
+    "description": "手杀界朱然"
+  },
+  "xin_zhuzhi": {
+    "path": "audio/die/xin_zhuzhi.mp3",
+    "description": "手杀界朱治"
+  },
+  "xinchang": {
+    "path": "audio/die/xinchang.mp3",
+    "description": "辛敞"
+  },
+  "xingdaorong": {
+    "path": "audio/die/xingdaorong.mp3",
+    "description": "邢道荣"
+  },
+  "xinpi": {
+    "path": "audio/die/xinpi.mp3",
+    "description": "辛毗"
+  },
+  "xinping": {
+    "path": "audio/die/xinping.mp3",
+    "description": "辛评"
+  },
+  "xinxianying": {
+    "path": "audio/die/xinxianying.mp3",
+    "description": "辛宪英"
+  },
+  "xinzhongyong": {
+    "path": "audio/die/xinzhongyong.mp3",
+    "description": "忠勇"
+  },
+  "xizheng": {
+    "path": "audio/die/xizheng.mp3",
+    "description": "郤正"
+  },
+  "xizhicai": {
+    "path": "audio/die/xizhicai.mp3",
+    "description": "戏志才"
+  },
+  "xuangongzhu": {
+    "path": "audio/die/xuangongzhu.mp3",
+    "description": "晋宣公主"
+  },
+  "xuelingyun": {
+    "path": "audio/die/xuelingyun.mp3",
+    "description": "薛灵芸"
+  },
+  "xuezong": {
+    "path": "audio/die/xuezong.mp3",
+    "description": "薛综"
+  },
+  "xugong": {
+    "path": "audio/die/xugong.mp3",
+    "description": "许贡"
+  },
+  "xuhuang": {
+    "path": "audio/die/xuhuang.mp3",
+    "description": "旧徐晃"
+  },
+  "xujing": {
+    "path": "audio/die/xujing.mp3",
+    "description": "OL许靖"
+  },
+  "xukun": {
+    "path": "audio/die/xukun.mp3",
+    "description": "徐琨"
+  },
+  "xunchen": {
+    "path": "audio/die/xunchen.mp3",
+    "description": "OL荀谌"
+  },
+  "xunyou": {
+    "path": "audio/die/xunyou.mp3",
+    "description": "荀攸"
+  },
+  "xunyu": {
+    "path": "audio/die/xunyu.mp3",
+    "description": "荀彧"
+  },
+  "xurong": {
+    "path": "audio/die/xurong.mp3",
+    "description": "徐荣"
+  },
+  "xushao": {
+    "path": "audio/die/xushao.mp3",
+    "description": "许劭"
+  },
+  "xusheng": {
+    "path": "audio/die/xusheng.mp3",
+    "description": "徐盛"
+  },
+  "xushi": {
+    "path": "audio/die/xushi.mp3",
+    "description": "徐氏"
+  },
+  "xushu": {
+    "path": "audio/die/xushu.mp3",
+    "description": "旧徐庶"
+  },
+  "xuyou": {
+    "path": "audio/die/xuyou.mp3",
+    "description": "许攸"
+  },
+  "xuzhu": {
+    "path": "audio/die/xuzhu.mp3",
+    "description": "许褚"
+  },
+  "yadan": {
+    "path": "audio/die/yadan.mp3",
+    "description": "雅丹"
+  },
+  "yanbaihu": {
+    "path": "audio/die/yanbaihu.mp3",
+    "description": "严虎"
+  },
+  "yanfuren": {
+    "path": "audio/die/yanfuren.mp3",
+    "description": "严夫人"
+  },
+  "yangbiao": {
+    "path": "audio/die/yangbiao.mp3",
+    "description": "手杀杨彪"
+  },
+  "yangfeng": {
+    "path": "audio/die/yangfeng.mp3",
+    "description": "杨奉"
+  },
+  "yangfu": {
+    "path": "audio/die/yangfu.mp3",
+    "description": "杨阜"
+  },
+  "yanghong": {
+    "path": "audio/die/yanghong.mp3",
+    "description": "杨弘"
+  },
+  "yanghuiyu": {
+    "path": "audio/die/yanghuiyu.mp3",
+    "description": "羊徽瑜"
+  },
+  "yangwan": {
+    "path": "audio/die/yangwan.mp3",
+    "description": "杨婉"
+  },
+  "yangxiu": {
+    "path": "audio/die/yangxiu.mp3",
+    "description": "杨修"
+  },
+  "yangyan": {
+    "path": "audio/die/yangyan.mp3",
+    "description": "杨艳"
+  },
+  "yangyi": {
+    "path": "audio/die/yangyi.mp3",
+    "description": "手杀杨仪"
+  },
+  "yangzhi": {
+    "path": "audio/die/yangzhi.mp3",
+    "description": "杨芷"
+  },
+  "yanjun": {
+    "path": "audio/die/yanjun.mp3",
+    "description": "严畯"
+  },
+  "yanpu": {
+    "path": "audio/die/yanpu.mp3",
+    "description": "阎圃"
+  },
+  "yanrou": {
+    "path": "audio/die/yanrou.mp3",
+    "description": "阎柔"
+  },
+  "yanwen": {
+    "path": "audio/die/yanwen.mp3",
+    "description": "颜良文丑"
+  },
+  "yanyan": {
+    "path": "audio/die/yanyan.mp3",
+    "description": "严颜"
+  },
+  "yinfuren": {
+    "path": "audio/die/yinfuren.mp3",
+    "description": "尹夫人"
+  },
+  "yitianjian": {
+    "path": "audio/die/yitianjian.mp3",
+    "description": ""
+  },
+  "yj_ganning": {
+    "path": "audio/die/yj_ganning.mp3",
+    "description": "☆甘宁"
+  },
+  "yj_huangzhong": {
+    "path": "audio/die/yj_huangzhong.mp3",
+    "description": "☆黄忠"
+  },
+  "yj_jushou": {
+    "path": "audio/die/yj_jushou.mp3",
+    "description": "沮授"
+  },
+  "yj_qiaozhou": {
+    "path": "audio/die/yj_qiaozhou.mp3",
+    "description": "谯周"
+  },
+  "yj_sb_guojia": {
+    "path": "audio/die/yj_sb_guojia.mp3",
+    "description": "谋郭嘉"
+  },
+  "yj_sb_guojia_shadow": {
+    "path": "audio/die/yj_sb_guojia_shadow.mp3",
+    "description": "谋郭嘉"
+  },
+  "yj_sufei": {
+    "path": "audio/die/yj_sufei.mp3",
+    "description": "苏飞"
+  },
+  "yj_weiyan": {
+    "path": "audio/die/yj_weiyan.mp3",
+    "description": "☆魏延"
+  },
+  "yj_xuhuang": {
+    "path": "audio/die/yj_xuhuang.mp3",
+    "description": "☆徐晃"
+  },
+  "yj_zhanghe": {
+    "path": "audio/die/yj_zhanghe.mp3",
+    "description": "☆张郃"
+  },
+  "yj_zhangliao": {
+    "path": "audio/die/yj_zhangliao.mp3",
+    "description": "☆张辽"
+  },
+  "yj_zhoubuyi": {
+    "path": "audio/die/yj_zhoubuyi.mp3",
+    "description": "☆周不疑"
+  },
+  "yl_luzhi": {
+    "path": "audio/die/yl_luzhi.mp3",
+    "description": "卢植"
+  },
+  "yl_yuanshu": {
+    "path": "audio/die/yl_yuanshu.mp3",
+    "description": "新杀袁术"
+  },
+  "yuanhuan": {
+    "path": "audio/die/yuanhuan.mp3",
+    "description": "袁涣"
+  },
+  "yuanji": {
+    "path": "audio/die/yuanji.mp3",
+    "description": "袁姬"
+  },
+  "yuanshao": {
+    "path": "audio/die/yuanshao.mp3",
+    "description": "旧袁绍"
+  },
+  "yuanshu": {
+    "path": "audio/die/yuanshu.mp3",
+    "description": "SP袁术"
+  },
+  "yuantanyuanshang": {
+    "path": "audio/die/yuantanyuanshang.mp3",
+    "description": "袁谭袁尚"
+  },
+  "yuantanyuanxiyuanshang": {
+    "path": "audio/die/yuantanyuanxiyuanshang.mp3",
+    "description": "袁谭袁尚袁熙"
+  },
+  "yue_caiwenji": {
+    "path": "audio/die/yue_caiwenji.mp3",
+    "description": "乐蔡琰"
+  },
+  "yue_daqiao": {
+    "path": "audio/die/yue_daqiao.mp3",
+    "description": "乐大乔"
+  },
+  "yue_miheng": {
+    "path": "audio/die/yue_miheng.mp3",
+    "description": "乐祢衡"
+  },
+  "yue_xiaoqiao": {
+    "path": "audio/die/yue_xiaoqiao.mp3",
+    "description": "乐小乔"
+  },
+  "yue_zhoufei": {
+    "path": "audio/die/yue_zhoufei.mp3",
+    "description": "乐周妃"
+  },
+  "yue_zoushi": {
+    "path": "audio/die/yue_zoushi.mp3",
+    "description": "乐邹氏"
+  },
+  "yuechen": {
+    "path": "audio/die/yuechen.mp3",
+    "description": "乐綝"
+  },
+  "yuejin": {
+    "path": "audio/die/yuejin.mp3",
+    "description": "乐进"
+  },
+  "yuejiu": {
+    "path": "audio/die/yuejiu.mp3",
+    "description": "TW乐就"
+  },
+  "yufan": {
+    "path": "audio/die/yufan.mp3",
+    "description": "虞翻"
+  },
+  "yuji": {
+    "path": "audio/die/yuji.mp3",
+    "description": "旧于吉"
+  },
+  "yujin": {
+    "path": "audio/die/yujin.mp3",
+    "description": "于禁"
+  },
+  "yujin_yujin": {
+    "path": "audio/die/yujin_yujin.mp3",
+    "description": "界于禁"
+  },
+  "zangba": {
+    "path": "audio/die/zangba.mp3",
+    "description": "臧霸"
+  },
+  "zerong": {
+    "path": "audio/die/zerong.mp3",
+    "description": "笮融"
+  },
+  "zhangbao": {
+    "path": "audio/die/zhangbao.mp3",
+    "description": "张宝"
+  },
+  "zhangbu": {
+    "path": "audio/die/zhangbu.mp3",
+    "description": "张布"
+  },
+  "zhangchangpu": {
+    "path": "audio/die/zhangchangpu.mp3",
+    "description": "张昌蒲"
+  },
+  "zhangchu": {
+    "path": "audio/die/zhangchu.mp3",
+    "description": "张楚"
+  },
+  "zhangchunhua": {
+    "path": "audio/die/zhangchunhua.mp3",
+    "description": "张春华"
+  },
+  "zhangfei": {
+    "path": "audio/die/zhangfei.mp3",
+    "description": "张飞"
+  },
+  "zhangfen": {
+    "path": "audio/die/zhangfen.mp3",
+    "description": "张奋"
+  },
+  "zhanggong": {
+    "path": "audio/die/zhanggong.mp3",
+    "description": "张恭"
+  },
+  "zhanggongqi": {
+    "path": "audio/die/zhanggongqi.mp3",
+    "description": ""
+  },
+  "zhanghe": {
+    "path": "audio/die/zhanghe.mp3",
+    "description": "张郃"
+  },
+  "zhangheng": {
+    "path": "audio/die/zhangheng.mp3",
+    "description": "张横"
+  },
+  "zhanghu": {
+    "path": "audio/die/zhanghu.mp3",
+    "description": "张虎"
+  },
+  "zhanghua": {
+    "path": "audio/die/zhanghua.mp3",
+    "description": "张华"
+  },
+  "zhanghuyuechen": {
+    "path": "audio/die/zhanghuyuechen.mp3",
+    "description": "张虎乐綝"
+  },
+  "zhangji": {
+    "path": "audio/die/zhangji.mp3",
+    "description": "张济"
+  },
+  "zhangjiao": {
+    "path": "audio/die/zhangjiao.mp3",
+    "description": "旧张角"
+  },
+  "zhangjinyun": {
+    "path": "audio/die/zhangjinyun.mp3",
+    "description": "张瑾云"
+  },
+  "zhangjunyi": {
+    "path": "audio/die/zhangjunyi.mp3",
+    "description": ""
+  },
+  "zhangkai": {
+    "path": "audio/die/zhangkai.mp3",
+    "description": "张闿"
+  },
+  "zhangliao": {
+    "path": "audio/die/zhangliao.mp3",
+    "description": "张辽"
+  },
+  "zhangling": {
+    "path": "audio/die/zhangling.mp3",
+    "description": "张陵"
+  },
+  "zhanglu": {
+    "path": "audio/die/zhanglu.mp3",
+    "description": "张鲁"
+  },
+  "zhangmiao": {
+    "path": "audio/die/zhangmiao.mp3",
+    "description": "张邈"
+  },
+  "zhangning": {
+    "path": "audio/die/zhangning.mp3",
+    "description": "张宁"
+  },
+  "zhangqiying": {
+    "path": "audio/die/zhangqiying.mp3",
+    "description": "张琪瑛"
+  },
+  "zhangrang": {
+    "path": "audio/die/zhangrang.mp3",
+    "description": "张让"
+  },
+  "zhangren": {
+    "path": "audio/die/zhangren.mp3",
+    "description": "张任"
+  },
+  "zhangshiping": {
+    "path": "audio/die/zhangshiping.mp3",
+    "description": "张世平"
+  },
+  "zhangsong": {
+    "path": "audio/die/zhangsong.mp3",
+    "description": "张松"
+  },
+  "zhangwen": {
+    "path": "audio/die/zhangwen.mp3",
+    "description": "张温"
+  },
+  "zhangxingcai": {
+    "path": "audio/die/zhangxingcai.mp3",
+    "description": "张星彩"
+  },
+  "zhangxiu": {
+    "path": "audio/die/zhangxiu.mp3",
+    "description": "张绣"
+  },
+  "zhangxuan": {
+    "path": "audio/die/zhangxuan.mp3",
+    "description": "张嫙"
+  },
+  "zhangxun": {
+    "path": "audio/die/zhangxun.mp3",
+    "description": "张勋"
+  },
+  "zhangyan": {
+    "path": "audio/die/zhangyan.mp3",
+    "description": "张燕"
+  },
+  "zhangyao": {
+    "path": "audio/die/zhangyao.mp3",
+    "description": "张媱"
+  },
+  "zhangyi": {
+    "path": "audio/die/zhangyi.mp3",
+    "description": "张嶷"
+  },
+  "zhangzhang": {
+    "path": "audio/die/zhangzhang.mp3",
+    "description": "张昭张纮"
+  },
+  "zhangzhi": {
+    "path": "audio/die/zhangzhi.mp3",
+    "description": "张芝"
+  },
+  "zhangzhongjing": {
+    "path": "audio/die/zhangzhongjing.mp3",
+    "description": "张机"
+  },
+  "zhaoang": {
+    "path": "audio/die/zhaoang.mp3",
+    "description": "赵昂"
+  },
+  "zhaotongzhaoguang": {
+    "path": "audio/die/zhaotongzhaoguang.mp3",
+    "description": "手杀赵统赵广"
+  },
+  "zhaoxiang": {
+    "path": "audio/die/zhaoxiang.mp3",
+    "description": "赵襄"
+  },
+  "zhaoyan": {
+    "path": "audio/die/zhaoyan.mp3",
+    "description": "赵嫣"
+  },
+  "zhaoyun": {
+    "path": "audio/die/zhaoyun.mp3",
+    "description": "赵云"
+  },
+  "zhaozhi": {
+    "path": "audio/die/zhaozhi.mp3",
+    "description": "赵直"
+  },
+  "zhaozhong": {
+    "path": "audio/die/zhaozhong.mp3",
+    "description": "赵忠"
+  },
+  "zhenghun": {
+    "path": "audio/die/zhenghun.mp3",
+    "description": "郑浑"
+  },
+  "zhengxuan": {
+    "path": "audio/die/zhengxuan.mp3",
+    "description": "郑玄"
+  },
+  "zhenji": {
+    "path": "audio/die/zhenji.mp3",
+    "description": "甄宓"
+  },
+  "zhiling": {
+    "path": "audio/die/zhiling.mp3",
+    "description": ""
+  },
+  "zhonghui": {
+    "path": "audio/die/zhonghui.mp3",
+    "description": "钟会"
+  },
+  "zhongshiji": {
+    "path": "audio/die/zhongshiji.mp3",
+    "description": "钟会"
+  },
+  "zhongyan": {
+    "path": "audio/die/zhongyan.mp3",
+    "description": "钟琰"
+  },
+  "zhongyao": {
+    "path": "audio/die/zhongyao.mp3",
+    "description": "钟繇"
+  },
+  "zhoubuyi": {
+    "path": "audio/die/zhoubuyi.mp3",
+    "description": "周不疑"
+  },
+  "zhoucang": {
+    "path": "audio/die/zhoucang.mp3",
+    "description": "周仓"
+  },
+  "zhouchu": {
+    "path": "audio/die/zhouchu.mp3",
+    "description": "手杀周处"
+  },
+  "zhoufang": {
+    "path": "audio/die/zhoufang.mp3",
+    "description": "周鲂"
+  },
+  "zhoufei": {
+    "path": "audio/die/zhoufei.mp3",
+    "description": "周妃"
+  },
+  "zhouqun": {
+    "path": "audio/die/zhouqun.mp3",
+    "description": "周群"
+  },
+  "zhoushan": {
+    "path": "audio/die/zhoushan.mp3",
+    "description": "周善"
+  },
+  "zhoutai": {
+    "path": "audio/die/zhoutai.mp3",
+    "description": "界周泰"
+  },
+  "zhouyi": {
+    "path": "audio/die/zhouyi.mp3",
+    "description": "周夷"
+  },
+  "zhouyu": {
+    "path": "audio/die/zhouyu.mp3",
+    "description": "周瑜"
+  },
+  "zhugedan": {
+    "path": "audio/die/zhugedan.mp3",
+    "description": "诸葛诞"
+  },
+  "zhugeguo": {
+    "path": "audio/die/zhugeguo.mp3",
+    "description": "诸葛果"
+  },
+  "zhugejin": {
+    "path": "audio/die/zhugejin.mp3",
+    "description": "诸葛瑾"
+  },
+  "zhugejing": {
+    "path": "audio/die/zhugejing.mp3",
+    "description": "诸葛京"
+  },
+  "zhugeke": {
+    "path": "audio/die/zhugeke.mp3",
+    "description": "诸葛恪"
+  },
+  "zhugeliang": {
+    "path": "audio/die/zhugeliang.mp3",
+    "description": "诸葛亮"
+  },
+  "zhugemengxue": {
+    "path": "audio/die/zhugemengxue.mp3",
+    "description": "诸葛梦雪"
+  },
+  "zhugeruoxue": {
+    "path": "audio/die/zhugeruoxue.mp3",
+    "description": "诸葛若雪"
+  },
+  "zhugeshang": {
+    "path": "audio/die/zhugeshang.mp3",
+    "description": "诸葛尚"
+  },
+  "zhugezhan": {
+    "path": "audio/die/zhugezhan.mp3",
+    "description": "诸葛瞻"
+  },
+  "zhuhuan": {
+    "path": "audio/die/zhuhuan.mp3",
+    "description": "朱桓"
+  },
+  "zhujianping": {
+    "path": "audio/die/zhujianping.mp3",
+    "description": "朱建平"
+  },
+  "zhujun": {
+    "path": "audio/die/zhujun.mp3",
+    "description": "朱儁"
+  },
+  "zhuling": {
+    "path": "audio/die/zhuling.mp3",
+    "description": "朱灵"
+  },
+  "zhupeilan": {
+    "path": "audio/die/zhupeilan.mp3",
+    "description": "朱佩兰"
+  },
+  "zhuran": {
+    "path": "audio/die/zhuran.mp3",
+    "description": "朱然"
+  },
+  "zhurong": {
+    "path": "audio/die/zhurong.mp3",
+    "description": "祝融"
+  },
+  "zhutiexiong": {
+    "path": "audio/die/zhutiexiong.mp3",
+    "description": "朱铁雄"
+  },
+  "zhutiexiong2": {
+    "path": "audio/die/zhutiexiong2.mp3",
+    "description": "朱铁雄"
+  },
+  "zhuzhi": {
+    "path": "audio/die/zhuzhi.mp3",
+    "description": "朱治"
+  },
+  "zongyu": {
+    "path": "audio/die/zongyu.mp3",
+    "description": "宗预"
+  },
+  "zoushi": {
+    "path": "audio/die/zoushi.mp3",
+    "description": "邹氏"
+  },
+  "zumao": {
+    "path": "audio/die/zumao.mp3",
+    "description": "祖茂"
+  },
+  "zuoci": {
+    "path": "audio/die/zuoci.mp3",
+    "description": "左慈"
+  },
+  "zuofen": {
+    "path": "audio/die/zuofen.mp3",
+    "description": "左棻"
+  }
 }
