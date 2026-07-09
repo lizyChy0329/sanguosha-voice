@@ -74,24 +74,32 @@ export function useAudio() {
     urls.push(`${base}/${skillId}1.mp3`);
     urls.push(`${base}/${skillId}2.mp3`);
 
-    function tryUrl(idx) {
-      if (idx >= urls.length) return;
-      const h = new Howl({
-        src: [urls[idx]],
-        volume: 0.8,
-        html5: true,
-        onloaderror: () => {
-          h.unload();
-          tryUrl(idx + 1);
-        },
-        onplayerror: () => {
-          h.unload();
-          tryUrl(idx + 1);
-        },
-      });
-      h.play();
-    }
-    tryUrl(0);
+    return new Promise((resolve) => {
+      function tryUrl(idx) {
+        if (idx >= urls.length) {
+          resolve(0);
+          return;
+        }
+        const h = new Howl({
+          src: [urls[idx]],
+          volume: 0.8,
+          html5: true,
+          onload: () => {
+            resolve(h.duration());
+          },
+          onloaderror: () => {
+            h.unload();
+            tryUrl(idx + 1);
+          },
+          onplayerror: () => {
+            h.unload();
+            tryUrl(idx + 1);
+          },
+        });
+        h.play();
+      }
+      tryUrl(0);
+    });
   }
 
   function playDie(characterId) {

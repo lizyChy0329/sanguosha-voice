@@ -1,0 +1,54 @@
+{
+  "source": "UI-1.png",
+  "extractedAt": "2026-07-08",
+  "method": "visual analysis + Playwright canvas sampling",
+  "colors": {
+    "background": {
+      "page": "#F5F0E8",
+      "description": "Warm beige/cream page background"
+    },
+    "surface": {
+      "card": "#FFFFFF",
+      "cardBorder": "#E8E0D4",
+      "cardBorderAlt": "#D8D0C4",
+      "description": "White card backgrounds with warm-toned borders"
+    },
+    "nav": {
+      "background": "#1E1E1E",
+      "header": "#2A2A2A",
+      "description": "Dark navigation bar and header areas"
+    },
+    "faction": {
+      "wei": "#4A90D9",
+      "shu": "#4CAF50",
+      "wu": "#E8603C",
+      "qun": "#9B59B6",
+      "description": "Four faction colors: Wei (blue), Shu (green), Wu (red/orange), Qun (purple)"
+    },
+    "accent": {
+      "green": "#2E7D5B",
+      "greenActive": "#3A8F6C",
+      "greenCheck": "#4CAF50",
+      "amber": "#C8A951",
+      "blueTag": "#3A7CA5",
+      "description": "Green for play/active states, amber/gold for badges and confirm buttons, blue for skill tags"
+    },
+    "text": {
+      "primary": "#1A1A1A",
+      "secondary": "#8A8A8A",
+      "white": "#FFFFFF",
+      "description": "Near-black for headings, medium gray for descriptions, white on dark backgrounds"
+    },
+    "divider": {
+      "border": "#D8D0C4",
+      "separator": "#E8E0D4",
+      "description": "Warm light gray dividers and borders"
+    }
+  },
+  "sampledPixels": {
+    "note": "These are approximate sample points from the image canvas — exact values may vary by 1-2 hex digits due to JPEG compression artifacts",
+    "pageBackgroundCenter": "#F5F0E8",
+    "cardCenter": "#FFFFFF",
+    "navBarCenter": "#1E1E1E"
+  }
+}

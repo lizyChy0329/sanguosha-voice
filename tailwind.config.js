@@ -4,11 +4,55 @@ export default {
   theme: {
     extend: {
       colors: {
-        gold: { DEFAULT: "#d4a843", light: "#e8c46a" },
-        wei: { DEFAULT: "#4a8bf5", light: "#8bb8fd" },
-        shu: { DEFAULT: "#ef5a5a", light: "#fca5a5" },
-        wu: { DEFAULT: "#30b85a", light: "#86efac" },
-        qun: { DEFAULT: "#a865f0", light: "#c4b5fd" },
+        /* ===== Page-level colors ===== */
+        "bg-page": "var(--color-bg-page)",
+        "bg-card": "var(--color-bg-card)",
+        "bg-deep-nav": "var(--color-bg-deep-nav)",
+        "bg-dark": "var(--color-bg-dark)",
+        "bg-darker": "var(--color-bg-darker)",
+        "bg-search": "var(--color-bg-search)",
+
+        /* ===== Faction colors ===== */
+        gold: {
+          DEFAULT: "var(--color-gold)",
+          light: "var(--color-gold-light)",
+        },
+        wei: {
+          DEFAULT: "var(--color-wei)",
+          light: "var(--color-wei-light)",
+          border: "var(--color-wei-border)",
+          bg: "var(--color-wei-bg)",
+        },
+        shu: {
+          DEFAULT: "var(--color-shu)",
+          light: "var(--color-shu-light)",
+          border: "var(--color-shu-border)",
+          bg: "var(--color-shu-bg)",
+        },
+        wu: {
+          DEFAULT: "var(--color-wu)",
+          light: "var(--color-wu-light)",
+          border: "var(--color-wu-border)",
+          bg: "var(--color-wu-bg)",
+        },
+        qun: {
+          DEFAULT: "var(--color-qun)",
+          light: "var(--color-qun-light)",
+          border: "var(--color-qun-border)",
+          bg: "var(--color-qun-bg)",
+        },
+
+        /* ===== Accent colors ===== */
+        "accent-green": "var(--color-accent-green)",
+        "accent-amber": "var(--color-accent-amber)",
+
+        /* ===== Text colors ===== */
+        "text-primary": "var(--color-text-primary)",
+        "text-secondary": "var(--color-text-secondary)",
+        "text-muted": "var(--color-text-muted)",
+        "text-white": "var(--color-text-white)",
+
+        /* ===== shadcn-vue CSS variables (keep intact) ===== */
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -43,6 +87,42 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+
+      /* ===== Typography tokens ===== */
+      fontSize: {
+        title: ["var(--font-size-title)", { lineHeight: "1.5" }],
+        body: ["var(--font-size-body)", { lineHeight: "1.5" }],
+        caption: ["var(--font-size-caption)", { lineHeight: "1.5" }],
+        badge: ["var(--font-size-badge)", { lineHeight: "1" }],
+      },
+
+      /* ===== Spacing tokens ===== */
+      spacing: {
+        page: "var(--spacing-page)",
+        "card-gap": "var(--spacing-card-gap)",
+        "card-padding": "var(--spacing-card-padding)",
+        "section-gap": "var(--spacing-section-gap)",
+      },
+
+      /* ===== Border radius tokens ===== */
+      borderRadius: {
+        card: "var(--radius-card)",
+        button: "var(--radius-button)",
+        badge: "var(--radius-badge)",
+        panel: "var(--radius-panel)",
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+
+      /* ===== Shadow tokens ===== */
+      boxShadow: {
+        card: "var(--shadow-card)",
+        panel: "var(--shadow-panel)",
+        fab: "var(--shadow-fab)",
+      },
+
+      /* ===== Font family tokens ===== */
       fontFamily: {
         heading: ['"Noto Serif SC"', "serif"],
         sans: [
@@ -53,11 +133,6 @@ export default {
           "Roboto",
           "sans-serif",
         ],
-      },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
       },
     },
   },
